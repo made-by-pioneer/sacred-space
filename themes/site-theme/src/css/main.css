@@ -3,6 +3,23 @@
 @import "tailwindcss/utilities";
 @import "flickity/css/flickity.css";
 
+@font-face {
+  font-family: Domaine-Text;
+  src: url("/fonts/domaine-text-web-regular.woff") format("woff");
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #EFEDEA;
+}
+
+a {
+  transition: .2s;
+}
+
 .mobile-menu-toggle {margin-top: 0px !important;}
 
 .mobile-menu {

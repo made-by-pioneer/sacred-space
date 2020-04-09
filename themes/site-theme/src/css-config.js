@@ -4,23 +4,18 @@ module.exports = {
   separator: ':',
   theme: {
     colors: {
-
+      'purple': '#692165',
+      'purple-hover': '#43003F',
+      'lite-purple': '#B63AB1',
+      'lite-purple-hover': '#90148B',
+      'dark-purple': '#421540',
+      'gray': '#C4C4C4',
+      'lite-gray': '#FAFAF9',
       transparent: 'transparent',
 
       black: '#000',
       white: '#fff',
 
-      gray: {
-        100: '#f7fafc',
-        200: '#edf2f7',
-        300: '#e2e8f0',
-        400: '#cbd5e0',
-        500: '#a0aec0',
-        600: '#718096',
-        700: '#4a5568',
-        800: '#2d3748',
-        900: '#1a202c',
-      },
     },
     spacing: {
       px: '1px',
@@ -54,39 +49,13 @@ module.exports = {
       xxl: '1440px',
     },
     fontFamily: {
-      'sans': [
-        'system-ui',
-        'BlinkMacSystemFont',
-        '-apple-system',
-        'Segoe UI',
-        'Roboto',
-        'Oxygen',
-        'Ubuntu',
-        'Cantarell',
-        'Fira Sans',
-        'Droid Sans',
-        'Helvetica Neue',
-        'sans-serif',
-      ],
-      'serif': [
-        'Constantia',
-        'Lucida Bright',
-        'Lucidabright',
-        'Lucida Serif',
-        'Lucida',
-        'DejaVu Serif',
-        'Bitstream Vera Serif',
-        'Liberation Serif',
-        'Georgia',
+      'dom': [
+        'Domaine-Text',
         'serif',
       ],
-      'mono': [
-        'Menlo',
-        'Monaco',
-        'Consolas',
-        'Liberation Mono',
-        'Courier New',
-        'monospace',
+      'p22': [
+        'p22-underground',
+        'sans-serif',
       ],
     },
     fontSize: {
@@ -117,7 +86,9 @@ module.exports = {
       none: '1',
       tight: '1.25',
       normal: '1.5',
+      'thirty': '32px',
       loose: '2',
+      'seven': '70px',
     },
     letterSpacing: {
       tighter: '-0.05em',

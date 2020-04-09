@@ -9,9 +9,9 @@ const header = document.querySelector(".header-container")
 let computedStyle = getComputedStyle(header);
 let headerBoxHeight = computedStyle.height
 const headerHeightFix = document.querySelector("#headerFloatingHeightFix")
-const addHeaderFloat = () => header.classList.add("fixed", "z-20", "w-full", "bg-white", "shadow-lg", "header-fixed");
+const addHeaderFloat = () => header.classList.add("fixed", "z-20", "w-full", "bg-lite-gray", "shadow-lg", "header-fixed");
 const addHeaderHeightFix = () => headerHeightFix.setAttribute("style", "height:" + headerBoxHeight);
-const removeHeaderFloat = () => header.classList.remove("fixed", "z-20", "w-full", "bg-white", "shadow-lg", "header-fixed");
+const removeHeaderFloat = () => header.classList.remove("fixed", "z-20", "w-full", "bg-lite-gray", "shadow-lg", "header-fixed");
 const removeHeaderHeightFix = () => headerHeightFix.setAttribute("style", "height:0px");
 
 let lastScrollTop = 0;
@@ -35,6 +35,15 @@ window.addEventListener("scroll", function(){
 
 <script>
 
+function open() {
+  const headerFixed = document.querySelector("#mobile-menu-button")
+  headerFixed.classList.add("-mt-32")
+}
+
+function close() {
+  const headerFixed = document.querySelector("#mobile-menu-button")
+  headerFixed.classList.remove("-mt-32")
+}
 
 
 

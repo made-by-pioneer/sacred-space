@@ -5,67 +5,161 @@ title = "Example"
 enableRobotsTXT = true
 
 [[menu.desktop]]
-    identifier = "menuDesktopOne"
-    name = "Menu Item 1"
+    identifier = "Classes"
+    name = "Classes"
     url = "/page-1/"
     weight = 1
-    post = "hover"
-        [[menu.desktop]]
-            identifier = "menuChildOne"
-            name = "Menu Child 1"
-            url = "/page-11/"
-            weight = 1
-            post = "hover"
-            parent = "menuDesktopOne"
-                [[menu.desktop]]
-                    identifier = "submenuOne"
-                    name = "Submenu item"
-                    url = "/testinner/"
-                    weight = 1
-                    parent = "menuChildOne"
 [[menu.desktop]]
-    identifier = "menuDesktopTwo"
-    name = "Menu Item 2"
+    identifier = "Training"
+    name = "Training"
     url = ""
     weight = 2
-        [[menu.desktop]]
-            identifier = "devElements"
-            name = "Dev Elements"
-            url = "/devele/"
-            weight = 1
-            parent = "menuDesktopTwo"
 [[menu.desktop]]
-    identifier = "menu-desktop-3"
-    name = "Menu Item 3"
-    url = "#bottom"
-    pre = "scroll-to-link"
+    identifier = "Sacred Service"
+    name = "Sacred Service"
+    url = ""
     weight = 3
 [[menu.desktop]]
-    identifier = "menu-desktop-4"
-    name = "Menu Item 4"
+    identifier = "doTerra"
+    name = "doTerra"
+    url = "/page-4"
+    weight = 4
+[[menu.desktop]]
+    identifier = "Blog"
+    name = "Blog"
+    url = "/page-4"
+    weight = 5
+[[menu.desktop]]
+    identifier = "About"
+    name = "About"
+    url = "/page-4"
+    weight = 6
+[[menu.desktop]]
+    identifier = "Contact"
+    name = "Contact"
+    url = "/page-4"
+    weight = 7
+[[menu.mobile]]
+    identifier = "Classes"
+    name = "Classes"
+    url = "/page-1/"
+    weight = 1
+[[menu.mobile]]
+    identifier = "Training"
+    name = "Training"
+    url = ""
+    weight = 2
+[[menu.mobile]]
+    identifier = "Sacred Service"
+    name = "Sacred Service"
+    url = ""
+    weight = 3
+[[menu.mobile]]
+    identifier = "doTerra"
+    name = "doTerra"
     url = "/page-4"
     weight = 4
 [[menu.mobile]]
-    identifier = "menu-mobile-1"
-    name = "Menu Item 1"
-    url = "/page-1"
+    identifier = "Blog"
+    name = "Blog"
+    url = "/page-4"
+    weight = 5
+[[menu.mobile]]
+    identifier = "About"
+    name = "About"
+    url = "/page-4"
+    weight = 6
+[[menu.mobile]]
+    identifier = "Contact"
+    name = "Contact"
+    url = "/page-4"
+    weight = 7
+[[menu.footer]]
+    identifier = "Classes"
+    name = "Classes"
     weight = 1
-        [[menu.mobile]]
-            identifier = "menu-child-1"
-            name = "Menu Child 1"
-            url = "/page-11/"
-            weight = 1
-            parent = "menu-mobile-1"
-[[menu.mobile]]
-    identifier = "menu-mobile-2"
-    name = "Menu Item 2"
-    url = "/page-2"
+    [[menu.footer]]
+        identifier = "Schedule"
+        name = "Schedule"
+        url = "/"
+        parent = "Classes"
+        weight = 1
+    [[menu.footer]]
+        identifier = "Pricing"
+        name = "Pricing"
+        url = "/services/"
+        parent = "Classes"
+        weight = 2
+    [[menu.footer]]
+        identifier = "Private Classes"
+        name = "Private Classes"
+        url = "/industries/"
+        parent = "Classes"
+        weight = 3
+    [[menu.footer]]
+        identifier = "Dig Deep"
+        name = "Dig Deep"
+        url = "/industries/"
+        parent = "Classes"
+        weight = 4
+[[menu.footer]]
+    identifier = "Training"
+    name = "Training"
     weight = 2
-[[menu.mobile]]
-    identifier = "menu-mobile-3"
-    name = "Menu Item 3"
-    url = "/page-3"
+    [[menu.footer]]
+        identifier = "Teacher Training"
+        name = "Teacher Training"
+        url = "/"
+        parent = "Training"
+        weight = 1
+[[menu.footer]]
+    identifier = "Sacred Service"
+    name = "Sacred Service"
     weight = 3
+    [[menu.footer]]
+        identifier = "Classes"
+        name = "Classes"
+        url = "/"
+        parent = "Sacred Service"
+        weight = 1
+    [[menu.footer]]
+        identifier = "Community"
+        name = "Community"
+        url = "/"
+        parent = "Sacred Service"
+        weight = 2
+[[menu.footer]]
+    identifier = "doTerra"
+    name = "doTerra"
+    url = "/page-4"
+    weight = 4
+[[menu.footer]]
+    identifier = "Blog"
+    name = "Blog"
+    url = "/page-4"
+    weight = 5
+[[menu.footer]]
+    identifier = "About"
+    name = "About"
+    weight = 6
+    [[menu.footer]]
+        identifier = "Meet the Family"
+        name = "Meet the Family"
+        url = "/"
+        parent = "About"
+        weight = 1
+    [[menu.footer]]
+        identifier = "Ettiquette"
+        name = "Ettiquette"
+        url = "/"
+        parent = "About"
+        weight = 2
+    [[menu.footer]]
+        identifier = "FAQs"
+        name = "FAQs"
+        url = "/"
+        parent = "About"
+        weight = 3
 [params.tracking]
     cloudinary_url = ""
 [params.publishing_settings]

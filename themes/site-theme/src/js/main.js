@@ -6,6 +6,8 @@ import MicroModal from 'micromodal';
 // init micromodal's js
 
 MicroModal.init({
+	onShow: modal => open(),
+  	onClose: modal => close(),
 	disableScroll: true
   });
 
