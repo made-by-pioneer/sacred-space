@@ -68,8 +68,11 @@ module.exports = {
       '2xl': '1.5rem',
       '3xl': '1.875rem',
       '4xl': '2.25rem',
+      '4halfxl': '2.5rem',
       '5xl': '3rem',
+      '5halfxl': '3.5rem',
       '6xl': '4rem',
+      '7xl': '4.5rem',
     },
     fontWeight: {
       hairline: '100',
@@ -201,6 +204,7 @@ module.exports = {
       '4xl': '56rem',
       '5xl': '64rem',
       '6xl': '72rem',
+      '7xl': '80rem',
       full: '100%',
     },
     maxHeight: {
