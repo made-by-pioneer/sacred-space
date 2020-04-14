@@ -4,11 +4,11 @@ module.exports = {
   separator: ':',
   theme: {
     colors: {
+      'dark-purple': '#421540',
       'purple': '#692165',
       'purple-hover': '#43003F',
       'lite-purple': '#B63AB1',
       'lite-purple-hover': '#90148B',
-      'dark-purple': '#421540',
       'gray': '#C4C4C4',
       'lite-gray': '#FAFAF9',
       transparent: 'transparent',
@@ -86,10 +86,10 @@ module.exports = {
       black: '900',
     },
     lineHeight: {
+      'thirty': '32px',
       none: '1',
       tight: '1.25',
       normal: '1.5',
-      'thirty': '32px',
       loose: '2',
       'seven': '70px',
     },
@@ -205,6 +205,7 @@ module.exports = {
       '5xl': '64rem',
       '6xl': '72rem',
       '7xl': '80rem',
+      '8xl': '88rem',
       full: '100%',
     },
     maxHeight: {

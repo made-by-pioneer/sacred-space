@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+<style>
+.ettiquette-list li::marker {
+    font-family: Domaine-Text, sans-serif;
+    font-size: 40px;
+}
+</style>
+
+<div class="flex flex-wrap items-center w-5/6 md:w-1/2 max-w-2xl text-center mx-auto py-20">
+  <div class="w-full">
+    <h2 class='{{ partial "gCSS/type/heading"}} text-5xl sm:text-5halfxl pb-6'>{{ .Title }}</h2>
+    <p class='{{ partial "gCSS/type/paragraph"}} text-xl sm:text-2xl pb-8'>If this is your first time doing yoga or maybe it’s your first time visiting with us, there are a few things we’d like for you to know before you arrive.</p>
+  </div>
+</div>
+
+<div class="flex flex-wrap items-center w-5/6 md:w-2/3 max-w-3xl text-center mx-auto pb-40">
+  <div class="w-full">
+    <ul class='{{ partial "gCSS/type/paragraph"}} list-decimal text-2xl sm:text-left pb-6 px-8 ettiquette-list'>
+        <li class='pb-10'>Please arrive 10-15 minutes before class start time. This allows time to sign in or register (if it’s your first time), lay out your mat, and get ready for class. We do lock doors at beginning of each class.</li>
+        <li class='pb-10'>Take your shoes off and place them in the provided cubbies before moving into the practice space.</li>
+        <li class='pb-10'>Help us limit distractions and honor the practice space by silencing your phone and keep it out of the practice space. Cubbies are provided.</li>
+        <li class='pb-10'>Keep the space Sacred by practicing mindfulness and silence as you wait for class to begin.</li>
+        <li class='pb-10'>We practice Seva, the yogic practice of selfless giving, in the studio by leaving the space just as we found it and ready for the next person. Keep your things tidy and clean up any mats or props before putting them up at the end of class.</li>
+    </ul>
+  </div>
+</div>
+
+{{ partial "global/newsletter.html" . }}
+
+{{ end }}

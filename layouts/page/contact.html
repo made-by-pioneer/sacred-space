@@ -1,0 +1,52 @@
+{{ define "main" }}
+
+<style>
+form input {
+    border-radius: 20px;
+}
+form textarea {
+    border-radius: 20px;
+}
+</style>
+
+<div class="flex flex-wrap items-center w-5/6 md:w-1/2 max-w-2xl text-center mx-auto py-20">
+  <div class="w-full">
+    <h2 class='{{ partial "gCSS/type/heading"}} text-5xl sm:text-5halfxl pb-6'>{{ .Title }}</h2>
+    <p class='{{ partial "gCSS/type/paragraph"}} text-xl sm:text-2xl pb-8'>We'd love to hear from you.</p>
+  </div>
+</div>
+
+<div class="flex flex-wrap items-center w-5/6 max-w-6xl sm:text-left mx-auto pb-40">
+  <div class="flex flex-wrap w-full mx-auto">
+        <div class="w-full md:w-5/12 text-lg lg:text-2xl text-center sm:text-left mx-auto pb-12 md:pb-0">
+            <h4 class='{{ partial "gCSS/type/heading"}} text-4halfxl pb-6'>Location</h4>
+            <p class='{{ partial "gCSS/type/paragraph"}}'>{{ .Site.Data.global_data.address.street }}</p>
+            <p class='{{ partial "gCSS/type/paragraph"}} pb-6'>{{ .Site.Data.global_data.address.city }}, {{ .Site.Data.global_data.address.state }} {{ .Site.Data.global_data.address.zip }}</p>
+            <p class='{{ partial "gCSS/type/paragraph"}}'>{{ .Site.Data.global_data.contact_numbers.phone }}</p>
+            <p class='{{ partial "gCSS/type/paragraph"}} pb-6'>{{ .Site.Data.global_data.email.primary }}</p>
+        </div>
+        <div class="w-full md:w-7/12 text-center sm:text-left mx-auto pb-12 md:pb-0">
+            <h4 class='{{ partial "gCSS/type/heading"}} text-4halfxl pb-6'>Send Us a Message</h4>
+            <form class="flex flex-wrap w-full font-p22" action="/thank-you/" netlify-honeypot="field-for-coolguys" name="" method="POST" netlify>
+                <input type="hidden" name="subject" value="New Submission from Website" />
+                <div class="w-full sm:w-1/2">
+                    <input name="name" type="text" placeholder="name" class="w-full sm:w-11/12 m-2 py-2 px-4" required>
+                </div>
+                <div class="w-full sm:w-1/2">
+                    <input name="email" type="email" placeholder="email" class="w-full sm:w-11/12 m-2 py-2 px-4" required>
+                </div>
+                <input type="text" name="field-for-coolguys" style="display:none" />
+                <div class="w-full">
+                    <textarea name="message" placeholder="message" class="w-full h-32 m-2 py-2 px-4" required></textarea>
+                </div>
+                <div class="ml-auto">
+                    <input type="submit" value="Submit" class='{{ partial "gCSS/button/purple"}} text-base mt-4 mx-auto hover:cursor-pointer'>
+                </div>
+            </form>
+        </div>
+  </div>
+</div>
+
+{{ partial "global/newsletter.html" . }}
+
+{{ end }}

@@ -7,72 +7,71 @@ enableRobotsTXT = true
 [[menu.desktop]]
     identifier = "Classes"
     name = "Classes"
-    url = "/page-1/"
+    url = "/classes/"
     weight = 1
 [[menu.desktop]]
     identifier = "Training"
     name = "Training"
-    url = ""
+    url = "/teacher-training/"
     weight = 2
 [[menu.desktop]]
     identifier = "Sacred Service"
     name = "Sacred Service"
-    url = ""
+    url = "/sacred-service/"
     weight = 3
 [[menu.desktop]]
     identifier = "doTerra"
     name = "doTerra"
-    url = "/page-4"
+    url = "/"
     weight = 4
 [[menu.desktop]]
     identifier = "Blog"
     name = "Blog"
-    url = "/page-4"
+    url = "/"
     weight = 5
 [[menu.desktop]]
     identifier = "About"
     name = "About"
-    url = "/page-4"
+    url = "/about/"
     weight = 6
 [[menu.desktop]]
     identifier = "Contact"
     name = "Contact"
-    url = "/page-4"
+    url = "/contact/"
     weight = 7
 [[menu.mobile]]
     identifier = "Classes"
     name = "Classes"
-    url = "/page-1/"
+    url = "/classes/"
     weight = 1
 [[menu.mobile]]
     identifier = "Training"
     name = "Training"
-    url = ""
+    url = "/teacher-training/"
     weight = 2
 [[menu.mobile]]
     identifier = "Sacred Service"
     name = "Sacred Service"
-    url = ""
+    url = "/sacred-service/"
     weight = 3
 [[menu.mobile]]
     identifier = "doTerra"
     name = "doTerra"
-    url = "/page-4"
+    url = "/"
     weight = 4
 [[menu.mobile]]
     identifier = "Blog"
     name = "Blog"
-    url = "/page-4"
+    url = "/"
     weight = 5
 [[menu.mobile]]
     identifier = "About"
-    name = "About"
-    url = "/page-4"
+    name = "/about/"
     weight = 6
 [[menu.mobile]]
     identifier = "Contact"
     name = "Contact"
-    url = "/page-4"
+    url = "/contact/"
     weight = 7
 [[menu.footer]]
     identifier = "Classes"
@@ -81,25 +80,25 @@ enableRobotsTXT = true
     [[menu.footer]]
         identifier = "Schedule"
         name = "Schedule"
-        url = "/"
+        url = "/schedule/"
         parent = "Classes"
         weight = 1
     [[menu.footer]]
         identifier = "Pricing"
         name = "Pricing"
-        url = "/services/"
+        url = "/pricing/"
         parent = "Classes"
         weight = 2
     [[menu.footer]]
         identifier = "Private Classes"
         name = "Private Classes"
-        url = "/industries/"
+        url = "/"
         parent = "Classes"
         weight = 3
     [[menu.footer]]
         identifier = "Dig Deep"
         name = "Dig Deep"
-        url = "/industries/"
+        url = "/dig-deep/"
         parent = "Classes"
         weight = 4
 [[menu.footer]]
@@ -109,7 +108,7 @@ enableRobotsTXT = true
     [[menu.footer]]
         identifier = "Teacher Training"
         name = "Teacher Training"
-        url = "/"
+        url = "/teacher-training/"
         parent = "Training"
         weight = 1
 [[menu.footer]]
@@ -125,18 +124,18 @@ enableRobotsTXT = true
     [[menu.footer]]
         identifier = "Community"
         name = "Community"
-        url = "/"
+        url = "/sacred-service/"
         parent = "Sacred Service"
         weight = 2
 [[menu.footer]]
     identifier = "doTerra"
     name = "doTerra"
-    url = "/page-4/"
+    url = "/"
     weight = 4
 [[menu.footer]]
     identifier = "Blog"
     name = "Blog"
-    url = "/page-4/"
+    url = "/"
     weight = 5
 [[menu.footer]]
     identifier = "About"
@@ -145,19 +144,19 @@ enableRobotsTXT = true
     [[menu.footer]]
         identifier = "Meet the Family"
         name = "Meet the Family"
-        url = "/"
+        url = "/about/"
         parent = "About"
         weight = 1
     [[menu.footer]]
         identifier = "Ettiquette"
         name = "Ettiquette"
-        url = "/"
+        url = "/ettiquette/"
         parent = "About"
         weight = 2
     [[menu.footer]]
         identifier = "FAQs"
         name = "FAQs"
-        url = "/"
+        url = "/faqs/"
         parent = "About"
         weight = 3
 [params.tracking]
@@ -211,3 +210,6 @@ enableRobotsTXT = true
     algolia_search = true
     font_awesome = true
     floating_header = true
+
+[markup.goldmark.renderer]
+unsafe= true

@@ -2,6 +2,38 @@
   .header-container {
   transition: .3s;
 }
+.types-of-classes {
+  background-image: url("https://res.cloudinary.com/pioneer-design/image/upload/v1586541194/Sacred%20Space/alternative_yoga_site_background_l0ozym.jpg")
+}
+.session-gradiant {
+  background-image: linear-gradient(to bottom, rgba(196,196,196, 0.11), rgba(66,21,64,1));
+  border-radius: 40px;
+  border-bottom-right-radius: 30px;
+  transition: background-image 0.5s linear;
+}
+
+.classes-box:hover {
+  transform: scale(1.05);
+}
+
+.session-gradiant::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom, rgba(196,196,196, 0.22), rgba(66,21,64,1));
+  z-index: -1;
+  transition: opacity .2s linear;
+  opacity: 0;
+  border-radius: 40px;
+  border-bottom-right-radius: 30px;
+}
+
+.classes-box:hover > .session-gradiant::before {
+  opacity: 1;
+}
 </style>
 
 <div id="header-functions" class="">

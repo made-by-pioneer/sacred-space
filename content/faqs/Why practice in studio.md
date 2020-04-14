@@ -1,0 +1,4 @@
++++
+question = "Why practice in studio?​​"
+answer = "Yoga can be practiced anywhere. However, practicing in a studio space comes with some extra perks: <br/><br/> Community: being surrounded by like minded people who support your journey <br/><br/> Instruction: your practice is guided by a skilled instructor who can offer adjustments and modifications to help your practice <br/><br/> Distractions: the studio atmosphere limits the distractions of home whether it be spouse, children, doorbell, etc. <br/><br/> Self care: setting aside time to care for your body, mind, and spirit is a beautiful way to self care."
++++

@@ -1,8 +1,7 @@
 [meta]
 description = "This domain is established to be used for illustrative examples in documents. You may use this domain in examples without prior coordination or asking for permission."
 [contact_numbers]
-phone = "555.555.5555"
-fax = "555.555.5555"
+phone = "(912) 495-8340"
 [logos]
 footer_logo = "https://res.cloudinary.com/pioneer-design/image/upload/v1586451112/Sacred%20Space/Logo_ipjq8d.svg"
 logo = "https://res.cloudinary.com/pioneer-design/image/upload/v1586451112/Sacred%20Space/Logo_ipjq8d.svg"
@@ -10,10 +9,10 @@ mobile_logo = "https://res.cloudinary.com/pioneer-design/image/upload/v158645111
 [address]
 city = "Statesboro"
 state = "GA"
-street = "P.O. Box 134"
-zip = 30459
+street = "116 South Main Street"
+zip = 30458
 [email]
-primary = "example@example.com"
+primary = "sacredspaceyogi@gmail.com"
 [tracking]
 google_analytics = ""
 [social]
