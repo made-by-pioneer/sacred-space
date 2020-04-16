@@ -14,6 +14,7 @@ title = "About Us"
 [meet_family_section]
 title = "Meet the Family"
 [partners_section]
+paragraph = "We deeply believe in investing in our community. We actively partner with these organizations to help better our tribe and the world around us."
 title = "Community Partners"
 
 +++
