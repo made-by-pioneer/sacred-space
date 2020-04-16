@@ -19,7 +19,6 @@ sections:
   label: Classes
   create: all
   match: "**/*"
-  exclude: _index.md
 - type: directory
   path: content/partners
   label: Partners
