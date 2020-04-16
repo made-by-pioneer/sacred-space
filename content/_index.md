@@ -8,6 +8,9 @@ title = "Home"
 type = "page"
 url = "/"
 [hero]
+button_link = "/classes/"
+button_text = "View our classes"
+paragraph = "We offer a therapeutic approach to yoga through different modalities that appeals to the mind, body, and Spirit."
 title = "Feel at home <br>in your body"
 
 +++
