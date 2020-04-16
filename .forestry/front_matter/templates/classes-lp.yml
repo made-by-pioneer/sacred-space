@@ -94,3 +94,5 @@ fields:
       label: Button Link
     label: Cta Section
   label: Rates Section
+pages:
+- content/classes/_index.md
