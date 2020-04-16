@@ -63,3 +63,5 @@ fields:
     min: 
     max: 
   label: Etiquette Rules
+pages:
+- content/pages/ettiquette.md
