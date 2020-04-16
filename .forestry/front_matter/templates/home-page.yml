@@ -42,3 +42,5 @@ fields:
       schema:
         format: markdown
     label: test
+pages:
+- content/_index.md
