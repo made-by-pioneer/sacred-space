@@ -1,10 +1,15 @@
 +++
-date = "2019-04-24T05:00:00+00:00"
-type = "page"
+date = 2019-04-24T05:00:00Z
 layout = "schedule"
-url = "/schedule/"
-title = "Schedule"
+meta_description = "META DESCRIPTION GOES HERE"
 page_status = "schedule"
 publish_image = "INPUT URL TO PHOTO THAT DESCRIBES THE PAGE"
-meta_description = "META DESCRIPTION GOES HERE"
+title = "Schedule"
+type = "page"
+url = "/schedule/"
+[hero_section]
+img = "/v1586541100/Sacred%20Space/therapeutic_yoga_for_health_nqmvot.jpg"
+paragraph = ""
+title = ""
+
 +++
