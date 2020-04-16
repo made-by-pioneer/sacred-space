@@ -1,0 +1,10 @@
+---
+label: FAQ (Single)
+hide_body: true
+fields:
+- type: text
+  name: question
+  label: question
+- type: textarea
+  name: answer
+  label: answer
