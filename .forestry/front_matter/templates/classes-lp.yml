@@ -5,54 +5,92 @@ fields:
 - type: datetime
   name: date
   label: date
+  hidden: true
 - type: text
   name: type
   label: type
+  hidden: true
 - type: text
   name: layout
   label: layout
+  hidden: true
 - type: text
   name: url
   label: url
+  hidden: true
 - type: text
   name: title
   label: title
+  hidden: true
 - type: text
   name: page_status
   label: page_status
+  hidden: true
 - type: text
   name: publish_image
   label: publish_image
+  hidden: true
 - type: text
   name: meta_description
-  label: meta_description
-- type: field_group
-  name: hero_section
-  label: hero_section
+  label: Meta Description
+- name: classes_section
+  type: field_group
+  config: {}
   fields:
-  - type: file
-    name: img
-    label: img
-  - type: text
-    name: title
-    label: title
-  - type: textarea
-    name: paragraph
-    label: paragraph
-- type: field_group
-  name: meet_family_section
-  label: meet_family_section
+  - name: title
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: html
+    label: Title
+  - name: paragraph
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: html
+    label: Paragraph
+  label: Classes Section
+- name: rates_section
+  type: field_group
+  config: {}
   fields:
-  - type: text
-    name: title
-    label: title
-- type: field_group
-  name: partners_section
-  label: partners_section
-  fields:
-  - type: text
-    name: title
-    label: title
-  - type: textarea
-    name: paragraph
-    label: paragraph
+  - name: title
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: html
+    label: Title
+  - name: cta_section
+    type: field_group
+    config: {}
+    fields:
+    - name: paragraph
+      type: textarea
+      default: ''
+      config:
+        required: true
+        wysiwyg: true
+        schema:
+          format: html
+      label: Paragraph
+    - name: button_text
+      type: text
+      config:
+        required: true
+      label: Button Text
+    - name: button_link
+      type: text
+      config:
+        required: true
+      label: Button Link
+    label: Cta Section
+  label: Rates Section
