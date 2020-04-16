@@ -5,27 +5,309 @@ fields:
 - type: datetime
   name: date
   label: date
+  hidden: true
 - type: text
   name: type
   label: type
+  hidden: true
 - type: text
   name: layout
   label: layout
+  hidden: true
 - type: text
   name: url
   label: url
+  hidden: true
 - type: text
   name: title
   label: title
+  hidden: true
 - type: text
   name: page_status
   label: page_status
+  hidden: true
 - type: text
   name: publish_image
   label: publish_image
+  hidden: true
 - type: text
   name: meta_description
-  label: meta_description
+  label: Meta Description
+- name: hero_section
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: html
+    label: Title
+  - name: paragraph
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: html
+    label: Paragraph
+  - name: img
+    type: file
+    config:
+      maxSize: 2
+    label: Image
+    default: "/v1586549416/Sacred%20Space/Teaching_for_Yoga_Trainers_dyhh6o.jpg"
+  label: Hero Section
+- name: after_hero_cta
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: html
+    label: Title
+  - name: paragraph
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: html
+    label: Paragraph
+  - name: button_text
+    type: text
+    config:
+      required: true
+    label: Button Text
+  - name: button_link
+    type: text
+    config:
+      required: true
+    label: Button Link
+  label: After hero CTA
+- name: what_to_expect
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: html
+  label: What to Expect
+- name: competencies
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Competencies
+- name: what_you_get
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: What You Get
+- name: training_times
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: html
+  label: Training Times
 - type: list
   name: training_weekends
-  label: training_weekends
+  label: Training Weekends
+- name: attendance
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: html
+  label: Attendance
+- name: certification
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: html
+  label: Certification
+- name: pricing_section
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: html
+    label: Title
+  - name: early_bird_section
+    type: field_group
+    config: {}
+    fields:
+    - name: title
+      type: textarea
+      default: ''
+      config:
+        required: true
+        wysiwyg: true
+        schema:
+          format: html
+      label: Title
+    - name: pricing
+      type: textarea
+      default: ''
+      config:
+        required: true
+        wysiwyg: true
+        schema:
+          format: html
+      label: Pricing
+    - name: paragraph
+      type: textarea
+      default: ''
+      config:
+        required: true
+        wysiwyg: true
+        schema:
+          format: html
+      label: Paragraph
+    label: Early Bird Section
+  - name: standard_pricing_section
+    type: field_group
+    config: {}
+    fields:
+    - name: title
+      type: textarea
+      default: ''
+      config:
+        required: true
+        wysiwyg: true
+        schema:
+          format: html
+      label: Title
+    - name: pricing
+      type: textarea
+      default: ''
+      config:
+        required: true
+        wysiwyg: true
+        schema:
+          format: html
+      label: Pricing
+    - name: paragraph
+      type: textarea
+      default: ''
+      config:
+        required: true
+        wysiwyg: true
+        schema:
+          format: html
+      label: Paragraph
+    label: Standard Pricing Section
+  - name: payment_plan_section
+    type: field_group
+    config: {}
+    fields:
+    - name: title
+      type: textarea
+      default: ''
+      config:
+        required: true
+        wysiwyg: true
+        schema:
+          format: html
+      label: Title
+    - name: paragraph
+      type: textarea
+      default: ''
+      config:
+        required: true
+        wysiwyg: true
+        schema:
+          format: html
+      label: Paragraph
+    label: Payment Plan Section
+  - name: cancellation_policy_section
+    type: field_group
+    config: {}
+    fields:
+    - name: title
+      type: textarea
+      default: ''
+      config:
+        required: true
+        wysiwyg: true
+        schema:
+          format: html
+      label: Title
+    - name: paragraph
+      type: textarea
+      default: ''
+      config:
+        required: true
+        wysiwyg: true
+        schema:
+          format: html
+      label: Paragraph
+    label: Cancellation Policy Section
+  label: Pricing Section
+- name: sponsorship_section
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: html
+    label: Title
+  - name: paragraph
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: html
+    label: Paragraph
+  - name: button_text
+    type: text
+    config:
+      required: true
+    label: Button Text
+  - name: button_link
+    type: text
+    config:
+      required: true
+    label: Button Link
+  - name: img
+    type: file
+    config:
+      maxSize: 2
+    label: Image
+    default: "/v1586547208/Sacred%20Space/Private_Yoga_Classes_lkipso.jpg"
+  label: Sponsorship Section
