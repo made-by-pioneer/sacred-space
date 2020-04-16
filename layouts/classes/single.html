@@ -10,12 +10,12 @@
 </div>
 
 <div class="flex flex-wrap items-start w-11/12 xxl:w-4/5 max-w-7xl mx-auto pb-40">
-    {{ range .Params.classes }}
+    {{ range .Params.classes.class }}
     <div class="flex flex-wrap w-full lg:w-5/12 mx-auto pb-32">
         <div class="w-full border-b-4 border-purple mb-4">
             <h3 class='{{ partial "gCSS/type/heading"}} text-4halfxl pb-4'>{{ .name }}</h3>
         </div>
-        <p class='{{ partial "gCSS/type/paragraph"}} text-xl pb-2'>{{ .description }}</p>
+        <p class='{{ partial "gCSS/type/paragraph"}} text-xl pb-2'>{{ .description | safeHTML }}</p>
         <div class="w-1/2 pt-4 px-2">
             <h6 class='{{ partial "gCSS/type/paragraph"}} text-base font-bold'>Benefits</h6>
             <ul class='{{ partial "gCSS/type/paragraph"}} list-disc list-inside text-base sm:text-left leading-tight'>
@@ -30,7 +30,7 @@
         </div>
         <div class="w-1/2 pt-4 px-2">
             <h6 class='{{ partial "gCSS/type/paragraph"}} text-base font-bold'>Value</h6>
-            <p class='{{ partial "gCSS/type/paragraph"}} text-base leading-tight'>{{ .value }}</p>
+            <p class='{{ partial "gCSS/type/paragraph"}} text-base leading-tight'>{{ .value | safeHTML }}</p>
         </div>
         <div class="w-1/2 pt-4 px-2">
             <h6 class='{{ partial "gCSS/type/paragraph"}} text-base font-bold'>Classification</h6>
