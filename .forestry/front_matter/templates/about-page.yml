@@ -90,3 +90,5 @@ fields:
         format: html
     label: Title
   label: Partners Section
+pages:
+- content/pages/about.md

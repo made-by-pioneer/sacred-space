@@ -1,10 +1,19 @@
 +++
-date = "2019-04-24T05:00:00+00:00"
-type = "page"
+date = 2019-04-24T05:00:00Z
 layout = "about"
-url = "/about/"
-title = "About Us"
+meta_description = "META DESCRIPTION GOES HERE"
 page_status = "About Us"
 publish_image = "INPUT URL TO PHOTO THAT DESCRIBES THE PAGE"
-meta_description = "META DESCRIPTION GOES HERE"
+title = "About Us"
+type = "page"
+url = "/about/"
+[hero_section]
+img = "/v1586789563/Sacred%20Space/Therapeutic_approach_to_Yoga_frh1bf.jpg"
+paragraph = "Sacred Space Yoga is a Veteran Owned Yoga studio in Statesboro, GA offering a therapeutic approach to yoga through different modalities that appeals to the mind, body, and Spirit.<br><br>Since 2016, we’ve sought to serve the needs of our community through yoga, specialty programs such as Sacred Service, family yoga, free classes, and teacher trainings."
+title = "About Us"
+[meet_family_section]
+title = "Meet the Family"
+[partners_section]
+title = "Community Partners"
+
 +++
