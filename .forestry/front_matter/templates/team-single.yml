@@ -1,0 +1,16 @@
+---
+label: Team (Single)
+hide_body: true
+fields:
+- type: text
+  name: name
+  label: name
+- type: list
+  name: titles
+  label: titles
+- type: file
+  name: image
+  label: image
+- type: number
+  name: weight
+  label: weight
