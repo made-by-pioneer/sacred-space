@@ -1,10 +1,15 @@
 +++
-date = "2019-04-24T05:00:00+00:00"
-type = "page"
+date = 2019-04-24T05:00:00Z
 layout = "pricing"
-url = "/pricing/"
-title = "Pricing"
+meta_description = "META DESCRIPTION GOES HERE"
 page_status = "pricing"
 publish_image = "INPUT URL TO PHOTO THAT DESCRIBES THE PAGE"
-meta_description = "META DESCRIPTION GOES HERE"
+title = "Pricing"
+type = "page"
+url = "/pricing/"
+[hero_section]
+img = ""
+paragraph = ""
+title = "Will you join us?"
+
 +++
