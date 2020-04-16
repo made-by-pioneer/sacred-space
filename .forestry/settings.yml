@@ -35,24 +35,32 @@ sections:
   create: all
   match: "**/*"
   exclude: _index.md
+  templates:
+  - faq-single
 - type: directory
   path: content/rates
   label: Rates
   create: all
   match: "**/*"
   exclude: _index.md
+  templates:
+  - rate-single
 - type: directory
   path: content/testimonials
   label: Testimonials
   create: all
   match: "**/*"
   exclude: _index.md
+  templates:
+  - testimonial-single
 - type: directory
   path: content/team
   label: Team
   create: all
   match: "**/*"
   exclude: _index.md
+  templates:
+  - team-single
 upload_dir: Sacred Space
 public_path: ''
 front_matter_path: ''
