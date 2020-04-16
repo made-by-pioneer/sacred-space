@@ -72,5 +72,160 @@ fields:
       maxSize: 2
     label: Image
     default: "/v1586541100/Sacred%20Space/therapeutic_yoga_for_health_nqmvot.jpg"
+- name: after_hero_cta
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: html
+    label: Title
+  - name: paragraph
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: html
+    label: Paragraph
+  - name: button_text
+    type: text
+    config:
+      required: true
+    label: Button Text
+  - name: button_link
+    type: text
+    config:
+      required: true
+    label: Button Link
+    default: "/"
+  label: After Hero CTA
+- name: classes_section
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: true
+    label: Title
+  label: Classes Section
+- name: private_classes_section
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: html
+    label: Title
+  - name: paragraph
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: html
+    label: Paragraph
+  - name: button_text
+    type: text
+    config:
+      required: true
+    label: Button Text
+  - name: button_link
+    type: text
+    config:
+      required: true
+    label: Button Link
+  - name: img
+    type: file
+    config:
+      maxSize: 2
+    label: Image
+    default: "/v1586547208/Sacred%20Space/Private_Yoga_Classes_lkipso.jpg"
+  label: Private Classes Section
+- name: yoga_teacher_section
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: html
+    label: Title
+  - name: paragraph
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: html
+    label: Paragraph
+  - name: button_text
+    type: text
+    config:
+      required: true
+    label: Button Text
+  - name: button_link
+    type: text
+    config:
+      required: true
+    label: Button Link
+  - name: img
+    type: file
+    config:
+      maxSize: 2
+    label: Image
+    default: "/v1586549416/Sacred%20Space/Teaching_for_Yoga_Trainers_dyhh6o.jpg"
+  label: Yoga Teacher Section
+- name: about_section
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: html
+    label: Title
+  - name: paragraph
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: html
+    label: Paragraph
+  - name: button_text
+    type: text
+    config:
+      required: true
+    label: Button Text
+  - name: button_link
+    type: text
+    config:
+      required: true
+    label: Button Link
+  label: About Section
 pages:
 - content/_index.md
