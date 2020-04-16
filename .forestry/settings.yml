@@ -14,6 +14,7 @@ sections:
   label: Classes
   create: all
   match: "**/*"
+  exclude: _index.md
 - type: directory
   path: content/pages
   label: Pages
@@ -24,11 +25,13 @@ sections:
   label: Partners
   create: all
   match: "**/*"
+  exclude: _index.md
 - type: directory
   path: content/faqs
   label: Faqs
   create: all
   match: "**/*"
+  exclude: _index.md
 - type: directory
   path: content/testimonials
   label: Testimonials
