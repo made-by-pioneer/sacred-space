@@ -31,6 +31,12 @@ button_text = "Book your class now"
 img = "/v1586547208/Sacred%20Space/Private_Yoga_Classes_lkipso.jpg"
 paragraph = "We offer a therapeutic approach to yoga through different modalities that appeals to the mind, body, and Spirit."
 title = "Private Classes Available"
+[rates_section]
+title = "Rates"
+[rates_section.cta_section]
+button_link = "/pricing/"
+button_text = "See more pricing"
+paragraph = "Don’t see what you’re looking for?"
 [yoga_teacher_section]
 button_link = "/teacher-training/"
 button_text = "Become certified now"
