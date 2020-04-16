@@ -8,27 +8,33 @@ fields:
 - type: text
   name: type
   label: type
+  hidden: true
 - type: text
   name: layout
   label: layout
+  hidden: true
 - type: text
   name: url
   label: url
+  hidden: true
 - type: text
   name: title
   label: title
+  hidden: true
 - type: text
   name: page_status
   label: page_status
+  hidden: true
 - type: text
   name: publish_image
   label: publish_image
+  hidden: true
 - type: text
   name: meta_description
-  label: meta_description
+  label: Meta Description
 - type: field_group
   name: hero
-  label: hero
+  label: Hero
   fields:
   - name: title
     type: textarea
@@ -38,6 +44,26 @@ fields:
       wysiwyg: true
       schema:
         format: html
-    label: title
+    label: Title
+  - name: paragraph
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: html
+    label: Paragraph
+  - name: button_text
+    type: text
+    config:
+      required: true
+    label: Button Text
+  - name: button_link
+    type: text
+    config:
+      required: true
+    label: Button Link
+    default: "/"
 pages:
 - content/_index.md
