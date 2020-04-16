@@ -12,3 +12,73 @@ fields:
   name: weight
   label: weight
   description: The lower the number put here, the further up the list the item appears.
+- name: classes
+  type: field_group
+  config: {}
+  fields:
+  - name: class
+    type: field_group_list
+    fields:
+    - name: name
+      type: text
+      config:
+        required: true
+      label: Name
+    - name: description
+      type: textarea
+      default: ''
+      config:
+        required: true
+        wysiwyg: true
+        schema:
+          format: html
+      label: Description
+    - name: benefits
+      type: list
+      config:
+        use_select: false
+        min: 
+        max: 
+      label: Benefits
+    - name: duration
+      type: text
+      config:
+        required: true
+      label: Duration
+    - name: value
+      type: textarea
+      default: ''
+      config:
+        required: true
+        wysiwyg: true
+        schema:
+          format: html
+      label: Value
+    - name: classifications
+      type: list
+      config:
+        use_select: true
+        min: 
+        max: 
+        source:
+          type: simple
+        options:
+        - mild
+        - children
+        - energetic
+        - dig deep
+        - sacred service
+        - slow and meditative
+      label: Classifications
+    - name: booking_link
+      type: text
+      config:
+        required: false
+      label: Booking Link
+      default: "/schedule/"
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Class
+  label: Classes
