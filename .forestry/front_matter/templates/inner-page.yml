@@ -64,3 +64,4 @@ fields:
   label: Hero Section
 pages:
 - content/pages/dig-deep.md
+- content/pages/faqs.md
