@@ -37,6 +37,7 @@ sections:
   label: Rates
   create: all
   match: "**/*"
+  exclude: _index.md
 - type: directory
   path: content/testimonials
   label: Testimonials
