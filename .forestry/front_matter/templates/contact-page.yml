@@ -84,3 +84,5 @@ fields:
         format: html
     label: Title
   label: Contact Form Section
+pages:
+- content/pages/contact.md
