@@ -66,5 +66,11 @@ fields:
       required: true
     label: Button Link
     default: "/"
+  - name: img
+    type: file
+    config:
+      maxSize: 2
+    label: Image
+    default: "/v1586541100/Sacred%20Space/therapeutic_yoga_for_health_nqmvot.jpg"
 pages:
 - content/_index.md
