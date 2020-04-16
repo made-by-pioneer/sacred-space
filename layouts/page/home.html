@@ -1,9 +1,6 @@
 {{ define "main" }}
 
 <style>
-.feel-at-home-image {
-  background-image: url("https://res.cloudinary.com/pioneer-design/image/upload/v1586541100/Sacred%20Space/therapeutic_yoga_for_health_nqmvot.jpg")
-}
 .private-classes-image {
   background-image: url("https://res.cloudinary.com/pioneer-design/image/upload/v1586547208/Sacred%20Space/Private_Yoga_Classes_lkipso.jpg")
 }
@@ -20,6 +17,11 @@
       {{ .Params.hero.button_text | safeHTML }}
     </a>
   </div>
+  <style>
+    .feel-at-home-image {
+      background-image: url("{{ .Site.Params.tracking.cloudinary_url }}{{ .Params.hero.img }}")
+    }
+  </style>
   <div class="w-full sm:w-1/2 bg-contain bg-center bg-no-repeat feel-at-home-image">
     <div class="py-32 sm:py-40 lg:py-80"></div>
   </div>
