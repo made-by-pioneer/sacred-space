@@ -1,0 +1,58 @@
+---
+label: Classes LP
+hide_body: true
+fields:
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: type
+  label: type
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: url
+  label: url
+- type: text
+  name: title
+  label: title
+- type: text
+  name: page_status
+  label: page_status
+- type: text
+  name: publish_image
+  label: publish_image
+- type: text
+  name: meta_description
+  label: meta_description
+- type: field_group
+  name: hero_section
+  label: hero_section
+  fields:
+  - type: file
+    name: img
+    label: img
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: paragraph
+    label: paragraph
+- type: field_group
+  name: meet_family_section
+  label: meet_family_section
+  fields:
+  - type: text
+    name: title
+    label: title
+- type: field_group
+  name: partners_section
+  label: partners_section
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: paragraph
+    label: paragraph
