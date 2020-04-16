@@ -11,3 +11,4 @@ fields:
 - type: number
   name: weight
   label: weight
+  description: The lower the number put here, the further up the list the item appears.
