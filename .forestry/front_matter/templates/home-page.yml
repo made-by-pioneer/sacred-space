@@ -33,3 +33,12 @@ fields:
   - type: text
     name: title
     label: title
+  - name: test
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: test
