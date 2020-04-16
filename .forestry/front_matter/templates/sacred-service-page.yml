@@ -5,24 +5,112 @@ fields:
 - type: datetime
   name: date
   label: date
+  hidden: true
 - type: text
   name: type
   label: type
+  hidden: true
 - type: text
   name: layout
   label: layout
+  hidden: true
 - type: text
   name: url
   label: url
+  hidden: true
 - type: text
   name: title
   label: title
+  hidden: true
 - type: text
   name: page_status
   label: page_status
+  hidden: true
 - type: text
   name: publish_image
   label: publish_image
+  hidden: true
 - type: text
   name: meta_description
-  label: meta_description
+  label: Meta Description
+- name: hero_section
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: html
+    label: Title
+  - name: paragraph
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: html
+    label: Paragraph
+  - name: img
+    type: file
+    config:
+      maxSize: 2
+    label: Image
+    default: "/v1586803587/Sacred%20Space/trauma-conscious_teaching_methods_jvyc5h.jpg"
+  label: Hero Section
+- name: picture_gallery
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: html
+    label: Title
+  - name: paragraph
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: html
+    label: Paragraph
+  label: Picture Gallery
+- name: sacred_service_socials_section
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: html
+    label: Title
+  - name: paragraph
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: html
+    label: Paragraph
+  - name: img
+    type: file
+    config:
+      maxSize: 2
+    label: Image
+    default: "/v1586882220/Sacred%20Space/sacred_service_socials_t92tio.jpg"
+  label: Sacred Service Socials Section
