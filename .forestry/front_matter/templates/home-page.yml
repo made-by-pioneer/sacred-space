@@ -155,6 +155,44 @@ fields:
     label: Image
     default: "/v1586547208/Sacred%20Space/Private_Yoga_Classes_lkipso.jpg"
   label: Private Classes Section
+- name: rates_section
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: html
+    label: Title
+  - name: cta_section
+    type: field_group
+    config: {}
+    fields:
+    - name: paragraph
+      type: textarea
+      default: ''
+      config:
+        required: true
+        wysiwyg: true
+        schema:
+          format: html
+      label: Paragraph
+    - name: button_text
+      type: text
+      config:
+        required: true
+      label: Button Text
+    - name: button_link
+      type: text
+      config:
+        required: true
+      label: Button Link
+    label: Cta Section
+  label: Rates Section
 - name: yoga_teacher_section
   type: field_group
   config: {}
