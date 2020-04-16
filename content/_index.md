@@ -8,7 +8,7 @@ title = "Home"
 type = "page"
 url = "/"
 [hero]
-test = "Testing copy\n\nHey"
+test = "<p>Testing copy </p><p>Hey</p>"
 title = "Feel at home <br>in your body"
 
 +++
