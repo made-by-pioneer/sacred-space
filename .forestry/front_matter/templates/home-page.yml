@@ -40,7 +40,7 @@ fields:
       required: false
       wysiwyg: true
       schema:
-        format: markdown
+        format: html-blocks
     label: test
 pages:
 - content/_index.md
