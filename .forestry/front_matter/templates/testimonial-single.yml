@@ -1,0 +1,13 @@
+---
+label: Testimonial (Single)
+hide_body: true
+fields:
+- type: text
+  name: name
+  label: name
+- type: textarea
+  name: testimonial_text
+  label: testimonial_text
+- type: boolean
+  name: dig_deep
+  label: dig_deep
