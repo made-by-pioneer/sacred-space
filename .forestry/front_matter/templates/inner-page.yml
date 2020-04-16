@@ -62,3 +62,5 @@ fields:
     label: Image
     default: "/v1586541100/Sacred%20Space/therapeutic_yoga_for_health_nqmvot.jpg"
   label: Hero Section
+pages:
+- content/pages/dig-deep.md
