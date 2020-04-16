@@ -311,3 +311,5 @@ fields:
     label: Image
     default: "/v1586547208/Sacred%20Space/Private_Yoga_Classes_lkipso.jpg"
   label: Sponsorship Section
+pages:
+- content/pages/teacher-training.md
