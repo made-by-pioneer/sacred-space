@@ -30,17 +30,14 @@ fields:
   name: hero
   label: hero
   fields:
-  - type: text
-    name: title
-    label: title
-  - name: test
+  - name: title
     type: textarea
     default: ''
     config:
-      required: false
+      required: true
       wysiwyg: true
       schema:
         format: html
-    label: test
+    label: title
 pages:
 - content/_index.md
