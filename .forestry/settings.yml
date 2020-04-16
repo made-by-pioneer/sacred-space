@@ -33,6 +33,11 @@ sections:
   match: "**/*"
   exclude: _index.md
 - type: directory
+  path: content/rates
+  label: Rates
+  create: all
+  match: "**/*"
+- type: directory
   path: content/testimonials
   label: Testimonials
   create: all
