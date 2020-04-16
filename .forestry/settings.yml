@@ -19,6 +19,8 @@ sections:
   label: Classes
   create: all
   match: "**/*"
+  templates:
+  - class-single
 - type: directory
   path: content/partners
   label: Partners
