@@ -1,7 +1,9 @@
 {{ define "main" }}
 
 <style>
-
+.accordion-content {
+  transition: .2s;
+}
 </style>
 
 <div class="flex flex-wrap items-center w-5/6 md:w-1/2 max-w-2xl text-center mx-auto py-20">
@@ -13,13 +15,52 @@
 <div class="flex flex-wrap items-center w-5/6 md:w-full max-w-8xl text-center sm:text-left mx-auto pt-10 pb-40">
   <div class="flex flex-wrap w-full mx-auto">
         {{ range (where .Site.Pages "Type" "faqs") }}
-        <div class="w-full md:w-5/12 mx-auto pb-12">
-            <h4 class='{{ partial "gCSS/type/heading"}} text-4halfxl pb-6'>{{ .Params.question }}</h4>
-            <p class='{{ partial "gCSS/type/paragraph"}} text-xl pb-6'>{{ .Params.answer | safeHTML }}</p>
+        <div class="w-full md:w-5/12 mx-auto pb-12 accordion-item">
+            <div class='{{ partial "gCSS/type/heading"}} text-4halfxl pb-6 hover:bg-lite-gray hover:cursor-pointer'>{{ .Params.question }}</div>
+            <p class='{{ partial "gCSS/type/paragraph"}} h-0 text-0 pb-6 accordion-content'>{{ .Params.answer | safeHTML }}</p>
         </div>
         {{ end }}
   </div>
 </div>
+
+ <script>
+  function addClass(el, klass_personalInsurance) {
+      el.classList.add(klass_personalInsurance);
+  }
+  
+  function removeClass(el, klass_personalInsurance) {
+      el.classList.remove(klass_personalInsurance);
+  }
+  
+  const accordionItemspersonalInsurance = document.querySelectorAll('.accordion-item');
+  const accordionContentPanespersonalInsurance = document.querySelectorAll('.accordion-content');
+  
+  // Show first by default
+  accordionItemspersonalInsurance[0].querySelector('.accordion-content').classList.remove('h-0', 'text-0');
+  
+  // Hide each besides the targeted accordion on click
+  accordionItemspersonalInsurance.forEach(function(accordion) {
+      // Clicked accordeions clickable target
+      const accordionTitleRow = accordion.firstElementChild;
+  
+      accordionTitleRow.addEventListener('click', toggleAccordion);
+      // console.log(accordion.firstElementChild);
+  });
+  
+  function toggleAccordion(e) {
+      accordionContentPanespersonalInsurance.forEach(function(content) {
+      if (content.previousElementSibling === e.target) {
+          removeClass(content, 'h-0');
+          removeClass(content, 'text-0');
+          addClass(content.parentElement, 'active');
+      } else {
+          removeClass(content.parentElement, 'active');
+          addClass(content, 'h-0');
+          addClass(content, 'text-0');
+      }
+      });
+  }
+</script>
 
 
 {{ partial "global/newsletter.html" . }}

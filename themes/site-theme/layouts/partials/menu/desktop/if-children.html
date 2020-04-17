@@ -1,3 +1,9 @@
+<style>
+    .{{ .Name | urlize }}-dropdown-selection {
+        font-family: Domaine-Text, sans-serif;
+    }
+</style>
+
 {{ $dropdownName := .Name }}
 {{ partial "utilities/dropdownCSS.html" (dict "context" . "Name" $dropdownName) }}
 <div id="{{ .Name | urlize }}-dropdown" class="relative inline-flex select-none dropdown">
@@ -5,7 +11,7 @@
         {{ .Pre }}
         <span>{{ .Name }}</span><i class="text-2xs pl-1 fas fa-angle-down"></i>
     </a>
-    <ul class="z-50 pt-1 {{ .Name | urlize }}-dropdown-selection" role="menu">
+    <ul class="bg-white z-50 pt-1 {{ .Name | urlize }}-dropdown-selection" role="menu">
         {{ range .Children }}
             {{ partial "menu/desktop/if-children-have-children.html" . }}
         {{ end }}

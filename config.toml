@@ -8,7 +8,26 @@ enableRobotsTXT = true
     identifier = "Classes"
     name = "Classes"
     url = "/classes/"
+    post = "hover"
     weight = 1
+    [[menu.desktop]]
+        identifier = "Schedule"
+        name = "Schedule"
+        url = "/schedule/"
+        weight = 1
+        parent = "Classes"
+    [[menu.desktop]]
+        identifier = "Pricing"
+        name = "Pricing"
+        url = "/pricing/"
+        weight = 2
+        parent = "Classes"
+    [[menu.desktop]]
+        identifier = "Dig Deep"
+        name = "Dig Deep"
+        url = "/dig-deep/"
+        weight = 3
+        parent = "Classes"
 [[menu.desktop]]
     identifier = "Training"
     name = "Training"
@@ -28,7 +47,26 @@ enableRobotsTXT = true
     identifier = "About"
     name = "About"
     url = "/about/"
+    post = "hover"
     weight = 5
+    [[menu.desktop]]
+        identifier = "Meet the Family"
+        name = "Meet the Family"
+        url = "/about/"
+        weight = 1
+        parent = "About"
+    [[menu.desktop]]
+        identifier = "Etiquette"
+        name = "Etiquette"
+        url = "/ettiquette/"
+        weight = 2
+        parent = "About"
+    [[menu.desktop]]
+        identifier = "FAQs"
+        name = "FAQs"
+        url = "/faqs/"
+        weight = 3
+        parent = "About"
 [[menu.desktop]]
     identifier = "Contact"
     name = "Contact"
