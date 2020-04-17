@@ -22,23 +22,18 @@ enableRobotsTXT = true
 [[menu.desktop]]
     identifier = "doTerra"
     name = "doTerra"
-    url = "/"
+    url = "https://www.doterra.com/US/en/site/sacredspaceyogillc"
     weight = 4
-[[menu.desktop]]
-    identifier = "Blog"
-    name = "Blog"
-    url = "/"
-    weight = 5
 [[menu.desktop]]
     identifier = "About"
     name = "About"
     url = "/about/"
-    weight = 6
+    weight = 5
 [[menu.desktop]]
     identifier = "Contact"
     name = "Contact"
     url = "/contact/"
-    weight = 7
+    weight = 6
 [[menu.mobile]]
     identifier = "Classes"
     name = "Classes"
@@ -57,23 +52,18 @@ enableRobotsTXT = true
 [[menu.mobile]]
     identifier = "doTerra"
     name = "doTerra"
-    url = "/"
+    url = "https://www.doterra.com/US/en/site/sacredspaceyogillc"
     weight = 4
-[[menu.mobile]]
-    identifier = "Blog"
-    name = "Blog"
-    url = "/"
-    weight = 5
 [[menu.mobile]]
     identifier = "About"
     name = "About"
     url = "/about/"
-    weight = 6
+    weight = 5
 [[menu.mobile]]
     identifier = "Contact"
     name = "Contact"
     url = "/contact/"
-    weight = 7
+    weight = 6
 [[menu.footer]]
     identifier = "Classes"
     name = "Classes"
@@ -91,17 +81,11 @@ enableRobotsTXT = true
         parent = "Classes"
         weight = 2
     [[menu.footer]]
-        identifier = "Private Classes"
-        name = "Private Classes"
-        url = "/"
-        parent = "Classes"
-        weight = 3
-    [[menu.footer]]
         identifier = "Dig Deep"
         name = "Dig Deep"
         url = "/dig-deep/"
         parent = "Classes"
-        weight = 4
+        weight = 3
 [[menu.footer]]
     identifier = "Training"
     name = "Training"
@@ -131,17 +115,12 @@ enableRobotsTXT = true
 [[menu.footer]]
     identifier = "doTerra"
     name = "doTerra"
-    url = "/"
+    url = "https://www.doterra.com/US/en/site/sacredspaceyogillc"
     weight = 4
-[[menu.footer]]
-    identifier = "Blog"
-    name = "Blog"
-    url = "/"
-    weight = 5
 [[menu.footer]]
     identifier = "About"
     name = "About"
-    weight = 6
+    weight = 5
     [[menu.footer]]
         identifier = "Meet the Family"
         name = "Meet the Family"

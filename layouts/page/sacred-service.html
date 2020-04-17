@@ -71,8 +71,10 @@
 <div class="flex flex-wrap items-center w-5/6 md:w-1/2 max-w-2xl text-center mx-auto pt-20 pb-32">
   <div class="w-full">
     {{ range (where .Site.Pages "Type" "testimonials") }}
+    {{ if eq .Params.dig_deep false }}
     <p class='{{ partial "gCSS/type/paragraph"}} text-xl pb-8'>"{{ .Params.testimonial_text }}"</p>
     <p class='{{ partial "gCSS/type/paragraph"}} text-xl font-bold pb-24'>- {{ .Params.name }}</p>
+    {{ else }}{{ end }}
     {{ end }}
   </div>
 </div>
