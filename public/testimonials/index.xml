@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sacred Space Yoga</title>
+    <link>https://sacredspace.netlify.com/testimonials/</link>
+    <description>Recent content on Sacred Space Yoga</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://sacredspace.netlify.com/testimonials/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://sacredspace.netlify.com/testimonials/dig-deep-participant-testimonial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sacredspace.netlify.com/testimonials/dig-deep-participant-testimonial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sacredspace.netlify.com/testimonials/jim-and-benita/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sacredspace.netlify.com/testimonials/jim-and-benita/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sacredspace.netlify.com/testimonials/keith-kurchev/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sacredspace.netlify.com/testimonials/keith-kurchev/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

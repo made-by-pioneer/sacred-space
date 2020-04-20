@@ -20,8 +20,10 @@ form textarea {
   <div class="flex flex-wrap w-full mx-auto">
         <div class="w-full md:w-5/12 text-lg lg:text-2xl text-center sm:text-left mx-auto pb-12 md:pb-0">
             <h4 class='{{ partial "gCSS/type/heading"}} text-4halfxl pb-6'>{{ .Params.location_section.title }}</h4>
-            <p class='{{ partial "gCSS/type/paragraph"}}'>{{ .Site.Data.global_data.address.street }}</p>
-            <p class='{{ partial "gCSS/type/paragraph"}} pb-6'>{{ .Site.Data.global_data.address.city }}, {{ .Site.Data.global_data.address.state }} {{ .Site.Data.global_data.address.zip }}</p>
+            <a href="https://goo.gl/maps/2JwZZyhnLMKUn6kM6">
+                <p class='{{ partial "gCSS/type/paragraph"}}'>{{ .Site.Data.global_data.address.street }}</p>
+                <p class='{{ partial "gCSS/type/paragraph"}} pb-6'>{{ .Site.Data.global_data.address.city }}, {{ .Site.Data.global_data.address.state }} {{ .Site.Data.global_data.address.zip }}</p>
+            </a>
             <p class='{{ partial "gCSS/type/paragraph"}}'>{{ .Site.Data.global_data.contact_numbers.phone }}</p>
             <p class='{{ partial "gCSS/type/paragraph"}} pb-6'>{{ .Site.Data.global_data.email.primary }}</p>
         </div>

@@ -1,8 +1,7 @@
 {{ define "main" }}
 
-{{ partial "global/breadcrumbs.html" . }}
-
 <div class="flex flex-wrap items-center w-5/6 md:w-1/2 max-w-2xl text-center mx-auto pt-20 pb-40">
+  {{ partial "global/breadcrumbs.html" . }}
   <div class="w-full">
     <h2 class='{{ partial "gCSS/type/heading"}} text-5xl sm:text-5halfxl pb-6'>{{ .Params.name }} Classes</h2>
     {{ if .Params.description }}

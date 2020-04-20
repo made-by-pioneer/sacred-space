@@ -16,7 +16,7 @@
   <div class="flex flex-wrap w-full mx-auto">
         {{ range (where .Site.Pages "Type" "faqs") }}
         <div class="w-full md:w-5/12 mx-auto pb-12 accordion-item">
-            <div class='{{ partial "gCSS/type/heading"}} text-4halfxl pb-6 hover:bg-lite-gray hover:cursor-pointer'>{{ .Params.question }}</div>
+            <div class='{{ partial "gCSS/type/heading"}} text-4halfxl pb-6 hover:cursor-pointer'>{{ .Params.question }}</div>
             <p class='{{ partial "gCSS/type/paragraph"}} h-0 text-0 pb-6 accordion-content'>{{ .Params.answer | safeHTML }}</p>
         </div>
         {{ end }}

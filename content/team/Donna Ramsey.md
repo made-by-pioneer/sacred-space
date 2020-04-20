@@ -1,6 +1,6 @@
 +++
 name = "Donna Ramsey"
-titles = ["Owner", "Instructor", "YTT Lead Trainer"]
+titles = ["Instructor", "Dig Deep Trainer"]
 image = "/v1586451076/Sacred%20Space/Donna_Ramsey_fuijcm.png"
-weight = 5
+weight = 3
 +++

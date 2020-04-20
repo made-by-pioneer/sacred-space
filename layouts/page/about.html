@@ -74,9 +74,9 @@
     </div>
     <div class="flex flex-wrap items-center w-2/3 mx-auto">
         {{ range (where .Site.Pages "Type" "partners") }}
-        <div class="w-auto mx-auto">
+        <a href="{{ .Params.link }}" target="_blank" class="w-auto mx-auto">
             <img src="{{ .Site.Params.tracking.cloudinary_url }}{{ .Params.logo }}" class="m-4">
-        </div>
+        </a>
         {{ end }}
     </div>
   </div>

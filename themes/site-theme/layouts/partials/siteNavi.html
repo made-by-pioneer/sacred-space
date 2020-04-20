@@ -67,19 +67,19 @@
     {{ if .HasChildren }}
       {{ partial "menu/desktop/if-children.html" . }}
     {{ else }}
-      <a class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}{{ if .Pre }}{{ .Pre }}{{ else }}{{ end }} text-sm xl:text-base pr-8 xl:pr-12 select-none desktop-menu-item" href="{{.URL}}">{{ .Name }}</a>
+      <a {{if .Pre}}target="_blank"{{else}}{{end}} class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}} text-sm xl:text-base pr-8 xl:pr-12 select-none desktop-menu-item" href="{{.URL}}">{{ .Name }}</a>
     {{ end }}
   {{ end }}
 </div>
 
 <div class="hidden xxl:flex flex-wrap text-purple text-lg">
-  <a href="{{ .Site.Data.global_data.social.insta }}">
+  <a href="{{ .Site.Data.global_data.social.insta }}" target="_blank">
     <i class="p-3 fab fa-instagram"></i>
   </a>
-  <a href="{{ .Site.Data.global_data.social.facebook }}">
+  <a href="{{ .Site.Data.global_data.social.facebook }}" target="_blank">
     <i class="p-3 fab fa-facebook-square"></i>
   </a>
-  <a href="{{ .Site.Data.global_data.social.youtube }}">
+  <a href="{{ .Site.Data.global_data.social.youtube }}" target="_blank">
     <i class="p-3 fab fa-youtube"></i>
   </a>
 </div>
@@ -107,13 +107,13 @@
         <ul class='w-11/12 mx-auto pt-5' role='menu'>
           {{ range .Children }}
               <li>
-                <a href='{{ .URL | safeURL }}' class='font-ibm-mono text-sm sm:text-lg opacity-75 text-white no-underline leading-loose menu-item'>{{ .Name }}</a>
+                <a href='{{ .URL | safeURL }}' {{if .Pre}}target="_blank"{{else}}{{end}} class='font-ibm-mono text-sm sm:text-lg opacity-75 text-white no-underline leading-loose menu-item'>{{ .Name }}</a>
               </li>
               {{ end }}
             </ul>
           </div>
           {{ else }}
-          <a class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}w-full font-ibm-mono text-purple text-left text-3xl lg:text-6xl font-bold no-underline pb-8" href="{{.URL | safeURL }}">{{ .Name }}</a>{{ end }}
+          <a class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}w-full font-ibm-mono text-purple text-left text-3xl lg:text-6xl font-bold no-underline pb-8" href="{{.URL | safeURL }}" {{if .Pre}}target="_blank"{{else}}{{end}}>{{ .Name }}</a>{{ end }}
         {{ end }}
       </div>
     </div>

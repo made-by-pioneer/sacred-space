@@ -16,7 +16,6 @@ primary = "sacredspaceyogi@gmail.com"
 [tracking]
 google_analytics = ""
 [social]
-facebook = ""
-insta = ""
-linkedin = ""
-pinterest = ""
+facebook = "https://www.facebook.com/sacredspaceyogi"
+insta = "https://www.instagram.com/sacredspaceyogi/"
+youtube = "https://www.youtube.com/channel/UCpweNwwRWJqPEb8jNcI3X0g"

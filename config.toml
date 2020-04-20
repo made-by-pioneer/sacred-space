@@ -42,6 +42,7 @@ enableRobotsTXT = true
     identifier = "doTerra"
     name = "doTerra"
     url = "https://www.doterra.com/US/en/site/sacredspaceyogillc"
+    pre = "blank"
     weight = 4
 [[menu.desktop]]
     identifier = "About"
@@ -58,7 +59,7 @@ enableRobotsTXT = true
     [[menu.desktop]]
         identifier = "Etiquette"
         name = "Etiquette"
-        url = "/ettiquette/"
+        url = "/etiquette/"
         weight = 2
         parent = "About"
     [[menu.desktop]]
@@ -91,6 +92,7 @@ enableRobotsTXT = true
     identifier = "doTerra"
     name = "doTerra"
     url = "https://www.doterra.com/US/en/site/sacredspaceyogillc"
+    pre = "blank"
     weight = 4
 [[menu.mobile]]
     identifier = "About"
@@ -119,11 +121,17 @@ enableRobotsTXT = true
         parent = "Classes"
         weight = 2
     [[menu.footer]]
+        identifier = "Private Classes"
+        name = "Private Classes"
+        url = "/pricing/"
+        parent = "Classes"
+        weight = 3
+    [[menu.footer]]
         identifier = "Dig Deep"
         name = "Dig Deep"
         url = "/dig-deep/"
         parent = "Classes"
-        weight = 3
+        weight = 4
 [[menu.footer]]
     identifier = "Training"
     name = "Training"
@@ -154,6 +162,7 @@ enableRobotsTXT = true
     identifier = "doTerra"
     name = "doTerra"
     url = "https://www.doterra.com/US/en/site/sacredspaceyogillc"
+    pre = "blank"
     weight = 4
 [[menu.footer]]
     identifier = "About"
@@ -166,9 +175,9 @@ enableRobotsTXT = true
         parent = "About"
         weight = 1
     [[menu.footer]]
-        identifier = "Ettiquette"
-        name = "Ettiquette"
-        url = "/ettiquette/"
+        identifier = "Etiquette"
+        name = "Etiquette"
+        url = "/etiquette/"
         parent = "About"
         weight = 2
     [[menu.footer]]

@@ -1,40 +1,103 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pages on Example</title>
-    <link>https://gz-default.netlify.com/pages/</link>
-    <description>Recent content in Pages on Example</description>
+    <title>Pages on Sacred Space Yoga</title>
+    <link>https://sacredspace.netlify.com/pages/</link>
+    <description>Recent content in Pages on Sacred Space Yoga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 May 2019 05:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Apr 2019 05:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://gz-default.netlify.com/pages/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sacredspace.netlify.com/pages/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Search</title>
-      <link>https://gz-default.netlify.com/search/</link>
-      <pubDate>Sun, 19 May 2019 05:00:00 +0000</pubDate>
+      <title>About Us</title>
+      <link>https://sacredspace.netlify.com/about/</link>
+      <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
       
-      <guid>https://gz-default.netlify.com/search/</guid>
+      <guid>https://sacredspace.netlify.com/about/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Examples of development elements</title>
-      <link>https://gz-default.netlify.com/devele/</link>
+      <title>Contact Us</title>
+      <link>https://sacredspace.netlify.com/contact/</link>
       <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
       
-      <guid>https://gz-default.netlify.com/devele/</guid>
+      <guid>https://sacredspace.netlify.com/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dig Deep</title>
+      <link>https://sacredspace.netlify.com/dig-deep/</link>
+      <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
+      
+      <guid>https://sacredspace.netlify.com/dig-deep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FAQS</title>
+      <link>https://sacredspace.netlify.com/faqs/</link>
+      <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
+      
+      <guid>https://sacredspace.netlify.com/faqs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pricing</title>
+      <link>https://sacredspace.netlify.com/pricing/</link>
+      <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
+      
+      <guid>https://sacredspace.netlify.com/pricing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sacred Service</title>
+      <link>https://sacredspace.netlify.com/sacred-service/</link>
+      <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
+      
+      <guid>https://sacredspace.netlify.com/sacred-service/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Schedule</title>
+      <link>https://sacredspace.netlify.com/schedule/</link>
+      <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
+      
+      <guid>https://sacredspace.netlify.com/schedule/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Studio Ettiquette</title>
+      <link>https://sacredspace.netlify.com/etiquette/</link>
+      <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
+      
+      <guid>https://sacredspace.netlify.com/etiquette/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teacher Training</title>
+      <link>https://sacredspace.netlify.com/teacher-training/</link>
+      <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
+      
+      <guid>https://sacredspace.netlify.com/teacher-training/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Thank You</title>
-      <link>https://gz-default.netlify.com/thank-you/</link>
+      <link>https://sacredspace.netlify.com/thank-you/</link>
       <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
       
-      <guid>https://gz-default.netlify.com/thank-you/</guid>
+      <guid>https://sacredspace.netlify.com/thank-you/</guid>
       <description></description>
     </item>
     
