@@ -1,0 +1,169 @@
+{{ define "main" }}
+
+<style>
+form input {
+    border-radius: 20px;
+}
+form textarea {
+    border-radius: 20px;
+}
+</style>
+
+<div class="flex flex-wrap items-center w-5/6 md:w-1/2 max-w-2xl text-center mx-auto py-20">
+  <div class="w-full">
+    <h1 class='{{ partial "gCSS/type/heading"}} text-5xl sm:text-5halfxl pb-6'>{{ .Title }}</h1>
+  </div>
+</div>
+
+<div class="flex flex-wrap items-center w-5/6 max-w-6xl sm:text-left mx-auto pb-40">
+  <div class="flex flex-wrap w-full mx-auto">
+        <div class="w-full md:w-full text-center sm:text-left mx-auto pb-12 md:pb-0">
+            <h4 class='{{ partial "gCSS/type/heading"}} text-4halfxl pb-6'>{{ .Params.contact_form_section.title }}</h4>
+            <form class="flex flex-wrap w-full font-p22" action="/thank-you/" netlify-honeypot="field-for-coolguys" name="" method="POST" netlify>
+                <input type="hidden" name="subject" value="Teacher Application from Website" />
+                <div class="w-full sm:w-1/3 py-3">
+                    <label class='{{ partial "gCSS/type/paragraph"}} text-lg leading-tight pl-4'>First Name</label>
+                    <input name="first-name" type="text" placeholder="write your name here" class="w-full sm:w-11/12 m-2 py-2 px-4" required>
+                </div>
+                <div class="w-full sm:w-1/3 py-3">
+                    <label class='{{ partial "gCSS/type/paragraph"}} text-lg leading-tight pl-4'>Middle Name</label>
+                    <input name="middle-name" type="text" placeholder="write your name here" class="w-full sm:w-11/12 m-2 py-2 px-4">
+                </div>
+                <div class="w-full sm:w-1/3 py-3">
+                    <label class='{{ partial "gCSS/type/paragraph"}} text-lg leading-tight pl-4'>Last Name</label>
+                    <input name="last-name" type="text" placeholder="write your name here" class="w-full sm:w-11/12 m-2 py-2 px-4" required>
+                </div>
+                <div class="w-full sm:w-2/3 py-3">
+                    <label class='{{ partial "gCSS/type/paragraph"}} text-lg leading-tight pl-4'>Street Address</label>
+                    <input name="street-address" type="text" placeholder="write your street address here" class="w-full sm:w-11/12 m-2 py-2 px-4" required>
+                </div>
+                <div class="w-full sm:w-1/3 py-3">
+                    <label class='{{ partial "gCSS/type/paragraph"}} text-lg leading-tight pl-4'>Address Line 2</label>
+                    <input name="street-address-line-2" type="text" placeholder="" class="w-full sm:w-11/12 m-2 py-2 px-4" required>
+                </div>
+                <div class="w-full sm:w-1/3 py-3">
+                    <label class='{{ partial "gCSS/type/paragraph"}} text-lg leading-tight pl-4'>City</label>
+                    <input name="city" type="text" placeholder="write your city here" class="w-full sm:w-11/12 m-2 py-2 px-4" required>
+                </div>
+                <div class="w-full sm:w-1/3 py-3">
+                    <label class='{{ partial "gCSS/type/paragraph"}} text-lg leading-tight pl-4'>State</label>
+                    <input name="state" type="text" placeholder="write your state here" class="w-full sm:w-11/12 m-2 py-2 px-4" required>
+                </div>
+                <div class="w-full sm:w-1/3 py-3">
+                    <label class='{{ partial "gCSS/type/paragraph"}} text-lg leading-tight pl-4'>Zip Code</label>
+                    <input name="zip-code" type="text" placeholder="write your zip code here" class="w-full sm:w-11/12 m-2 py-2 px-4" required>
+                </div>
+                <div class="w-full sm:w-1/2 py-3">
+                    <label class='{{ partial "gCSS/type/paragraph"}} text-lg leading-tight pl-4'>Email</label>
+                    <input name="email" type="email" placeholder="write your email here" class="w-full sm:w-11/12 m-2 py-2 px-4" required>
+                </div>
+                <div class="w-full sm:w-1/2 py-3">
+                    <label class='{{ partial "gCSS/type/paragraph"}} text-lg leading-tight pl-4'>Phone</label>
+                    <input name="phone" type="tel" placeholder="write your phone number here" class="w-full sm:w-11/12 m-2 py-2 px-4" required>
+                </div>
+                <input type="text" name="field-for-coolguys" style="display:none" />
+                <div class="w-full sm:w-1/2 py-3">
+                    <label class='{{ partial "gCSS/type/paragraph"}} text-lg leading-tight pl-4'>Emergency Contact Name</label>
+                    <input name="emergency-contact-name" type="text" placeholder="write your response here" class="w-full sm:w-11/12 m-2 py-2 px-4" required>
+                </div>
+                <div class="w-full sm:w-1/2 py-3">
+                    <label class='{{ partial "gCSS/type/paragraph"}} text-lg leading-tight pl-4'>Emergency Contact Phone</label>
+                    <input name="emergency-contact-phone" type="tel" placeholder="write your response here" class="w-full sm:w-11/12 m-2 py-2 px-4" required>
+                </div>
+                <div class="w-full pt-12">
+                    <label class='{{ partial "gCSS/type/paragraph"}} text-lg leading-tight pl-4'>How long have you been practicing yoga?</label>
+                    <textarea name="how-long-practicing-yoga" placeholder="write your response here" class="w-full h-32 m-2 py-2 px-4" required></textarea>
+                </div>
+                <div class="w-full pt-12">
+                    <label class='{{ partial "gCSS/type/paragraph"}} text-lg leading-tight pl-4'>How often do you practice?</label>
+                    <textarea name="how-often-they-practice-yoga" placeholder="write your response here" class="w-full h-32 m-2 py-2 px-4" required></textarea>
+                </div>
+                <div class="w-full pt-12">
+                    <label class='{{ partial "gCSS/type/paragraph"}} text-lg leading-tight pl-4'>Tell about your yoga practice. Do you practice at home or in a studio? What yoga styles do you practice? etc.</label>
+                    <textarea name="details-of-yoga-practice" placeholder="write your response here" class="w-full h-32 m-2 py-2 px-4" required></textarea>
+                </div>
+                <div class="w-full pt-12">
+                    <label class='{{ partial "gCSS/type/paragraph"}} text-lg leading-tight pl-4'>Do you practice meditation?</label>
+                    <textarea name="do-they-practice-meditation" placeholder="write your response here" class="w-full h-32 m-2 py-2 px-4" required></textarea>
+                </div>
+                <div class="w-full pt-12">
+                    <label class='{{ partial "gCSS/type/paragraph"}} text-lg leading-tight pl-4'>Do you practice breathwork or pranayama?</label>
+                    <textarea name="do-they-practice-breathwork" placeholder="write your response here" class="w-full h-32 m-2 py-2 px-4" required></textarea>
+                </div>
+                <div class="w-full pt-12">
+                    <label class='{{ partial "gCSS/type/paragraph"}} text-lg leading-tight pl-4'>Are you in generally good health? Any injuries or health concerns?</label>
+                    <textarea name="details-of-their-health" placeholder="write your response here" class="w-full h-32 m-2 py-2 px-4" required></textarea>
+                </div>
+                <div class="w-full pt-12">
+                    <label class='{{ partial "gCSS/type/paragraph"}} text-lg leading-tight pl-4'>How has yoga affected your personal life?</label>
+                    <textarea name="yoga-and-personal-life" placeholder="write your response here" class="w-full h-32 m-2 py-2 px-4" required></textarea>
+                </div>
+                <div class="w-full pt-12">
+                    <label class='{{ partial "gCSS/type/paragraph"}} text-lg leading-tight pl-4'>Thinking of some of your favorite teachers what qualities make them stand out to you?</label>
+                    <textarea name="tell-us-about-your-favorite-teacher" placeholder="write your response here" class="w-full h-32 m-2 py-2 px-4" required></textarea>
+                </div>
+                <div class="w-full pt-12">
+                    <label class='{{ partial "gCSS/type/paragraph"}} text-lg leading-tight pl-4'>Great teachers are themselves teachable. How willing are you to be a student?</label>
+                    <textarea name="how-willing-are-you-to-be-a-student" placeholder="write your response here" class="w-full h-32 m-2 py-2 px-4" required></textarea>
+                </div>
+                <div class="w-full pt-12">
+                    <label class='{{ partial "gCSS/type/paragraph"}} text-lg leading-tight pl-4'>What inspires you?</label>
+                    <textarea name="what-inspires-them" placeholder="write your response here" class="w-full h-32 m-2 py-2 px-4" required></textarea>
+                </div>
+                <div class="w-full pt-12">
+                    <label class='{{ partial "gCSS/type/paragraph"}} text-lg leading-tight pl-4'>Where do you serve? Volunteering, community service, etc.</label>
+                    <textarea name="volunteering-details" placeholder="write your response here" class="w-full h-32 m-2 py-2 px-4" required></textarea>
+                </div>
+                <div class="w-full pt-12">
+                    <label class='{{ partial "gCSS/type/paragraph"}} text-lg leading-tight pl-4'>Yoga is both a physical and spiritual practice. How do you see this impact in your practice/life?</label>
+                    <textarea name="how-does-yoga-practice-effect-their-personal-life" placeholder="write your response here" class="w-full h-32 m-2 py-2 px-4" required></textarea>
+                </div>
+                <div class="w-full pt-12">
+                    <label class='{{ partial "gCSS/type/paragraph"}} text-lg leading-tight pl-4'>What pose would you consider difficult and why?</label>
+                    <textarea name="what-yoga-pose-do-they-found-difficult" placeholder="write your response here" class="w-full h-32 m-2 py-2 px-4" required></textarea>
+                </div>
+                <div class="w-full pt-12">
+                    <label class='{{ partial "gCSS/type/paragraph"}} text-lg leading-tight pl-4'>What does namaste mean to you?</label>
+                    <textarea name="what-does-namaste-mean-to-them" placeholder="write your response here" class="w-full h-32 m-2 py-2 px-4" required></textarea>
+                </div>
+                <div class="w-full pt-12">
+                    <label class='{{ partial "gCSS/type/paragraph"}} text-lg leading-tight pl-4'>How did you hear about us?</label>
+                    <textarea name="how-they-heard-about-sacred-space" placeholder="write your response here" class="w-full h-32 m-2 py-2 px-4" required></textarea>
+                </div>
+                <div class="flex flex-wrap w-5/6 mx-auto pt-12">
+                    <p>Attendance Policy, Investment, and Committment:<br/><br/>
+                    <strong>Attendance:</strong><br/><br/>
+                    Participants cannot miss more than one training weekend. Any hours missed must be made up with a lead trainer at the rate of $100/hr.<br/><br/>
+                    Hours must be made up within 30 days of missed weekend.<br/><br/>
+                    <strong>Certification:</strong><br/><br/>
+                    Attendance and payment does not guarantee certification. All requirements must be met in order for certification to be issued including: attendance, financial obligations, competencies, practicum, and more.<br/><br/>
+                    <strong>Committment:</strong><br/><br/>
+                    This is a big investment and it requires a significant amount of time, effort, and resources. Please consider your investment wisely and ensure that you have made sufficient accomodations to support your success. (travel plans, child care, financial obligations, etc)<br/><br/>
+                    <strong>Investment:</strong><br/><br/>
+                    Once accepted a deposit of $450 will secure your spot and will be applied to the total price of training.<br/><br/>
+                    Payment is expected in full by July 31st, 2020. If not paid in full by this date participant will be dismissed from the program and forfeit any prior payment as well as certification.<br/><br/>
+                    All payment plans must be discussed and approved by Angel Coughlin prior to start of training<br/><br/>
+                    <strong>Refunds:</strong><br/><br/>
+                    Full refund (minus $100 processing fee) if you cancel at least 30 days prior to start of program.<br/><br/>
+                    No refund awarded if cancellation happens less than 30 days prior to the start of the program, if student is dismissed due to non payment, or student withdraws during the training.<br/><br/>
+                    </p>
+                </div>
+                <div class="w-full sm:w-4/5 mx-auto pt-12 pb-3">
+                    <label class='{{ partial "gCSS/type/paragraph"}} text-lg leading-tight pl-4'>I have read, understand, and agree to the Attendance Policy, Investment, and Commitment.</label>
+                    <input name="name-signature" type="text" placeholder="write your name here" class="w-full m-2 py-2 px-4" required>
+                </div>
+                <div class="w-full sm:w-4/5 mx-auto py-3">
+                    <label class='{{ partial "gCSS/type/paragraph"}} text-lg leading-tight pl-4'>Who can we thank for your referral?</label>
+                    <input name="referral-name" type="text" placeholder="write your referral's name here" class="w-full m-2 py-2 px-4" required>
+                </div>
+                <div class="w-5/6 text-right mx-auto">
+                    <input type="submit" value="Submit" class='{{ partial "gCSS/button/purple"}} text-base mt-4 mx-auto hover:cursor-pointer'>
+                </div>
+            </form>
+        </div>
+  </div>
+</div>
+
+{{ partial "global/newsletter.html" . }}
+
+{{ end }}

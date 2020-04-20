@@ -40,7 +40,7 @@ paragraph = "Please submit an application first.<br><br>Once accepted, a $450 de
 pricing = "$3,200"
 title = "Standard Pricing"
 [sponsorship_section]
-button_link = "/"
+button_link = "/sponsorship-application/"
 button_text = "Sponsorship Application"
 img = "/v1586547208/Sacred%20Space/Private_Yoga_Classes_lkipso.jpg"
 paragraph = "We offer sponsorships through Sacred Service. This program aims to bridge the gap between promising yoga teacher trainees and the financial investment required. If you have someone in mind who is perhaps not able to meet the financial obligations but has the makings of a great teacher invite them to apply below.<br><br>All Sponsorship applicants should submit a YTT application (see above) before submitting the sponsorship application."
