@@ -4,14 +4,6 @@ image = "/v1586451077/Sacred%20Space/Mild_Yoga_Session_u25b67.png"
 name = "Mild"
 weight = 1
 [[classes.class]]
-benefits = ["calms the mind", "promotes relaxation", "Reduces stress"]
-booking_link = "https://app.punchpass.com/org/5479/?course=42192"
-classifications = ["slow and meditative", "mild"]
-description = "Class is intended to bring your body and mind to a state of relaxation where you are able to release store stress and allow yourself a feeling of deep nurturing calm and ease"
-duration = "60 mins"
-name = "Yoga for Stress"
-value = "Gives you space to slow down and connect your breath to your body"
-[[classes.class]]
 benefits = ["Improves mobility", "Develops better posture", "Encourages body awareness"]
 booking_link = "https://app.punchpass.com/org/5479/?course=42204"
 classifications = ["mild"]
@@ -19,5 +11,13 @@ description = "Focusing on alignment and breathwork, you will move through the b
 duration = "60 mins."
 name = "Yoga Basics"
 value = "Sets a strong foundation for your yoga practice"
+[[classes.class]]
+benefits = ["Learn to control and be purposeful in your movements"]
+booking_link = "https://app.punchpass.com/org/5479/?course=39406"
+classifications = ["slow and meditative", "mild"]
+description = "All about balance. Balance is key in life, the practice will be part strength building and part cool down to restore the body and mind."
+duration = "60 mins"
+name = "Mindful Flow"
+value = "Helps your body heat up and strengthen, nut also come back down and restore your body and mind"
 
 +++
