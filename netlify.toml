@@ -10,3 +10,9 @@ HUGO_ENABLEGITINFO = "true"
 
 [context.deploy-preview.environment]
 HUGO_VERSION = "0.61.0"
+
+[[redirects]]
+  from = "/classes/dig-deep"
+  to = "/dig-deep"
+  status = 301
+  force = true
