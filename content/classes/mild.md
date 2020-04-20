@@ -5,19 +5,11 @@ name = "Mild"
 weight = 1
 [[classes.class]]
 benefits = ["Improves mobility", "Develops better posture", "Encourages body awareness"]
-booking_link = "/schedule/"
+booking_link = "https://app.punchpass.com/org/5479/?course=42204"
 classifications = ["mild"]
 description = "Focusing on alignment and breathwork, you will move through the basic yoga poses with variations for every skill level. Flexibility, strength, and meditation are included in the practice."
 duration = "60 mins."
-name = "Yoga Basics with Denise"
+name = "Yoga Basics"
 value = "Sets a strong foundation for your yoga practice"
-[[classes.class]]
-benefits = ["encourages body awareness", "Increases flexibility", "Encourages mindfulness"]
-booking_link = "/schedule/"
-classifications = ["mild"]
-description = "This class focuses on proper alignment and breathwork, but strength, flexibility, and meditation will also be included."
-duration = "60 mins"
-name = "Yoga Basics with Donna"
-value = "Helps you learn (or revisit) proper alignment in basic yoga poses"
 
 +++
