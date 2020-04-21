@@ -189,7 +189,7 @@ enableRobotsTXT = true
 [params.tracking]
     cloudinary_url = "https://res.cloudinary.com/pioneer-design/image/upload"
 [params.publishing_settings]
-    site_in_production = false
+    site_in_production = true
 
 [mediaTypes]
   [mediaTypes."text/noExt"]
@@ -209,14 +209,14 @@ enableRobotsTXT = true
         isPlainText = false
         mediaType = "application/xml"
         path = "/"
-    [outputFormats.siteposts]
-        baseName = "siteposts"
+    [outputFormats.classesoffered]
+        baseName = "classesoffered"
         isPlainText = false
         mediaType = "application/xml"
         path = "/"
 
 [outputs]
-  home = ["HTML", "sitemapindex", "sitepages", "siteposts", "RSS"]
+  home = ["HTML", "sitemapindex", "sitepages", "classesoffered", "RSS"]
 
 [params.algolia]
     appId = ""
@@ -224,7 +224,7 @@ enableRobotsTXT = true
     index_name = ""
 
 [params.extra_tools]
-    algolia_search = true
+    algolia_search = false
     font_awesome = true
     floating_header = true
 

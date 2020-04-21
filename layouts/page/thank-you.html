@@ -1,11 +1,13 @@
 {{ define "main" }}
 
-<section id="thank-you" class="flex h-screen">
+<section id="thank-you" class="flex pt-20 pb-80">
   <div class="flex w-full bg-blk-overlay text-center">
-  <div class="w-5/6 mx-auto text-white pt-32">
-    <h1 class="text-2xl lg:text-4xl pb-4"><span class="bg-black p-1 italic">Thank you!</span> your submission has been received.</h1>
-    <h2 class="text-lg lg:text-2xl font-thin pb-6">We will be in touch shortly.</h2>
-    <a href="/" class="bg-black text-base lg:text-xl text-white rounded-lg py-2 px-4 uppercase no-underline">Return to Home Page</a>
+  <div class="w-5/6 mx-auto pt-32">
+    <h1 class="font-p22 text-2xl lg:text-4xl pb-4"><span class="bg-purple font-dom text-white p-1 italic">Thank you!</span> your submission has been received.</h1>
+    <h2 class="font-p22 text-lg lg:text-2xl font-thin pb-8">We will be in touch shortly.</h2>
+    <a href="/" class='{{ partial "gCSS/button/purple"}} text-base'>
+      Return to home page
+    </a>
   </div>
   </div>
 </section>
