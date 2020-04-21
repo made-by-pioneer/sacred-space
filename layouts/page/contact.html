@@ -29,7 +29,7 @@ form textarea {
         </div>
         <div class="w-full md:w-7/12 text-center sm:text-left mx-auto pb-12 md:pb-0">
             <h4 class='{{ partial "gCSS/type/heading"}} text-4halfxl pb-6'>{{ .Params.contact_form_section.title }}</h4>
-            <form class="flex flex-wrap w-full font-p22" action="/thank-you/" netlify-honeypot="field-for-coolguys" name="" method="POST" netlify>
+            <form class="flex flex-wrap w-full font-p22" action="/thank-you/" netlify-honeypot="field-for-coolguys" name="contact-form" method="POST" netlify>
                 <input type="hidden" name="subject" value="New Submission from Website" />
                 <div class="w-full sm:w-1/2">
                     <input name="name" type="text" placeholder="name" class="w-full sm:w-11/12 m-2 py-2 px-4" required>
