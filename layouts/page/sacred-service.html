@@ -65,6 +65,9 @@
   <div class="w-full sm:w-1/2 md:pl-12">
     <h2 class='{{ partial "gCSS/type/heading"}} text-5xl md:text-5halfxl pt-8 sm:pt-0 pb-8'>{{ .Params.sacred_service_socials_section.title }}</h2>
     <p class='{{ partial "gCSS/type/paragraph"}} text-xl md:text-2xl pb-8'>{{ .Params.sacred_service_socials_section.paragraph }}</p>
+    <a href="{{ .Params.sacred_service_socials_section.button_link | safeHTML }}" class='{{ partial "gCSS/button/purple"}} text-base'>
+      {{ .Params.sacred_service_socials_section.button_text | safeHTML }}
+    </a>
   </div>
 </div>
 

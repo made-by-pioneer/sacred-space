@@ -14,5 +14,7 @@ title = "Location"
 [text_hero_section]
 paragraph = "We'd love to hear from you."
 title = "Contact Us"
+[sacred_service_section]
+paragraph = "Due to COVID-19, we have suspended all in-person Sacred Service Socials until further notice."
 
 +++

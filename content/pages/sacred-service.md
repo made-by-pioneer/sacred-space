@@ -18,5 +18,7 @@ title = "More Than a Yoga Class"
 img = "/v1586882220/Sacred%20Space/sacred_service_socials_t92tio.jpg"
 paragraph = "Sacred Service offers trauma sensitive yoga to our military community at no cost to the participants. One of the goals of this program is to foster fellowship in our community. In 2019 we began partnering with Vet 2 Vet, a local peer support group and extending our services beyond the studio. The 1st Thursday of every month is reserved for a social gathering. Join us by attending class or sending us an email request."
 title = "Sacred Service Socials"
+button_link = "/contact/"
+button_text = "Contact us"
 
 +++
