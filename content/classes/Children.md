@@ -1,5 +1,5 @@
 +++
-image = "/v1586451077/Sacred%20Space/Yoga_for_Children_fbcnla.png"
+image = "/v1586451077/Sacred%20Space/Yoga_for_Children_fbcnla.webp"
 name = "Children"
 weight = 5
 [[classes.class]]

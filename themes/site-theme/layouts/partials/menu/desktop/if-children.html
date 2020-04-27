@@ -9,9 +9,9 @@
 <div id="{{ .Name | urlize }}-dropdown" class="relative inline-flex select-none dropdown">
     <a href="{{ if .Post }}{{.URL}}{{ else }}#{{ end }}" class="pr-8 desktop-menu-item" role="button">
         {{ .Pre }}
-        <span>{{ .Name }}</span><i class="text-2xs pl-1 fas fa-angle-down"></i>
+        <span>{{ .Name }}</span><i class="text-2xs mb-3 pl-1 fas fa-angle-down"></i>
     </a>
-    <ul class="bg-white z-50 pt-1 {{ .Name | urlize }}-dropdown-selection" role="menu">
+    <ul class="bg-white z-50 pt-1 rounded-lg {{ .Name | urlize }}-dropdown-selection" role="menu">
         {{ range .Children }}
             {{ partial "menu/desktop/if-children-have-children.html" . }}
         {{ end }}

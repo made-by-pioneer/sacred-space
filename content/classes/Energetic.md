@@ -1,5 +1,5 @@
 +++
-image = "/v1586451076/Sacred%20Space/Advanced_Yoga_Session_d6fcfd.png"
+image = "/v1586451076/Sacred%20Space/Advanced_Yoga_Session_d6fcfd.webp"
 name = "Energetic"
 weight = 3
 [[classes.class]]
