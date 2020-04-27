@@ -39,17 +39,22 @@ enableRobotsTXT = true
     url = "/sacred-service/"
     weight = 3
 [[menu.desktop]]
+    identifier = "Shop"
+    name = "Shop"
+    url = "/shop/"
+    weight = 4
+[[menu.desktop]]
     identifier = "doTerra"
     name = "doTerra"
     url = "https://www.doterra.com/US/en/site/sacredspaceyogillc"
     pre = "blank"
-    weight = 4
+    weight = 5
 [[menu.desktop]]
     identifier = "About"
     name = "About"
     url = "/about/"
     post = "hover"
-    weight = 5
+    weight = 6
     [[menu.desktop]]
         identifier = "Meet the Family"
         name = "Meet the Family"
@@ -72,7 +77,7 @@ enableRobotsTXT = true
     identifier = "Contact"
     name = "Contact"
     url = "/contact/"
-    weight = 6
+    weight = 7
 [[menu.mobile]]
     identifier = "Classes"
     name = "Classes"
@@ -95,15 +100,20 @@ enableRobotsTXT = true
     pre = "blank"
     weight = 4
 [[menu.mobile]]
+    identifier = "Shop"
+    name = "Shop"
+    url = "/shop/"
+    weight = 5
+[[menu.mobile]]
     identifier = "About"
     name = "About"
     url = "/about/"
-    weight = 5
+    weight = 6
 [[menu.mobile]]
     identifier = "Contact"
     name = "Contact"
     url = "/contact/"
-    weight = 6
+    weight = 7
 [[menu.footer]]
     identifier = "Classes"
     name = "Classes"
@@ -165,9 +175,14 @@ enableRobotsTXT = true
     pre = "blank"
     weight = 4
 [[menu.footer]]
+    identifier = "Shop"
+    name = "Shop"
+    url = "/shop/"
+    weight = 5
+[[menu.footer]]
     identifier = "About"
     name = "About"
-    weight = 5
+    weight = 6
     [[menu.footer]]
         identifier = "Meet the Family"
         name = "Meet the Family"
