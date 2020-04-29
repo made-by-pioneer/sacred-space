@@ -5,11 +5,16 @@ title = "Sacred Space Yoga"
 enableRobotsTXT = true
 
 [[menu.desktop]]
+    identifier = "Shop"
+    name = "Shop"
+    url = "/shop/"
+    weight = 1
+[[menu.desktop]]
     identifier = "Classes"
     name = "Classes"
     url = "/classes/"
     post = "hover"
-    weight = 1
+    weight = 2
     [[menu.desktop]]
         identifier = "Schedule"
         name = "Schedule"
@@ -32,16 +37,11 @@ enableRobotsTXT = true
     identifier = "Training"
     name = "Training"
     url = "/teacher-training/"
-    weight = 2
+    weight = 3
 [[menu.desktop]]
     identifier = "Sacred Service"
     name = "Sacred Service"
     url = "/sacred-service/"
-    weight = 3
-[[menu.desktop]]
-    identifier = "Shop"
-    name = "Shop"
-    url = "/shop/"
     weight = 4
 [[menu.desktop]]
     identifier = "doTerra"
