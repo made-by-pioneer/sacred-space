@@ -35,7 +35,7 @@
         </div>
         <div class="w-1/2 pt-4 px-2">
             <h6 class='{{ partial "gCSS/type/paragraph"}} text-base font-bold'>Classification</h6>
-            <p class='{{ partial "gCSS/type/paragraph"}} text-base leading-none'>{{ delimit .classifications ", " }}</p>
+            <p class='{{ partial "gCSS/type/paragraph"}} text-base leading-none'>{{ if .classifications }}{{ delimit .classifications ", " }}{{ end }}</p>
         </div>
         <a href="{{ .booking_link }}" target="_blank" class='flex flex-wrap items-center bg-purple hover:bg-purple-hover rounded-full font-p22 text-lite-gray leading-none text-center py-3 px-3 w-5/12 text-sm mt-8 mr-8'>
             <p class="w-full">Book your class now</p>
@@ -79,8 +79,8 @@
         <h6 class='{{ partial "gCSS/type/paragraph"}} text-base font-bold'>Cost:</h6>
         <p class='{{ partial "gCSS/type/paragraph"}} text-base leading-none'>$30 for the family</p>
     </div>
-    <a href="/schedule/" class='flex flex-wrap items-center border-2 border-purple hover:bg-purple rounded-full font-p22 text-purple hover:text-lite-gray leading-none text-center py-3 px-3 w-5/12 text-sm mt-8'>
-        <p class="w-full">View Class Schedule</p>
+    <a href="https://www.facebook.com/sacredspaceyogi/" class='flex flex-wrap items-center border-2 border-purple hover:bg-purple rounded-full font-p22 text-purple hover:text-lite-gray leading-none text-center py-3 px-3 w-5/12 text-sm mt-8'>
+        <p class="w-full">Find Us on Facebook</p>
     </a>
 </div>
 {{ else }}
