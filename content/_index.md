@@ -23,7 +23,7 @@ title = "Types of Classes"
 button_link = "/classes/"
 button_text = "View our classes"
 img = "/v1586541100/Sacred%20Space/therapeutic_yoga_for_health_nqmvot.jpg"
-paragraph = "We offer a therapeutic approach to yoga through different modalities that appeals to the mind, body, and Spirit."
+paragraph = "We offer a therapeutic approach to yoga through different modalities that integrates the mind, body, and Spirit."
 title = "Feel at home <br>in your body"
 [private_classes_section]
 button_link = "/schedule/"
