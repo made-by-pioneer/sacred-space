@@ -9,7 +9,7 @@
     {{ range (where .pages "Type" "classes" ) }}
     <style>
       .class-{{ .File.UniqueID }} {
-        background-image: url("{{ .Site.Params.tracking.cloudinary_url }}/r_50/{{ .Params.image }}")
+        background-image: url("{{ .Site.Params.tracking.cloudinary_url }}/r_50,q_auto,f_auto{{ .Params.image }}")
       }
 
     </style>
