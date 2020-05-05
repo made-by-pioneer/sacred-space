@@ -36,6 +36,19 @@
   </div>
 </div>
 
+<noscript>
+  <style>
+    .main-carousel {
+      display: none;
+    }
+  </style>
+  <div class="flex flex-wrap items-center w-5/6 md:w-1/2 max-w-2xl text-center mx-auto py-20">
+    <div class="w-full">
+      <p class='{{ partial "gCSS/type/paragraph"}} text-xl sm:text-2xl pb-8'>Please enable javascript to see our picture gallery.</p>
+    </div>
+  </div>
+</noscript>
+
 {{ $sitecloudniary := .Site.Params.tracking.cloudinary_url }}
 {{ range $.Site.Data.sacredServiceCarousel.images }}
 <style>

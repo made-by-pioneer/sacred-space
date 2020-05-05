@@ -22,3 +22,9 @@ HUGO_VERSION = "0.61.0"
   to = "/sacred-service"
   status = 301
   force = true
+
+[[redirects]]
+  from = "https://sacredspace.netlify.app/*"
+  to = "https://sacredspaceyogi.com/:splat"
+  status = 301
+  force = true
