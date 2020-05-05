@@ -1,0 +1,23 @@
+<style>
+  .frame-cal {
+    display: none;
+  }
+  @media screen and (min-width:1200px) {
+    .frame-cal {
+    display: block;
+    }
+    .frame-list {
+    display: none;
+    }
+  }
+</style>
+
+<div class="flex flex-wrap items-center w-3/4 xl:w-2/3 max-w-6xl text-center mx-auto py-5">
+  <div class="w-full">
+    <h2 class='{{ partial "gCSS/type/heading"}} text-5xl sm:text-5halfxl pb-20'>Schedule</h2>
+    <div class="w-full mx-auto rounded-lg">
+      <iframe class="frame-cal" name="frame2" src="https://app.punchpass.com/org/5479/calendar?embed=true" height="1500" width="100%" frameborder="0"></iframe>
+      <iframe class="frame-list" name="frame2" src="https://app.punchpass.com/org/5479/classes?embed=true" height="700" width="100%" frameborder="0"></iframe>
+    </div>
+  </div>
+</div>
