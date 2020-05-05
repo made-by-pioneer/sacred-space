@@ -1,7 +1,9 @@
 User-agent: *
 
-Disallow: /
+Disallow:
+
+/thank-you/
 
 
 
-Sitemap: https://sacredspace.netlify.com/sitemapindex.xml
+Sitemap: https://sacredspaceyogi.com/sitemapindex.xml

@@ -2,47 +2,119 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sacred Space Yoga</title>
-    <link>https://sacredspace.netlify.com/team/</link>
+    <link>https://sacredspaceyogi.com/team/</link>
     <description>Recent content on Sacred Space Yoga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://sacredspace.netlify.com/team/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sacredspaceyogi.com/team/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://sacredspace.netlify.com/team/angel-coughlin/</link>
+      <link>https://sacredspaceyogi.com/team/angel-coughlin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sacredspace.netlify.com/team/angel-coughlin/</guid>
+      <guid>https://sacredspaceyogi.com/team/angel-coughlin/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://sacredspace.netlify.com/team/justine-coleman/</link>
+      <link>https://sacredspaceyogi.com/team/justine-coleman/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sacredspace.netlify.com/team/justine-coleman/</guid>
+      <guid>https://sacredspaceyogi.com/team/justine-coleman/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://sacredspace.netlify.com/team/donna-ramsey/</link>
+      <link>https://sacredspaceyogi.com/team/donna-ramsey/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sacredspace.netlify.com/team/donna-ramsey/</guid>
+      <guid>https://sacredspaceyogi.com/team/donna-ramsey/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://sacredspace.netlify.com/team/kevin-kerns/</link>
+      <link>https://sacredspaceyogi.com/team/kevin-kerns/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sacredspace.netlify.com/team/kevin-kerns/</guid>
+      <guid>https://sacredspaceyogi.com/team/kevin-kerns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sacredspaceyogi.com/team/vader/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sacredspaceyogi.com/team/vader/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sacredspaceyogi.com/team/stephanie-mccord/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sacredspaceyogi.com/team/stephanie-mccord/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sacredspaceyogi.com/team/vivian-summers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sacredspaceyogi.com/team/vivian-summers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sacredspaceyogi.com/team/cheryl-reardon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sacredspaceyogi.com/team/cheryl-reardon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sacredspaceyogi.com/team/jordan-torelli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sacredspaceyogi.com/team/jordan-torelli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sacredspaceyogi.com/team/will-boatright/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sacredspaceyogi.com/team/will-boatright/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sacredspaceyogi.com/team/tal-cook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sacredspaceyogi.com/team/tal-cook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sacredspaceyogi.com/team/pablo-jara/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sacredspaceyogi.com/team/pablo-jara/</guid>
       <description></description>
     </item>
     

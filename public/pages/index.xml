@@ -2,102 +2,138 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Sacred Space Yoga</title>
-    <link>https://sacredspace.netlify.com/pages/</link>
+    <link>https://sacredspaceyogi.com/pages/</link>
     <description>Recent content in Pages on Sacred Space Yoga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Apr 2019 05:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://sacredspace.netlify.com/pages/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sacredspaceyogi.com/pages/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About Us</title>
-      <link>https://sacredspace.netlify.com/about/</link>
+      <link>https://sacredspaceyogi.com/about/</link>
       <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
       
-      <guid>https://sacredspace.netlify.com/about/</guid>
+      <guid>https://sacredspaceyogi.com/about/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contact Us</title>
-      <link>https://sacredspace.netlify.com/contact/</link>
+      <link>https://sacredspaceyogi.com/contact/</link>
       <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
       
-      <guid>https://sacredspace.netlify.com/contact/</guid>
+      <guid>https://sacredspaceyogi.com/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dig Deep</title>
-      <link>https://sacredspace.netlify.com/dig-deep/</link>
+      <link>https://sacredspaceyogi.com/dig-deep/</link>
       <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
       
-      <guid>https://sacredspace.netlify.com/dig-deep/</guid>
+      <guid>https://sacredspaceyogi.com/dig-deep/</guid>
       <description></description>
     </item>
     
     <item>
       <title>FAQS</title>
-      <link>https://sacredspace.netlify.com/faqs/</link>
+      <link>https://sacredspaceyogi.com/faqs/</link>
       <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
       
-      <guid>https://sacredspace.netlify.com/faqs/</guid>
+      <guid>https://sacredspaceyogi.com/faqs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pricing</title>
-      <link>https://sacredspace.netlify.com/pricing/</link>
+      <link>https://sacredspaceyogi.com/pricing/</link>
       <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
       
-      <guid>https://sacredspace.netlify.com/pricing/</guid>
+      <guid>https://sacredspaceyogi.com/pricing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sacred Service</title>
-      <link>https://sacredspace.netlify.com/sacred-service/</link>
+      <link>https://sacredspaceyogi.com/sacred-service/</link>
       <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
       
-      <guid>https://sacredspace.netlify.com/sacred-service/</guid>
+      <guid>https://sacredspaceyogi.com/sacred-service/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sacred Space Camp Application</title>
+      <link>https://sacredspaceyogi.com/sacred-space-camp-application/</link>
+      <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
+      
+      <guid>https://sacredspaceyogi.com/sacred-space-camp-application/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Schedule</title>
-      <link>https://sacredspace.netlify.com/schedule/</link>
+      <link>https://sacredspaceyogi.com/schedule/</link>
       <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
       
-      <guid>https://sacredspace.netlify.com/schedule/</guid>
+      <guid>https://sacredspaceyogi.com/schedule/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shop</title>
+      <link>https://sacredspaceyogi.com/shop/</link>
+      <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
+      
+      <guid>https://sacredspaceyogi.com/shop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sponsorship Application</title>
+      <link>https://sacredspaceyogi.com/sponsorship-application/</link>
+      <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
+      
+      <guid>https://sacredspaceyogi.com/sponsorship-application/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Studio Etiquette</title>
-      <link>https://sacredspace.netlify.com/etiquette/</link>
+      <link>https://sacredspaceyogi.com/etiquette/</link>
       <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
       
-      <guid>https://sacredspace.netlify.com/etiquette/</guid>
+      <guid>https://sacredspaceyogi.com/etiquette/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teacher Application</title>
+      <link>https://sacredspaceyogi.com/teacher-application/</link>
+      <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
+      
+      <guid>https://sacredspaceyogi.com/teacher-application/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Teacher Training</title>
-      <link>https://sacredspace.netlify.com/teacher-training/</link>
+      <link>https://sacredspaceyogi.com/teacher-training/</link>
       <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
       
-      <guid>https://sacredspace.netlify.com/teacher-training/</guid>
+      <guid>https://sacredspaceyogi.com/teacher-training/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Thank You</title>
-      <link>https://sacredspace.netlify.com/thank-you/</link>
+      <link>https://sacredspaceyogi.com/thank-you/</link>
       <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
       
-      <guid>https://sacredspace.netlify.com/thank-you/</guid>
+      <guid>https://sacredspaceyogi.com/thank-you/</guid>
       <description></description>
     </item>
     
