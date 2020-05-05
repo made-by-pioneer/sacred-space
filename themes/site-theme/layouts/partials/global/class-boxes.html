@@ -1,4 +1,4 @@
-<div class="flex flex-wrap items-center w-full xl:w-11/12 xxl:w-5/6 max-w-6xl bg-cover lg:bg-contain bg-center bg-no-repeat mx-auto py-32 types-of-classes">
+<div class="flex flex-wrap items-center w-full xl:w-11/12 xxl:w-5/6 max-w-6xl bg-cover lg:bg-contain bg-center bg-no-repeat mx-auto py-32 lazy types-of-classes">
   <div class="w-full text-center pb-12">
     <h2 class='{{ partial "gCSS/type/heading"}} text-4xl md:text-5halfxl pb-3'>{{ .title }}</h2>
     {{ if .paragraph }}
@@ -13,7 +13,7 @@
       }
 
     </style>
-    <a href="/classes/{{ .Params.name | urlize }}" class="relative w-full lg:w-1/3 bg-contain bg-center bg-no-repeat h-64 mb-8 classes-box class-{{ .File.UniqueID }}">
+    <a href="/classes/{{ .Params.name | urlize }}" class="relative w-full lg:w-1/3 bg-contain bg-center bg-no-repeat h-64 mb-8 lazy classes-box class-{{ .File.UniqueID }}">
       <div class="absolute top-0 left-0 right-0 mx-auto w-72 h-64 z-20 session-gradiant"></div>
       <h4 class='{{ partial "gCSS/type/heading"}} absolute bottom-0 left-0 right-0 w-2/3 sm:w-1/2 lg:w-2/3 text-4halfxl text-white text-center mx-auto leading-none z-50 pb-8'>{{ .Params.name }}</h4>
     </a>
