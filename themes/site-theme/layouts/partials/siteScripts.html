@@ -57,7 +57,10 @@ if (isIE11 === false) {
   }
   let lazyImg = document.querySelectorAll("#lzy-img");
   for (i = 0; i < lazyImg.length; ++i) {
-    lazyImg[i].classList.add("lazy");
+    if(lazyImg[i].getAttribute('data-src')) {
+      lazyImg[i].setAttribute('src',lazyImg[i].getAttribute('data-src'));
+      lazyImg[i].removeAttribute('data-src'); //use only if you need to remove data-src attribute after setting src
+    }
   }
 }
 </script>
