@@ -3,6 +3,8 @@ import ScrollReveal from 'scrollreveal';
 import flickity from 'flickity';
 import MicroModal from 'micromodal';
 
+// Lazy load script (background images)
+
 document.addEventListener("DOMContentLoaded", function() {
   var lazyloadImages;    
 
@@ -51,6 +53,8 @@ document.addEventListener("DOMContentLoaded", function() {
     window.addEventListener("orientationChange", lazyload);
   }
 })
+
+// END Lazy load script (background images)
 
 // init micromodal's js
 

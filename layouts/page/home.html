@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <style>
-  .lazy {
+  .lazy-bk {
    background-image: none !important;
    background-color: #F1F1FA;
 }
@@ -20,7 +20,7 @@
       background-image: url("{{ .Site.Params.tracking.cloudinary_url }}/q_auto,f_auto{{ .Params.hero.img }}")
     }
   </style>
-  <div class="w-full sm:w-1/2 bg-contain bg-center bg-no-repeat lazy feel-at-home-image">
+  <div id="lazy-bk" class="w-full sm:w-1/2 bg-contain bg-center bg-no-repeat feel-at-home-image">
     <div class="py-32 sm:py-40 lg:py-80"></div>
   </div>
 </div>
@@ -51,7 +51,7 @@
       background-image: url("{{ .Site.Params.tracking.cloudinary_url }}/q_auto,f_auto{{ .Params.private_classes_section.img }}")
     }
   </style>
-  <div class="w-full sm:w-1/2 bg-contain bg-center bg-no-repeat lazy private-classes-image">
+  <div id="lazy-bk" class="w-full sm:w-1/2 bg-contain bg-center bg-no-repeat private-classes-image">
     <div class="py-32 sm:py-40 md:py-80"></div>
   </div>
 </div>
@@ -83,7 +83,7 @@
       background-image: url("{{ .Site.Params.tracking.cloudinary_url }}/q_auto,f_auto{{ .Params.yoga_teacher_section.img }}")
     }
   </style>
-  <div class="w-full sm:w-1/2 bg-contain bg-center bg-no-repeat lazy yoga-training-image">
+  <div id="lazy-bk" class="w-full sm:w-1/2 bg-contain bg-center bg-no-repeat yoga-training-image">
     <div class="py-32 sm:py-40 md:py-80"></div>
   </div>
   <div class="w-full sm:w-1/2 md:pl-12">
@@ -104,5 +104,15 @@
     </a>
   </div>
 </div>
+
+<script>
+  let isIE11 = !!window.MSInputMethodContext && !!document.documentMode;
+  if (isIE11 === false) {
+    let lazyBack = document.querySelectorAll("#lazy-bk");
+    for (i = 0; i < lazyBack.length; ++i) {
+      lazyBack[i].classList.add("lazy");
+    }
+  }
+</script>
 
 {{ end }}
