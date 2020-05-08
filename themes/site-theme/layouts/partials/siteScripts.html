@@ -33,8 +33,8 @@ window.addEventListener("scroll", function(){
 {{ else }}
 {{ end }}
 
+<!-- fix modal errors -->
 <script>
-
 function open() {
   const headerFixed = document.querySelector("#mobile-menu-button")
   headerFixed.classList.add("-mt-40")
@@ -44,7 +44,21 @@ function close() {
   const headerFixed = document.querySelector("#mobile-menu-button")
   headerFixed.classList.remove("-mt-40")
 }
-
-
-
 </script>
+<!-- END fix modal errors -->
+
+<!-- check ie11 status for lazy loading images -->
+<script>
+let isIE11 = !!window.MSInputMethodContext && !!document.documentMode;
+if (isIE11 === false) {
+  let lazyBack = document.querySelectorAll("#lzy-bk");
+  for (i = 0; i < lazyBack.length; ++i) {
+    lazyBack[i].classList.add("lazy");
+  }
+  let lazyImg = document.querySelectorAll("#lzy-img");
+  for (i = 0; i < lazyImg.length; ++i) {
+    lazyImg[i].classList.add("lazy");
+  }
+}
+</script>
+<!-- END check ie11 status for lazy loading images -->

@@ -75,12 +75,18 @@
     <div class="flex flex-wrap items-center w-2/3 mx-auto">
         {{ range (where .Site.Pages "Type" "partners") }}
         <a href="{{ .Params.link }}" target="_blank" class="w-auto mx-auto">
-            <img src="{{ .Site.Params.tracking.cloudinary_url }}{{ .Params.logo }}" class="m-4">
+            <img id="lzy-img" class="" data-src="{{ .Site.Params.tracking.cloudinary_url }}{{ .Params.logo }}" class="m-4">
         </a>
         {{ end }}
     </div>
   </div>
 </div>
+
+<script>
+
+
+
+</script>
 
 {{ partial "global/newsletter.html" . }}
 
