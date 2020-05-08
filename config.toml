@@ -159,7 +159,7 @@ enableRobotsTXT = true
     [[menu.footer]]
         identifier = "SS Classes"
         name = "SS Classes"
-        url = "/"
+        url = "/sacred-service/"
         parent = "Sacred Service"
         weight = 1
     [[menu.footer]]
