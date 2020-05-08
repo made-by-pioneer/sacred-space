@@ -3,9 +3,9 @@
 <div class="flex flex-wrap items-center w-5/6 md:w-1/2 max-w-2xl text-center mx-auto pt-20 pb-40">
   {{ partial "global/breadcrumbs.html" . }}
   <div class="w-full">
-    <h2 class='{{ partial "gCSS/type/heading"}} text-5xl sm:text-5halfxl pb-6'>{{ .Params.name }} Classes</h2>
+    <h2 class='{{ partial "gCSS/type/heading.txt"}} text-5xl sm:text-5halfxl pb-6'>{{ .Params.name }} Classes</h2>
     {{ if .Params.description }}
-    <p class='{{ partial "gCSS/type/paragraph"}} text-xl sm:text-2xl pb-8'>{{ .Params.description }}</p>
+    <p class='{{ partial "gCSS/type/paragraph.txt"}} text-xl sm:text-2xl pb-8'>{{ .Params.description }}</p>
     {{ else }}{{ end }}
   </div>
 </div>
@@ -14,28 +14,28 @@
     {{ range .Params.classes.class }}
     <div class="flex flex-wrap w-full lg:w-5/12 mx-auto pb-32">
         <div class="w-full border-b-4 border-purple mb-4">
-            <h3 class='{{ partial "gCSS/type/heading"}} text-4halfxl pb-4'>{{ .name }}</h3>
+            <h3 class='{{ partial "gCSS/type/heading.txt"}} text-4halfxl pb-4'>{{ .name }}</h3>
         </div>
-        <p class='{{ partial "gCSS/type/paragraph"}} text-xl pb-2'>{{ .description | safeHTML }}</p>
+        <p class='{{ partial "gCSS/type/paragraph.txt"}} text-xl pb-2'>{{ .description | safeHTML }}</p>
         <div class="w-1/2 pt-4 px-2">
-            <h6 class='{{ partial "gCSS/type/paragraph"}} text-base font-bold'>Benefits</h6>
-            <ul class='{{ partial "gCSS/type/paragraph"}} list-disc list-inside text-base sm:text-left leading-tight'>
+            <h6 class='{{ partial "gCSS/type/paragraph.txt"}} text-base font-bold'>Benefits</h6>
+            <ul class='{{ partial "gCSS/type/paragraph.txt"}} list-disc list-inside text-base sm:text-left leading-tight'>
                 {{ range .benefits }}
                     <li class=''>{{ . }}</li>
                 {{ end }}
             </ul>
         </div>
         <div class="w-1/2 pt-4 px-2">
-            <h6 class='{{ partial "gCSS/type/paragraph"}} text-base font-bold'>Class Duration</h6>
-            <p class='{{ partial "gCSS/type/paragraph"}} text-base leading-tight'>{{ .duration }}</p>
+            <h6 class='{{ partial "gCSS/type/paragraph.txt"}} text-base font-bold'>Class Duration</h6>
+            <p class='{{ partial "gCSS/type/paragraph.txt"}} text-base leading-tight'>{{ .duration }}</p>
         </div>
         <div class="w-1/2 pt-4 px-2">
-            <h6 class='{{ partial "gCSS/type/paragraph"}} text-base font-bold'>Value</h6>
-            <p class='{{ partial "gCSS/type/paragraph"}} text-base leading-tight'>{{ .value | safeHTML }}</p>
+            <h6 class='{{ partial "gCSS/type/paragraph.txt"}} text-base font-bold'>Value</h6>
+            <p class='{{ partial "gCSS/type/paragraph.txt"}} text-base leading-tight'>{{ .value | safeHTML }}</p>
         </div>
         <div class="w-1/2 pt-4 px-2">
-            <h6 class='{{ partial "gCSS/type/paragraph"}} text-base font-bold'>Classification</h6>
-            <p class='{{ partial "gCSS/type/paragraph"}} text-base leading-none'>{{ if .classifications }}{{ delimit .classifications ", " }}{{ end }}</p>
+            <h6 class='{{ partial "gCSS/type/paragraph.txt"}} text-base font-bold'>Classification</h6>
+            <p class='{{ partial "gCSS/type/paragraph.txt"}} text-base leading-none'>{{ if .classifications }}{{ delimit .classifications ", " }}{{ end }}</p>
         </div>
         <a href="{{ .booking_link }}" target="_blank" class='flex flex-wrap items-center bg-purple hover:bg-purple-hover rounded-full font-p22 text-lite-gray leading-none text-center py-3 px-3 w-5/12 text-sm mt-8 mr-8'>
             <p class="w-full">Book your class now</p>
@@ -51,20 +51,20 @@
 {{ if eq .Params.name "Children" }}
 <div class="flex flex-wrap w-full lg:w-5/12 mx-auto pb-32">
     <div class="w-full border-b-4 border-purple mb-4">
-        <h3 class='{{ partial "gCSS/type/heading"}} text-4halfxl pb-4'>The Amazing Journey: a kids way of exploring</h3>
+        <h3 class='{{ partial "gCSS/type/heading.txt"}} text-4halfxl pb-4'>The Amazing Journey: a kids way of exploring</h3>
     </div>
-    <p class='{{ partial "gCSS/type/paragraph"}} text-xl pb-2'>Siblings $25 discount. Lunch and snacks included. Spaces are limited.</p>
+    <p class='{{ partial "gCSS/type/paragraph.txt"}} text-xl pb-2'>Siblings $25 discount. Lunch and snacks included. Spaces are limited.</p>
     <div class="w-1/2 pt-4 px-2">
-        <h6 class='{{ partial "gCSS/type/paragraph"}} text-base font-bold'>Dates</h6>
-        <p class='{{ partial "gCSS/type/paragraph"}} text-base leading-tight'>Monday - Friday 9am - 3pm</p>
-    </div>
-    <div class="w-1/2 pt-4 px-2">
-        <h6 class='{{ partial "gCSS/type/paragraph"}} text-base font-bold'>When:</h6>
-        <p class='{{ partial "gCSS/type/paragraph"}} text-base leading-tight'>Weekly from Jun 1st - July 24th (8 weekly sessions)</p>
+        <h6 class='{{ partial "gCSS/type/paragraph.txt"}} text-base font-bold'>Dates</h6>
+        <p class='{{ partial "gCSS/type/paragraph.txt"}} text-base leading-tight'>Monday - Friday 9am - 3pm</p>
     </div>
     <div class="w-1/2 pt-4 px-2">
-        <h6 class='{{ partial "gCSS/type/paragraph"}} text-base font-bold'>Cost:</h6>
-        <p class='{{ partial "gCSS/type/paragraph"}} text-base leading-none'>$150 for the week / $125 for subsequent weeks</p>
+        <h6 class='{{ partial "gCSS/type/paragraph.txt"}} text-base font-bold'>When:</h6>
+        <p class='{{ partial "gCSS/type/paragraph.txt"}} text-base leading-tight'>Weekly from Jun 1st - July 24th (8 weekly sessions)</p>
+    </div>
+    <div class="w-1/2 pt-4 px-2">
+        <h6 class='{{ partial "gCSS/type/paragraph.txt"}} text-base font-bold'>Cost:</h6>
+        <p class='{{ partial "gCSS/type/paragraph.txt"}} text-base leading-none'>$150 for the week / $125 for subsequent weeks</p>
     </div>
     <a href="/sacred-space-camp-application/" class='flex flex-wrap items-center border-2 border-purple hover:bg-purple rounded-full font-p22 text-purple hover:text-lite-gray leading-none text-center py-3 px-3 w-5/12 text-sm mt-8'>
         <p class="w-full">Submit Application</p>
@@ -72,12 +72,12 @@
 </div>
 <div class="flex flex-wrap w-full lg:w-5/12 mx-auto pb-32">
     <div class="w-full border-b-4 border-purple mb-4">
-        <h3 class='{{ partial "gCSS/type/heading"}} text-4halfxl pb-4'>Sacred Space Little Yogi FB group</h3>
+        <h3 class='{{ partial "gCSS/type/heading.txt"}} text-4halfxl pb-4'>Sacred Space Little Yogi FB group</h3>
     </div>
-    <p class='{{ partial "gCSS/type/paragraph"}} text-xl pb-2'>Geared for young minds and little bodies. Daily content including videos, lives, games, crafts, music, and more.</p>
+    <p class='{{ partial "gCSS/type/paragraph.txt"}} text-xl pb-2'>Geared for young minds and little bodies. Daily content including videos, lives, games, crafts, music, and more.</p>
     <div class="w-1/2 pt-4 px-2">
-        <h6 class='{{ partial "gCSS/type/paragraph"}} text-base font-bold'>Cost:</h6>
-        <p class='{{ partial "gCSS/type/paragraph"}} text-base leading-none'>$30 for the family</p>
+        <h6 class='{{ partial "gCSS/type/paragraph.txt"}} text-base font-bold'>Cost:</h6>
+        <p class='{{ partial "gCSS/type/paragraph.txt"}} text-base leading-none'>$30 for the family</p>
     </div>
     <a href="https://www.facebook.com/sacredspaceyogi/" class='flex flex-wrap items-center border-2 border-purple hover:bg-purple rounded-full font-p22 text-purple hover:text-lite-gray leading-none text-center py-3 px-3 w-5/12 text-sm mt-8'>
         <p class="w-full">Find Us on Facebook</p>

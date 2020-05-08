@@ -32,8 +32,8 @@
 
 <div class="flex flex-wrap flex-col-reverse sm:flex-row items-center w-11/12 md:w-5/6 xl:w-3/4 max-w-6xl text-center sm:text-left mx-auto pt-5 pb-32">
   <div class="w-full sm:w-1/2">
-    <h1 class='{{ partial "gCSS/type/heading"}} text-5xl lg:text-7xl pt-8 sm:pt-0 pb-8'>{{ .Params.hero_section.title | safeHTML }}</h1>
-    <p class='{{ partial "gCSS/type/paragraph"}} text-xl lg:text-2xl pb-8'>{{ .Params.hero_section.paragraph | safeHTML }}</p>
+    <h1 class='{{ partial "gCSS/type/heading.txt"}} text-5xl lg:text-7xl pt-8 sm:pt-0 pb-8'>{{ .Params.hero_section.title | safeHTML }}</h1>
+    <p class='{{ partial "gCSS/type/paragraph.txt"}} text-xl lg:text-2xl pb-8'>{{ .Params.hero_section.paragraph | safeHTML }}</p>
   </div>
   <style>
     .about-image {
@@ -47,7 +47,7 @@
 
 <div class="flex flex-wrap items-center w-full xl:w-11/12 xxl:w-5/6 max-w-6xl bg-cover lg:bg-contain bg-center bg-no-repeat mx-auto py-32 team-background">
   <div class="w-full">
-    <h2 class='{{ partial "gCSS/type/heading"}} text-4xl md:text-5halfxl text-center pb-12'>{{ .Params.meet_family_section.title | safeHTML }}</h2>
+    <h2 class='{{ partial "gCSS/type/heading.txt"}} text-4xl md:text-5halfxl text-center pb-12'>{{ .Params.meet_family_section.title | safeHTML }}</h2>
   </div>
   <div class="flex flex-wrap w-5/6 lg:w-full xl:w-5/6 mx-auto">
     {{ range (where .Site.Pages "Type" "team" ) }}
@@ -59,8 +59,8 @@
     </style>
     <div class="relative w-full lg:w-1/3 bg-contain bg-center bg-no-repeat h-64 mb-8 about-box team-{{ .File.UniqueID }}">
       <div class="absolute top-0 left-0 right-0 mx-auto w-72 h-64 z-20 session-gradiant"></div>
-      <h4 class='{{ partial "gCSS/type/heading"}} absolute bottom-0 left-0 right-0 w-2/3 sm:w-1/2 lg:w-full text-3xl text-white text-center mx-auto leading-none z-50 pb-8 team-name'>{{ .Params.name }}</h4>
-      <p class='{{ partial "gCSS/type/paragraph"}} absolute bottom-0 left-0 right-0 w-full text-lite-purple text-sm text-center mx-auto leading-none z-50 opacity-0 job-title'>{{ delimit .Params.titles ", " }}</p>
+      <h4 class='{{ partial "gCSS/type/heading.txt"}} absolute bottom-0 left-0 right-0 w-2/3 sm:w-1/2 lg:w-full text-3xl text-white text-center mx-auto leading-none z-50 pb-8 team-name'>{{ .Params.name }}</h4>
+      <p class='{{ partial "gCSS/type/paragraph.txt"}} absolute bottom-0 left-0 right-0 w-full text-lite-purple text-sm text-center mx-auto leading-none z-50 opacity-0 job-title'>{{ delimit .Params.titles ", " }}</p>
         
     </div>
     {{ end }}
@@ -69,8 +69,8 @@
 
 <div class="flex flex-wrap items-center w-full text-center mx-auto pt-40 pb-56">
     <div class="w-5/6 md:w-1/2 max-w-2xl mx-auto">
-        <h2 class='{{ partial "gCSS/type/heading"}} text-5xl sm:text-5halfxl pb-6'>{{ .Params.partners_section.title | safeHTML }}</h2>
-        <p class='{{ partial "gCSS/type/paragraph"}} text-xl sm:text-2xl pb-8'>{{ .Params.partners_section.paragraph | safeHTML }}</p>
+        <h2 class='{{ partial "gCSS/type/heading.txt"}} text-5xl sm:text-5halfxl pb-6'>{{ .Params.partners_section.title | safeHTML }}</h2>
+        <p class='{{ partial "gCSS/type/paragraph.txt"}} text-xl sm:text-2xl pb-8'>{{ .Params.partners_section.paragraph | safeHTML }}</p>
     </div>
     <div class="flex flex-wrap items-center w-2/3 mx-auto">
         {{ range (where .Site.Pages "Type" "partners") }}

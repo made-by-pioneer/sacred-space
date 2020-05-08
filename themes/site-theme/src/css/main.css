@@ -75,11 +75,3 @@ a {
   cursor: pointer;
   padding-bottom: 5px;
 }
-
-/* default backgrounds */
-
-#thank-you {
-  background-image: url("{{ .Site.Params.utility_images.thank_you_background }}");
-  background-size: auto;
-  background-repeat: no-repeat;
-}

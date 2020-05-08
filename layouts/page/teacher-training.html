@@ -8,8 +8,8 @@
 
 <div class="flex flex-wrap flex-col-reverse sm:flex-row items-center w-11/12 md:w-5/6 xl:w-3/4 max-w-6xl text-center sm:text-left mx-auto pt-5 pb-32">
   <div class="w-full sm:w-1/2">
-    <h1 class='{{ partial "gCSS/type/heading"}} text-5xl lg:text-7xl pt-8 sm:pt-0 pb-8'>{{ .Params.hero_section.title | safeHTML }}</h1>
-    <p class='{{ partial "gCSS/type/paragraph"}} text-xl lg:text-2xl pb-8'>{{ .Params.hero_section.paragraph | safeHTML }}</p>
+    <h1 class='{{ partial "gCSS/type/heading.txt"}} text-5xl lg:text-7xl pt-8 sm:pt-0 pb-8'>{{ .Params.hero_section.title | safeHTML }}</h1>
+    <p class='{{ partial "gCSS/type/paragraph.txt"}} text-xl lg:text-2xl pb-8'>{{ .Params.hero_section.paragraph | safeHTML }}</p>
   </div>
   <style>
     .teacher-training-image {
@@ -23,9 +23,9 @@
 
 <div class="flex flex-wrap items-center w-11/12 sm:w-5/6 md:w-1/2 max-w-2xl text-center mx-auto pt-56 pb-32 md:py-32">
   <div class="w-full">
-    <h2 class='{{ partial "gCSS/type/heading"}} text-4xl md:text-5xl pb-6'>{{ .Params.after_hero_cta.title | safeHTML }}</h2>
-    <p class='{{ partial "gCSS/type/paragraph"}} text-xl md:text-2xl pb-8'>{{ .Params.after_hero_cta.paragraph | safeHTML }}</p>
-    <a href="{{ .Params.after_hero_cta.button_link }}" class='{{ partial "gCSS/button/purple"}} text-base'>
+    <h2 class='{{ partial "gCSS/type/heading.txt"}} text-4xl md:text-5xl pb-6'>{{ .Params.after_hero_cta.title | safeHTML }}</h2>
+    <p class='{{ partial "gCSS/type/paragraph.txt"}} text-xl md:text-2xl pb-8'>{{ .Params.after_hero_cta.paragraph | safeHTML }}</p>
+    <a href="{{ .Params.after_hero_cta.button_link }}" class='{{ partial "gCSS/button/purple.txt"}} text-base'>
       {{ .Params.after_hero_cta.button_text }}
     </a>
   </div>
@@ -35,12 +35,12 @@
   <div class="flex flex-wrap w-full mx-auto">
       <div class="flex flex-wrap w-full pb-12">
         <div class="w-full md:w-1/3 pb-12 md:pb-0">
-        <h4 class='{{ partial "gCSS/type/heading"}} text-4xl pb-6'>What to Expect</h4>
-        <p class='{{ partial "gCSS/type/paragraph"}} text-xl pb-6 px-8 sm:text-left'>{{ .Params.what_to_expect | safeHTML }}</p>
+        <h4 class='{{ partial "gCSS/type/heading.txt"}} text-4xl pb-6'>What to Expect</h4>
+        <p class='{{ partial "gCSS/type/paragraph.txt"}} text-xl pb-6 px-8 sm:text-left'>{{ .Params.what_to_expect | safeHTML }}</p>
         </div>
         <div class="w-full md:w-1/3 pb-12 md:pb-0">
-        <h4 class='{{ partial "gCSS/type/heading"}} text-4halfxl pb-6'>Competencies</h4>
-        <ul class='{{ partial "gCSS/type/paragraph"}} text-xl sm:text-left pb-6 px-8'>
+        <h4 class='{{ partial "gCSS/type/heading.txt"}} text-4halfxl pb-6'>Competencies</h4>
+        <ul class='{{ partial "gCSS/type/paragraph.txt"}} text-xl sm:text-left pb-6 px-8'>
             {{ range .Params.competencies }}
               <li class=''>{{ . }}</li>
             {{ end }}
@@ -48,8 +48,8 @@
         </ul>
         </div>
         <div class="w-full md:w-1/3 pb-12 md:pb-0">
-        <h4 class='{{ partial "gCSS/type/heading"}} text-4halfxl pb-6'>What You Get</h4>
-        <ul class='list-disc {{ partial "gCSS/type/paragraph"}} text-xl sm:text-left pb-6 px-8'>
+        <h4 class='{{ partial "gCSS/type/heading.txt"}} text-4halfxl pb-6'>What You Get</h4>
+        <ul class='list-disc {{ partial "gCSS/type/paragraph.txt"}} text-xl sm:text-left pb-6 px-8'>
             {{ range .Params.what_you_get }}
             <li class=''>{{ . }}</li>
             {{ end }}
@@ -58,18 +58,18 @@
       </div>
       <div class="flex flex-wrap w-full pb-12">
         <div class="w-full md:w-1/3 pb-12 md:pb-0">
-        <h4 class='{{ partial "gCSS/type/heading"}} text-4xl pb-6'>Training Times</h4>
-        <p class='{{ partial "gCSS/type/paragraph"}} text-xl pb-6 px-8 sm:text-left'>{{ .Params.training_times | safeHTML }}</p>
+        <h4 class='{{ partial "gCSS/type/heading.txt"}} text-4xl pb-6'>Training Times</h4>
+        <p class='{{ partial "gCSS/type/paragraph.txt"}} text-xl pb-6 px-8 sm:text-left'>{{ .Params.training_times | safeHTML }}</p>
         </div>
         <div class="w-full md:w-1/3 pb-12 md:pb-0">
-        <h4 class='{{ partial "gCSS/type/heading"}} text-4halfxl pb-6'>Training Weekends</h4>
+        <h4 class='{{ partial "gCSS/type/heading.txt"}} text-4halfxl pb-6'>Training Weekends</h4>
         <div class="flex flex-wrap">
-        <ul class='{{ partial "gCSS/type/paragraph"}} w-1/2 text-xl sm:text-left pb-6 px-8'>
+        <ul class='{{ partial "gCSS/type/paragraph.txt"}} w-1/2 text-xl sm:text-left pb-6 px-8'>
             {{ range first 5 .Params.training_weekends }}
             <li class=''>{{ . }}</li>
             {{ end }}
         </ul>
-        <ul class='{{ partial "gCSS/type/paragraph"}} w-1/2 text-xl sm:text-left pb-6 px-8'>
+        <ul class='{{ partial "gCSS/type/paragraph.txt"}} w-1/2 text-xl sm:text-left pb-6 px-8'>
             {{ range after 5 .Params.training_weekends }}
             <li class=''>{{ . }}</li>
             {{ end }}
@@ -77,46 +77,46 @@
         </div>
         </div>
         <div class="w-full md:w-1/3 pb-12 md:pb-0">
-        <h4 class='{{ partial "gCSS/type/heading"}} text-4halfxl pb-6'>Attendance</h4>
-        <p class='{{ partial "gCSS/type/paragraph"}} text-xl pb-6 px-8 sm:text-left'>{{ .Params.attendance | safeHTML }}</p>
+        <h4 class='{{ partial "gCSS/type/heading.txt"}} text-4halfxl pb-6'>Attendance</h4>
+        <p class='{{ partial "gCSS/type/paragraph.txt"}} text-xl pb-6 px-8 sm:text-left'>{{ .Params.attendance | safeHTML }}</p>
         </div>
       </div>
       <div class="w-full md:w-1/3 pb-12 md:pb-0 mx-auto">
-        <h4 class='{{ partial "gCSS/type/heading"}} text-4halfxl pb-6'>Certification</h4>
-        <p class='{{ partial "gCSS/type/paragraph"}} text-xl pb-6 px-8 sm:text-left'>{{ .Params.certification | safeHTML }}</p>
+        <h4 class='{{ partial "gCSS/type/heading.txt"}} text-4halfxl pb-6'>Certification</h4>
+        <p class='{{ partial "gCSS/type/paragraph.txt"}} text-xl pb-6 px-8 sm:text-left'>{{ .Params.certification | safeHTML }}</p>
         </div>
   </div>
 </div>
 
 <div class="flex flex-wrap items-center w-5/6 md:w-full lg:w-5/6 max-w-6xl text-center mx-auto py-32">
   <div class="flex flex-wrap w-full mx-auto">
-    <h2 class='{{ partial "gCSS/type/heading"}} w-full text-5xl md:text-5halfxl pb-20'>{{ .Params.pricing_section.title | safeHTML }}</h2>
+    <h2 class='{{ partial "gCSS/type/heading.txt"}} w-full text-5xl md:text-5halfxl pb-20'>{{ .Params.pricing_section.title | safeHTML }}</h2>
     <div class="flex flex-wrap w-full pb-12">
         <div class="w-full md:w-1/2 pb-12 md:pb-0">
-            <h4 class='{{ partial "gCSS/type/heading"}} text-4halfxl pb-6'>{{ .Params.pricing_section.early_bird_section.title | safeHTML }}</h4>
-            <h6 class='{{ partial "gCSS/type/paragraph"}} text-3xl font-bold pb-6'>{{ .Params.pricing_section.early_bird_section.pricing | safeHTML }}</h6>
-            <p class='{{ partial "gCSS/type/paragraph"}} text-xl pb-6 px-8'>{{ .Params.pricing_section.early_bird_section.paragraph | safeHTML }}</p>
-            <a href="/teacher-application/" class='{{ partial "gCSS/button/purple"}} text-base'>
+            <h4 class='{{ partial "gCSS/type/heading.txt"}} text-4halfxl pb-6'>{{ .Params.pricing_section.early_bird_section.title | safeHTML }}</h4>
+            <h6 class='{{ partial "gCSS/type/paragraph.txt"}} text-3xl font-bold pb-6'>{{ .Params.pricing_section.early_bird_section.pricing | safeHTML }}</h6>
+            <p class='{{ partial "gCSS/type/paragraph.txt"}} text-xl pb-6 px-8'>{{ .Params.pricing_section.early_bird_section.paragraph | safeHTML }}</p>
+            <a href="/teacher-application/" class='{{ partial "gCSS/button/purple.txt"}} text-base'>
                 Submit Application
             </a>
         </div>
         <div class="w-full md:w-1/2 pb-12 md:pb-0">
-            <h4 class='{{ partial "gCSS/type/heading"}} text-4halfxl pb-6'>{{ .Params.pricing_section.standard_pricing_section.title | safeHTML }}</h4>
-            <h6 class='{{ partial "gCSS/type/paragraph"}} text-3xl font-bold pb-6'>{{ .Params.pricing_section.standard_pricing_section.pricing | safeHTML }}</h6>
-            <p class='{{ partial "gCSS/type/paragraph"}} text-xl pb-6 px-8'>{{ .Params.pricing_section.standard_pricing_section.paragraph | safeHTML }}</p>
-            <a href="/teacher-application/" class='{{ partial "gCSS/button/purple"}} text-base'>
+            <h4 class='{{ partial "gCSS/type/heading.txt"}} text-4halfxl pb-6'>{{ .Params.pricing_section.standard_pricing_section.title | safeHTML }}</h4>
+            <h6 class='{{ partial "gCSS/type/paragraph.txt"}} text-3xl font-bold pb-6'>{{ .Params.pricing_section.standard_pricing_section.pricing | safeHTML }}</h6>
+            <p class='{{ partial "gCSS/type/paragraph.txt"}} text-xl pb-6 px-8'>{{ .Params.pricing_section.standard_pricing_section.paragraph | safeHTML }}</p>
+            <a href="/teacher-application/" class='{{ partial "gCSS/button/purple.txt"}} text-base'>
                 Submit Application
             </a>
         </div>
     </div>
     <div class="flex flex-wrap w-full pb-12">
         <div class="w-full md:w-1/2 pb-12 md:pb-0">
-            <h4 class='{{ partial "gCSS/type/heading"}} text-4halfxl pb-6'>{{ .Params.pricing_section.payment_plan_section.title | safeHTML }}</h4>
-            <p class='{{ partial "gCSS/type/paragraph"}} text-xl pb-6 px-8'>{{ .Params.pricing_section.payment_plan_section.paragraph | safeHTML }}</p>
+            <h4 class='{{ partial "gCSS/type/heading.txt"}} text-4halfxl pb-6'>{{ .Params.pricing_section.payment_plan_section.title | safeHTML }}</h4>
+            <p class='{{ partial "gCSS/type/paragraph.txt"}} text-xl pb-6 px-8'>{{ .Params.pricing_section.payment_plan_section.paragraph | safeHTML }}</p>
         </div>
         <div class="w-full md:w-1/2 pb-12 md:pb-0">
-            <h4 class='{{ partial "gCSS/type/heading"}} text-4halfxl pb-6'>{{ .Params.pricing_section.cancellation_policy_section.title | safeHTML }}</h4>
-            <p class='{{ partial "gCSS/type/paragraph"}} text-xl pb-6 px-8'>{{ .Params.pricing_section.cancellation_policy_section.paragraph | safeHTML }}</p>
+            <h4 class='{{ partial "gCSS/type/heading.txt"}} text-4halfxl pb-6'>{{ .Params.pricing_section.cancellation_policy_section.title | safeHTML }}</h4>
+            <p class='{{ partial "gCSS/type/paragraph.txt"}} text-xl pb-6 px-8'>{{ .Params.pricing_section.cancellation_policy_section.paragraph | safeHTML }}</p>
         </div>
     </div>
   </div>
@@ -127,9 +127,9 @@
     <div class="py-32 sm:py-40 md:py-80"></div>
   </div>
   <div class="w-full sm:w-1/2 md:pl-12">
-    <h2 class='{{ partial "gCSS/type/heading"}} text-5xl md:text-5halfxl pt-8 sm:pt-0 pb-8'>{{ .Params.sponsorship_section.title | safeHTML }}</h2>
-    <p class='{{ partial "gCSS/type/paragraph"}} text-xl md:text-2xl pb-8'>{{ .Params.sponsorship_section.paragraph | safeHTML }}</p>
-    <a href="{{ .Params.sponsorship_section.button_link }}" class='{{ partial "gCSS/button/purple"}} text-base'>
+    <h2 class='{{ partial "gCSS/type/heading.txt"}} text-5xl md:text-5halfxl pt-8 sm:pt-0 pb-8'>{{ .Params.sponsorship_section.title | safeHTML }}</h2>
+    <p class='{{ partial "gCSS/type/paragraph.txt"}} text-xl md:text-2xl pb-8'>{{ .Params.sponsorship_section.paragraph | safeHTML }}</p>
+    <a href="{{ .Params.sponsorship_section.button_link }}" class='{{ partial "gCSS/button/purple.txt"}} text-base'>
       {{ .Params.sponsorship_section.button_text }}
     </a>
   </div>

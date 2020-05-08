@@ -9,14 +9,14 @@
 
 <div class="flex flex-wrap items-center w-5/6 md:w-1/2 max-w-2xl text-center mx-auto py-20">
   <div class="w-full">
-    <h2 class='{{ partial "gCSS/type/heading"}} text-5xl sm:text-5halfxl pb-6'>{{ .Params.hero_section.title | safeHTML }}</h2>
-    <p class='{{ partial "gCSS/type/paragraph"}} text-xl sm:text-2xl pb-8'>{{ .Params.hero_section.paragraph | safeHTML }}</p>
+    <h2 class='{{ partial "gCSS/type/heading.txt"}} text-5xl sm:text-5halfxl pb-6'>{{ .Params.hero_section.title | safeHTML }}</h2>
+    <p class='{{ partial "gCSS/type/paragraph.txt"}} text-xl sm:text-2xl pb-8'>{{ .Params.hero_section.paragraph | safeHTML }}</p>
   </div>
 </div>
 
 <div class="flex flex-wrap items-center w-5/6 md:w-2/3 max-w-3xl text-center mx-auto pb-40">
   <div class="w-full">
-    <ul class='{{ partial "gCSS/type/paragraph"}} list-decimal text-2xl sm:text-left pb-6 px-8 etiquette-list'>
+    <ul class='{{ partial "gCSS/type/paragraph.txt"}} list-decimal text-2xl sm:text-left pb-6 px-8 etiquette-list'>
         {{ range .Params.etiquette_rules }}
           <li class='pb-10'>{{ . }}</li>
         {{ end }}
