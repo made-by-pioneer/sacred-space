@@ -34,7 +34,7 @@ fields:
     required: false
     wysiwyg: true
     schema:
-      format: html-blocks
+      format: markdown
   label: YouTube video link
   description: 'Get the embed link for the youtube video you''d like to share and
     paste it into this box. NOTE: be sure to get the EMBED link for the video, NOT
