@@ -7,7 +7,7 @@ title = "Blog"
 type = "page"
 url = "/blog/"
 [hero_section]
-paragraph = "If this is your first time doing yoga or maybe it’s your first time visiting with us, there are a few things we’d like for you to know before you arrive."
+paragraph = "Learn more about what we do and how we do it here on our blog."
 title = "Blog"
 
 +++

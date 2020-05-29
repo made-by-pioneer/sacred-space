@@ -73,6 +73,12 @@ enableRobotsTXT = true
         url = "/faqs/"
         weight = 3
         parent = "About"
+    [[menu.desktop]]
+        identifier = "Blog"
+        name = "Blog"
+        url = "/blog/"
+        weight = 4
+        parent = "About"
 [[menu.desktop]]
     identifier = "Contact"
     name = "Contact"
@@ -110,10 +116,15 @@ enableRobotsTXT = true
     url = "/about/"
     weight = 6
 [[menu.mobile]]
+    identifier = "Blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 7
+[[menu.mobile]]
     identifier = "Contact"
     name = "Contact"
     url = "/contact/"
-    weight = 7
+    weight = 8
 [[menu.footer]]
     identifier = "Classes"
     name = "Classes"
@@ -201,6 +212,12 @@ enableRobotsTXT = true
         url = "/faqs/"
         parent = "About"
         weight = 3
+    [[menu.footer]]
+        identifier = "Blog"
+        name = "Blog"
+        url = "/blog/"
+        parent = "About"
+        weight = 4
 [taxonomies]
 category = "blog/category"
 tag = "blog/tag"
