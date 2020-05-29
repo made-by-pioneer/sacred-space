@@ -5,15 +5,35 @@ fields:
 - type: datetime
   name: date
   label: date
+  config:
+    required: true
+  default: now
 - type: text
   name: title
-  label: title
+  label: Post Title
+  config:
+    required: true
 - type: textarea
   name: excerpt
-  label: excerpt
+  label: Post Excerpt
+  description: A few sentences about what the post.
+  config:
+    required: true
 - type: list
   name: blog/tag
-  label: blog/tag
+  label: Tags
 - type: text
   name: featured_img
-  label: featured_img
+  label: Featured Image
+- name: video_link
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: YouTube video link
+  description: 'Get the embed link for the youtube video you''d like to share and
+    paste it into this box. NOTE: be sure to get the EMBED link for the video, NOT
+    the share link.'
