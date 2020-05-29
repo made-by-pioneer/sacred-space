@@ -1,0 +1,19 @@
+---
+label: Blog Post (Single)
+hide_body: false
+fields:
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: excerpt
+  label: excerpt
+- type: list
+  name: blog/tag
+  label: blog/tag
+- type: text
+  name: featured_img
+  label: featured_img
