@@ -22,8 +22,10 @@ fields:
 - type: list
   name: blog/tag
   label: Tags
-- type: text
-  name: featured_img
+- name: featured_img
+  type: file
+  config:
+    maxSize: 2
   label: Featured Image
 - name: video_link
   type: textarea
