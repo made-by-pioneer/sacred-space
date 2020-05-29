@@ -1,12 +1,5 @@
 {{ define "main" }}
 
-<style>
-  .lzy-bk {
-   background-image: none !important;
-   background-color: #F1F1FA;
-}
-</style>
-
 <div class="flex flex-wrap flex-col-reverse sm:flex-row items-center w-11/12 md:w-5/6 xl:w-3/4 max-w-6xl text-center sm:text-left mx-auto pt-5">
   <div class="w-full sm:w-1/2">
     <h1 class='{{ partial "gCSS/type/heading.txt"}} text-5xl lg:text-7xl pt-8 sm:pt-0 pb-8'>{{ .Params.hero.title | safeHTML }}</h1>

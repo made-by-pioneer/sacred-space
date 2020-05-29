@@ -201,6 +201,9 @@ enableRobotsTXT = true
         url = "/faqs/"
         parent = "About"
         weight = 3
+[taxonomies]
+category = "blog/category"
+tag = "blog/tag"
 [params.tracking]
     cloudinary_url = "https://res.cloudinary.com/pioneer-design/image/upload"
 [params.publishing_settings]
