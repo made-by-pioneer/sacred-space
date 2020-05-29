@@ -73,17 +73,16 @@ enableRobotsTXT = true
         url = "/faqs/"
         weight = 3
         parent = "About"
-    [[menu.desktop]]
+[[menu.desktop]]
         identifier = "Blog"
         name = "Blog"
         url = "/blog/"
-        weight = 4
-        parent = "About"
+        weight = 7
 [[menu.desktop]]
     identifier = "Contact"
     name = "Contact"
     url = "/contact/"
-    weight = 7
+    weight = 8
 [[menu.mobile]]
     identifier = "Classes"
     name = "Classes"
