@@ -46,7 +46,13 @@
 
 {{ if .Params.video_link }}
 <div class="flex flex-wrap w-5/6 mx-auto pb-12 framed-video">
-    {{ .Params.video_link | safeHTML }}
+    {{ $doublequotes := `"`}}
+    {{ $singlequotes := `'`}}
+    {{ $htmlopencode := `&lt;` }}
+    {{ $openhtml := `<` }}
+    {{ $htmlclosecode := `&gt;` }}
+    {{ $closehtml := `>` }}
+    {{ .Params.video_link | replaceRE $htmlopencode $openhtml | replaceRE $doublequotes $singlequotes | replaceRE $htmlclosecode $closehtml | safeHTML }}
 </div>
 {{ else }}{{ end }}
 
