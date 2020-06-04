@@ -11,5 +11,7 @@ url = "/pricing/"
 img = ""
 paragraph = ""
 title = "Will you join us?"
+[note]
+paragraph = "Note: All memberships will auto renew until cancellation is requested. Cancel at any time with a 30 day notice."
 
 +++

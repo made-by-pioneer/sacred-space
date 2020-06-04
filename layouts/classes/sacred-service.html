@@ -102,26 +102,6 @@
           <h3 class='{{ partial "gCSS/type/heading.txt"}} text-4halfxl pb-4'>{{ .name }}</h3>
       </div>
       <p class='{{ partial "gCSS/type/paragraph.txt"}} text-xl pb-2'>{{ .description | safeHTML }}</p>
-      <div class="w-1/2 pt-4 px-2">
-          <h6 class='{{ partial "gCSS/type/paragraph.txt"}} text-base font-bold'>Benefits</h6>
-          <ul class='{{ partial "gCSS/type/paragraph.txt"}} list-disc list-inside text-base sm:text-left leading-tight'>
-              {{ range .benefits }}
-                  <li class=''>{{ . }}</li>
-              {{ end }}
-          </ul>
-      </div>
-      <div class="w-1/2 pt-4 px-2">
-          <h6 class='{{ partial "gCSS/type/paragraph.txt"}} text-base font-bold'>Class Duration</h6>
-          <p class='{{ partial "gCSS/type/paragraph.txt"}} text-base leading-tight'>{{ .duration }}</p>
-      </div>
-      <div class="w-1/2 pt-4 px-2">
-          <h6 class='{{ partial "gCSS/type/paragraph.txt"}} text-base font-bold'>Value</h6>
-          <p class='{{ partial "gCSS/type/paragraph.txt"}} text-base leading-tight'>{{ .value | safeHTML }}</p>
-      </div>
-      <div class="w-1/2 pt-4 px-2">
-          <h6 class='{{ partial "gCSS/type/paragraph.txt"}} text-base font-bold'>Classification</h6>
-          <p class='{{ partial "gCSS/type/paragraph.txt"}} text-base leading-none'>{{ if .classifications }}{{ delimit .classifications ", " }}{{ end }}</p>
-      </div>
       <a href="{{ .booking_link }}" target="_blank" class='flex flex-wrap items-center bg-purple hover:bg-purple-hover rounded-full font-p22 text-lite-gray leading-none text-center py-3 px-3 w-5/12 text-sm mt-8 mr-8'>
           <p class="w-full">Book your class now</p>
       </a>
