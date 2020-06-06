@@ -16,7 +16,7 @@ title = "Our Current Process:"
 [hero_section]
 paragraph = "We care deeply about the health and well being of our community and are taking measures to create an environment that demonstrates that. We are part of this community and ask that you join us in doing the same. This video communicates some ways you can link arms with us."
 title = "Reopening and Summer Updates"
-video_link = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/aIszk5I8XZw\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+video_link = "<iframe width=\"full\" height=\"80\" src=\"https://www.youtube.com/embed/aIszk5I8XZw\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 [hygiene_section]
 hygiene_list = ["Washing your hands regularly", "Coughing or sneezing into a tissue and immediately putting the tissue in the trash"]
 title = "Practice Good Hygiene:"
