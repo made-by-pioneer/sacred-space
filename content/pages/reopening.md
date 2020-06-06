@@ -34,6 +34,6 @@ what_were_doing_list = ["Studio is cleaned and sanitized several times per day i
 [what_were_doing_section]
 paragraph = "As we open our doors for in person classes we want to reassure you of our efforts. Watch this video to understand the guidelines for us during this time."
 title = "What We’re Doing"
-video_link = "<iframe class=\"w-full h-80\" src=\"https://www.youtube.com/embed/Bey4XXJAqS8\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+video_link = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/2OoIdbCD3Mw\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 
 +++
