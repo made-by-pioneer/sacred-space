@@ -4,7 +4,7 @@ layout = "reopening"
 meta_description = "META DESCRIPTION GOES HERE"
 page_status = "reopening"
 publish_image = "INPUT URL TO PHOTO THAT DESCRIBES THE PAGE"
-title = "Reopening and Summer Updates"
+title = "Studio Updates"
 type = "page"
 url = "/reopening-summer-updates/"
 [classes_section]
