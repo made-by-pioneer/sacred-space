@@ -114,5 +114,3 @@ fields:
     label: Image
     default: "/v1586882220/Sacred%20Space/sacred_service_socials_t92tio.jpg"
   label: Sacred Service Socials Section
-pages:
-- content/pages/sacred-service.md
