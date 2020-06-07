@@ -1,6 +1,6 @@
 +++
 name = "Dig Deep"
-image = "/v1586451076/Sacred%20Space/Try_new_Yoga_Techniques_nq44yz.webp"
+image = "/v1586451076/Sacred%20Space/Try_new_Yoga_Techniques_nq44yz.png"
 weight = 6
 [[classes.class]]
 booking_link = "https://app.punchpass.com/org/5479/?course=42204"

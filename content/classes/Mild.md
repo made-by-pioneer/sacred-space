@@ -1,6 +1,6 @@
 +++
 description = "Maybe it’s your first time doing yoga or maybe you’re just looking to take it easy. Regardless, these classes will help you get started."
-image = "/v1586451077/Sacred%20Space/Mild_Yoga_Session_u25b67.webp"
+image = "/v1586451077/Sacred%20Space/Mild_Yoga_Session_u25b67.png"
 name = "Mild"
 weight = 1
 [[classes.class]]

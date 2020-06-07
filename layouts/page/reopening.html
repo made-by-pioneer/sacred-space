@@ -4,11 +4,11 @@
 </style>
 
 <div class="flex flex-wrap flex-col-reverse sm:flex-row items-start w-11/12 md:w-5/6 xl:w-3/4 max-w-8xl text-center sm:text-left mx-auto pt-24 pb-12">
-  <div class="w-full sm:w-1/2 pr-24">
+  <div class="w-full sm:w-1/2 md:pr-24">
     <h1 class='{{ partial "gCSS/type/heading.txt"}} text-4xl lg:text-5xl pt-8 sm:pt-0 pb-8'>{{ .Params.hero_section.title | safeHTML }}</h1>
     <p class='{{ partial "gCSS/type/paragraph.txt"}} text-xl lg:text-xl pb-8'>{{ .Params.hero_section.paragraph | safeHTML }}</p>
   </div>
-  <div id="" class="w-full sm:w-1/2 bg-contain bg-center bg-no-repeat ">
+  <div id="" class="w-full sm:w-1/2 bg-contain bg-center bg-no-repeat">
     {{ $doublequotes := `"`}}
     {{ $singlequotes := `'`}}
     {{ $htmlopencode := `&lt;` }}
@@ -48,7 +48,7 @@
         {{ $closehtml := `>` }}
         {{ .Params.what_were_doing_section.video_link | replaceRE $htmlopencode $openhtml | replaceRE $doublequotes $singlequotes | replaceRE $htmlclosecode $closehtml | safeHTML }}
     </div>
-  <div class="w-full sm:w-1/2 pl-32">
+  <div class="w-full sm:w-1/2 sm:pl-5 md:pl-20">
     <h2 class='{{ partial "gCSS/type/heading.txt"}} text-4xl lg:text-5xl pt-8 sm:pt-0 pb-8'>{{ .Params.what_were_doing_section.title | safeHTML }}</h2>
     <p class='{{ partial "gCSS/type/paragraph.txt"}} text-xl pb-8'>{{ .Params.what_were_doing_section.paragraph | safeHTML }}</p>
   </div>
@@ -73,8 +73,8 @@
     </div>
 </div>
 
-<div class="flex flex-wrap flex-col-reverse sm:flex-row items-center w-11/12 md:w-5/6 xl:w-3/4 max-w-8xl text-center sm:text-left mx-auto pt-24 pb-24">
-  <div class="w-full sm:w-1/2 pr-24">
+<div class="flex flex-wrap flex-col-reverse sm:flex-row items-start w-11/12 md:w-5/6 xl:w-3/4 max-w-8xl text-center sm:text-left mx-auto pt-24 pb-24">
+  <div class="w-full sm:w-1/2 sm:pr-3 md:pr-24">
     <h2 class='{{ partial "gCSS/type/heading.txt"}} text-4xl lg:text-5xl pt-8 sm:pt-0 pb-8'>{{ .Params.updated_pricing_section.title | safeHTML }}</h2>
     <p class='{{ partial "gCSS/type/paragraph.txt"}} text-xl pb-8'>{{ .Params.updated_pricing_section.paragraph | safeHTML }}</p>
     <a href="{{ .Params.updated_pricing_section.button_link | safeHTML }}" class='{{ partial "gCSS/button/purple.txt"}} text-base'>

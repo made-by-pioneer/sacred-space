@@ -1,5 +1,5 @@
 +++
-image = "/v1586451077/Sacred%20Space/Meditative_Yoga_qmoxni.webp"
+image = "/v1586451077/Sacred%20Space/Meditative_Yoga_qmoxni.png"
 name = "Slow and Meditative"
 weight = 2
 [[classes.class]]

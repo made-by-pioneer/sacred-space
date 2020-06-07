@@ -1,6 +1,6 @@
 +++
 name = "Sacred Service"
-image = "/v1586451076/Sacred%20Space/Custom_Yoga_Session_znzeok.webp"
+image = "/v1586451076/Sacred%20Space/Custom_Yoga_Session_znzeok.png"
 layout = "sacred-service"
 url = "/sacred-service"
 meta_description = "Sacred Service is a program that addresses trauma from a therapeutic standpoint through yoga."
