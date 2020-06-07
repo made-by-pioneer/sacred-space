@@ -11,14 +11,6 @@ duration = "60 mins"
 name = "Meditation and Flow"
 value = "Decompress and destress both body and mind in a gentle way"
 [[classes.class]]
-benefits = ["Promotes body awareness", "increases flexibility", "promotes relaxation"]
-booking_link = "https://app.punchpass.com/org/5479/?course=35001"
-classifications = ["mild", "slow and meditative"]
-description = "This class is designed with longer holds and targeted movements to encourage healing in those working with common limitations due to injury, illness, age, etc.."
-duration = "60 mins"
-name = "Yoga for Healing"
-value = "Helps facilitate healing both physically and mentally"
-[[classes.class]]
 benefits = ["calms the mind", "promotes relaxation", "Reduces stress"]
 booking_link = "https://app.punchpass.com/org/5479/?course=42192"
 classifications = ["slow and meditative", "mild"]
