@@ -15,8 +15,8 @@ current_process_list = ["Spaces in class are on a first come first served basis.
 title = "Our Current Process:"
 [hero_section]
 paragraph = "We care deeply about the health and well being of our community and are taking measures to create an environment that demonstrates that. We are part of this community and ask that you join us in doing the same. This video communicates some ways you can link arms with us."
-title = "Reopening and Summer Updates"
-video_link = "<iframe width=\"full\" height=\"80\" src=\"https://www.youtube.com/embed/aIszk5I8XZw\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+title = "Reopening Announcement"
+video_link = "<iframe width='560' height='315' src='https://www.youtube.com/embed/aIszk5I8XZw' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
 [hygiene_section]
 hygiene_list = ["Washing your hands regularly", "Coughing or sneezing into a tissue and immediately putting the tissue in the trash"]
 title = "Practice Good Hygiene:"
@@ -28,12 +28,13 @@ button_link = "/pricing/"
 button_text = "See More Pricing"
 paragraph = "Did you know that your membership, pass purchases, and donations at Sacred Space all go to support the Sacred Service Program?<br><br>Every time to make a purchase at Sacred Space you help us make yoga a bit more accessible and included right here in your own community. Thank You!"
 title = "Updated Pricing Options"
+video_link = "<iframe width='560' height='315' src='https://www.youtube.com/embed/ewLYVbkY5B8' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
 [what_were_doing_list_section]
 title = "Here’s What We’re Doing:"
 what_were_doing_list = ["Studio is cleaned and sanitized several times per day including high traffic areas", "All props are sanitized before and after class. No props from home. Please use ours at this time so we may ensure proper sanitation", "Class sizes will be limited", "No hands on adjustments", "Staff will self monitor and self quarantine should it become necessary", "Only the practice studio and restroom are open. All other areas are off limits at this time.", "Signs will be posted throughout the studio"]
 [what_were_doing_section]
 paragraph = "As we open our doors for in person classes we want to reassure you of our efforts. Watch this video to understand the guidelines for us during this time."
 title = "What We’re Doing"
-video_link = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ewLYVbkY5B8\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+video_link = "<iframe width='560' height='315' src='https://www.youtube.com/embed/2OoIdbCD3Mw' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
 
 +++
