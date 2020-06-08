@@ -1,266 +1,261 @@
 baseURL = "https://sacredspaceyogi.com/"
+enableRobotsTXT = true
 languageCode = "en-us"
 theme = "site-theme"
 title = "Sacred Space Yoga"
-enableRobotsTXT = true
-
+[markup.goldmark.renderer]
+unsafe = true
+[mediaTypes."text/noExt"]
+suffixes = ""
 [[menu.desktop]]
-    identifier = "Shop"
-    name = "Shop"
-    url = "/shop/"
-    weight = 1
+identifier = "FAQs"
+name = "FAQs"
+parent = "About"
+url = "/faqs/"
+weight = 3
 [[menu.desktop]]
-    identifier = "Classes"
-    name = "Classes"
-    url = "/classes/"
-    post = "hover"
-    weight = 2
-    [[menu.desktop]]
-        identifier = "Schedule"
-        name = "Schedule"
-        url = "/schedule/"
-        weight = 1
-        parent = "Classes"
-    [[menu.desktop]]
-        identifier = "Pricing"
-        name = "Pricing"
-        url = "/pricing/"
-        weight = 2
-        parent = "Classes"
-    [[menu.desktop]]
-        identifier = "Dig Deep"
-        name = "Dig Deep"
-        url = "/dig-deep/"
-        weight = 3
-        parent = "Classes"
+identifier = "Dig Deep"
+name = "Dig Deep"
+parent = "Classes"
+url = "/dig-deep/"
+weight = 3
 [[menu.desktop]]
-    identifier = "Training"
-    name = "Training"
-    url = "/teacher-training/"
-    weight = 3
+identifier = "Pricing"
+name = "Pricing"
+parent = "Classes"
+url = "/pricing/"
+weight = 2
 [[menu.desktop]]
-    identifier = "Sacred Service"
-    name = "Sacred Service"
-    url = "/sacred-service/"
-    weight = 4
+identifier = "Etiquette"
+name = "Etiquette"
+parent = "About"
+url = "/etiquette/"
+weight = 2
 [[menu.desktop]]
-    identifier = "doTerra"
-    name = "doTerra"
-    url = "https://www.doterra.com/US/en/site/sacredspaceyogillc"
-    pre = "blank"
-    weight = 5
+identifier = "Schedule"
+name = "Schedule"
+parent = "Classes"
+url = "/schedule/"
+weight = 1
 [[menu.desktop]]
-    identifier = "About"
-    name = "About"
-    url = "/about/"
-    post = "hover"
-    weight = 6
-    [[menu.desktop]]
-        identifier = "Meet the Family"
-        name = "Meet the Family"
-        url = "/about/"
-        weight = 1
-        parent = "About"
-    [[menu.desktop]]
-        identifier = "Etiquette"
-        name = "Etiquette"
-        url = "/etiquette/"
-        weight = 2
-        parent = "About"
-    [[menu.desktop]]
-        identifier = "FAQs"
-        name = "FAQs"
-        url = "/faqs/"
-        weight = 3
-        parent = "About"
+identifier = "Meet the Family"
+name = "Meet the Family"
+parent = "About"
+url = "/about/"
+weight = 1
 [[menu.desktop]]
-        identifier = "Blog"
-        name = "Blog"
-        url = "/blog/"
-        weight = 7
+identifier = "Contact"
+name = "Contact"
+url = "/contact/"
+weight = 8
 [[menu.desktop]]
-    identifier = "Contact"
-    name = "Contact"
-    url = "/contact/"
-    weight = 8
-[[menu.mobile]]
-    identifier = "Classes"
-    name = "Classes"
-    url = "/classes/"
-    weight = 1
-[[menu.mobile]]
-    identifier = "Training"
-    name = "Training"
-    url = "/teacher-training/"
-    weight = 2
-[[menu.mobile]]
-    identifier = "Sacred Service"
-    name = "Sacred Service"
-    url = "/sacred-service/"
-    weight = 3
-[[menu.mobile]]
-    identifier = "doTerra"
-    name = "doTerra"
-    url = "https://www.doterra.com/US/en/site/sacredspaceyogillc"
-    pre = "blank"
-    weight = 4
-[[menu.mobile]]
-    identifier = "Shop"
-    name = "Shop"
-    url = "/shop/"
-    weight = 5
-[[menu.mobile]]
-    identifier = "About"
-    name = "About"
-    url = "/about/"
-    weight = 6
-[[menu.mobile]]
-    identifier = "Blog"
-    name = "Blog"
-    url = "/blog/"
-    weight = 7
-[[menu.mobile]]
-    identifier = "Contact"
-    name = "Contact"
-    url = "/contact/"
-    weight = 8
+identifier = "Blog"
+name = "Blog"
+url = "/blog/"
+weight = 7
+[[menu.desktop]]
+identifier = "Sacred Service"
+name = "Sacred Service"
+url = "/sacred-service/"
+weight = 4
+[[menu.desktop]]
+identifier = "Training"
+name = "Training"
+url = "/teacher-training/"
+weight = 3
+[[menu.desktop]]
+identifier = "Classes"
+name = "Classes"
+post = "hover"
+url = "/classes/"
+weight = 2
+[[menu.desktop]]
+identifier = "Shop"
+name = "Shop"
+url = "/shop/"
+weight = 1
+[[menu.desktop]]
+identifier = "About"
+name = "About"
+post = "hover"
+url = "/about/"
+weight = 6
+[[menu.desktop]]
+identifier = "doTerra"
+name = "doTerra"
+pre = "blank"
+url = "https://www.doterra.com/US/en/site/sacredspaceyogillc"
+weight = 5
 [[menu.footer]]
-    identifier = "Classes"
-    name = "Classes"
-    weight = 2
-    [[menu.footer]]
-        identifier = "Schedule"
-        name = "Schedule"
-        url = "/schedule/"
-        parent = "Classes"
-        weight = 1
-    [[menu.footer]]
-        identifier = "Pricing"
-        name = "Pricing"
-        url = "/pricing/"
-        parent = "Classes"
-        weight = 2
-    [[menu.footer]]
-        identifier = "Private Classes"
-        name = "Private Classes"
-        url = "/pricing/"
-        parent = "Classes"
-        weight = 3
-    [[menu.footer]]
-        identifier = "Dig Deep"
-        name = "Dig Deep"
-        url = "/dig-deep/"
-        parent = "Classes"
-        weight = 4
+name = "COVID"
+parent = "Classes"
+url = "/reopening-summer-updates/"
+weight = 5
 [[menu.footer]]
-    identifier = "Training"
-    name = "Training"
-    weight = 2
-    [[menu.footer]]
-        identifier = "Teacher Training"
-        name = "Teacher Training"
-        url = "/teacher-training/"
-        parent = "Training"
-        weight = 1
+identifier = "Dig Deep"
+name = "Dig Deep"
+parent = "Classes"
+url = "/dig-deep/"
+weight = 4
 [[menu.footer]]
-    identifier = "Sacred Service"
-    name = "Sacred Service"
-    weight = 3
-    [[menu.footer]]
-        identifier = "SS Classes"
-        name = "SS Classes"
-        url = "/sacred-service/"
-        parent = "Sacred Service"
-        weight = 1
-    [[menu.footer]]
-        identifier = "Community"
-        name = "Community"
-        url = "/sacred-service/"
-        parent = "Sacred Service"
-        weight = 2
+identifier = "Blog"
+name = "Blog"
+parent = "About"
+url = "/blog/"
+weight = 4
 [[menu.footer]]
-    identifier = "doTerra"
-    name = "doTerra"
-    url = "https://www.doterra.com/US/en/site/sacredspaceyogillc"
-    pre = "blank"
-    weight = 4
+identifier = "FAQs"
+name = "FAQs"
+parent = "About"
+url = "/faqs/"
+weight = 3
 [[menu.footer]]
-    identifier = "Shop"
-    name = "Shop"
-    url = "/shop/"
-    weight = 5
+identifier = "Private Classes"
+name = "Private Classes"
+parent = "Classes"
+url = "/pricing/"
+weight = 3
 [[menu.footer]]
-    identifier = "About"
-    name = "About"
-    weight = 6
-    [[menu.footer]]
-        identifier = "Meet the Family"
-        name = "Meet the Family"
-        url = "/about/"
-        parent = "About"
-        weight = 1
-    [[menu.footer]]
-        identifier = "Etiquette"
-        name = "Etiquette"
-        url = "/etiquette/"
-        parent = "About"
-        weight = 2
-    [[menu.footer]]
-        identifier = "FAQs"
-        name = "FAQs"
-        url = "/faqs/"
-        parent = "About"
-        weight = 3
-    [[menu.footer]]
-        identifier = "Blog"
-        name = "Blog"
-        url = "/blog/"
-        parent = "About"
-        weight = 4
+identifier = "Etiquette"
+name = "Etiquette"
+parent = "About"
+url = "/etiquette/"
+weight = 2
+[[menu.footer]]
+identifier = "Community"
+name = "Community"
+parent = "Sacred Service"
+url = "/sacred-service/"
+weight = 2
+[[menu.footer]]
+identifier = "Pricing"
+name = "Pricing"
+parent = "Classes"
+url = "/pricing/"
+weight = 2
+[[menu.footer]]
+identifier = "Meet the Family"
+name = "Meet the Family"
+parent = "About"
+url = "/about/"
+weight = 1
+[[menu.footer]]
+identifier = "Schedule"
+name = "Schedule"
+parent = "Classes"
+url = "/schedule/"
+weight = 1
+[[menu.footer]]
+identifier = "Teacher Training"
+name = "Teacher Training"
+parent = "Training"
+url = "/teacher-training/"
+weight = 1
+[[menu.footer]]
+identifier = "SS Classes"
+name = "SS Classes"
+parent = "Sacred Service"
+url = "/sacred-service/"
+weight = 1
+[[menu.footer]]
+identifier = "About"
+name = "About"
+weight = 6
+[[menu.footer]]
+identifier = "Shop"
+name = "Shop"
+url = "/shop/"
+weight = 5
+[[menu.footer]]
+identifier = "doTerra"
+name = "doTerra"
+pre = "blank"
+url = "https://www.doterra.com/US/en/site/sacredspaceyogillc"
+weight = 4
+[[menu.footer]]
+identifier = "Sacred Service"
+name = "Sacred Service"
+weight = 3
+[[menu.footer]]
+identifier = "Training"
+name = "Training"
+weight = 1
+[[menu.footer]]
+identifier = "Classes"
+name = "Classes"
+weight = 2
+[[menu.mobile]]
+identifier = "Contact"
+name = "Contact"
+url = "/contact/"
+weight = 8
+[[menu.mobile]]
+identifier = "Blog"
+name = "Blog"
+url = "/blog/"
+weight = 7
+[[menu.mobile]]
+identifier = "About"
+name = "About"
+url = "/about/"
+weight = 6
+[[menu.mobile]]
+identifier = "Shop"
+name = "Shop"
+url = "/shop/"
+weight = 5
+[[menu.mobile]]
+identifier = "doTerra"
+name = "doTerra"
+pre = "blank"
+url = "https://www.doterra.com/US/en/site/sacredspaceyogillc"
+weight = 4
+[[menu.mobile]]
+identifier = "Sacred Service"
+name = "Sacred Service"
+url = "/sacred-service/"
+weight = 3
+[[menu.mobile]]
+identifier = "Training"
+name = "Training"
+url = "/teacher-training/"
+weight = 2
+[[menu.mobile]]
+identifier = "Classes"
+name = "Classes"
+url = "/classes/"
+weight = 1
+[outputFormats.classesoffered]
+baseName = "classesoffered"
+isPlainText = false
+mediaType = "application/xml"
+path = "/"
+[outputFormats.sitemapindex]
+baseName = "sitemapindex"
+isPlainText = false
+mediaType = "application/xml"
+path = "/"
+[outputFormats.sitepages]
+baseName = "sitepages"
+isPlainText = false
+mediaType = "application/xml"
+path = "/"
+[outputs]
+home = ["HTML", "sitemapindex", "sitepages", "classesoffered", "RSS"]
+[params.algolia]
+appId = ""
+index_name = ""
+search_key = ""
+[params.extra_tools]
+algolia_search = false
+floating_header = true
+font_awesome = true
+[params.publishing_settings]
+site_in_production = true
+[params.tracking]
+cloudinary_url = "https://res.cloudinary.com/pioneer-design/image/upload"
+[sitemap]
+filename = "sitepages.xml"
 [taxonomies]
 category = "blog/category"
 tag = "blog/tag"
-[params.tracking]
-    cloudinary_url = "https://res.cloudinary.com/pioneer-design/image/upload"
-[params.publishing_settings]
-    site_in_production = true
-
-[mediaTypes]
-  [mediaTypes."text/noExt"]
-    suffixes = ""
-
-[sitemap]
-    filename = "sitepages.xml"
-
-[outputFormats]
-    [outputFormats.sitemapindex]
-        baseName = "sitemapindex"
-        isPlainText = false
-        mediaType = "application/xml"
-        path = "/"
-    [outputFormats.sitepages]
-        baseName = "sitepages"
-        isPlainText = false
-        mediaType = "application/xml"
-        path = "/"
-    [outputFormats.classesoffered]
-        baseName = "classesoffered"
-        isPlainText = false
-        mediaType = "application/xml"
-        path = "/"
-
-[outputs]
-  home = ["HTML", "sitemapindex", "sitepages", "classesoffered", "RSS"]
-
-[params.algolia]
-    appId = ""
-    search_key = ""
-    index_name = ""
-
-[params.extra_tools]
-    algolia_search = false
-    font_awesome = true
-    floating_header = true
-
-[markup.goldmark.renderer]
-unsafe= true
