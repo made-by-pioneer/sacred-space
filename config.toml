@@ -8,14 +8,14 @@ unsafe = true
 [mediaTypes."text/noExt"]
 suffixes = ""
 [[menu.desktop]]
+name = "COVID Updates"
+url = "https://sacredspaceyogi.com/reopening-summer-updates/"
+weight = 1
+[[menu.desktop]]
 identifier = "Contact"
 name = "Contact"
 url = "/contact/"
 weight = 9
-[[menu.desktop]]
-name = "COVID Updates"
-url = "/reopening-summer-updates/"
-weight = 1
 [[menu.desktop]]
 identifier = "FAQs"
 name = "FAQs"
@@ -93,7 +93,7 @@ weight = 6
 [[menu.footer]]
 name = "COVID"
 parent = "Classes"
-url = "/reopening-summer-updates/"
+url = "https://sacredspaceyogi.com/reopening-summer-updates/"
 weight = 5
 [[menu.footer]]
 identifier = "Dig Deep"
@@ -190,6 +190,7 @@ name = "Classes"
 weight = 2
 [[menu.mobile]]
 name = "COVID Updates"
+url = "https://sacredspaceyogi.com/reopening-summer-updates/"
 weight = 1
 [[menu.mobile]]
 identifier = "Contact"
