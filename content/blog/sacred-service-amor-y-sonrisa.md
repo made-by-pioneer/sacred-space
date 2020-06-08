@@ -1,6 +1,6 @@
 +++
 "blog/tag" = []
-date = 2020-06-11T10:35:04Z
+date = 2020-06-12T10:35:04Z
 excerpt = "SS Amor y Sonrisa"
 featured_img = ""
 title = "SS Amor y Sonrisa"
