@@ -19,3 +19,7 @@ google_analytics = "UA-121813241-34"
 facebook = "https://www.facebook.com/sacredspaceyogi"
 insta = "https://www.instagram.com/sacredspaceyogi/"
 youtube = "https://www.youtube.com/channel/UCpweNwwRWJqPEb8jNcI3X0g"
+[topbar_section]
+paragraph = "COVID Reopening and Summer Updates"
+button_text = "Learn more"
+button_link = "/reopening-summer-updates"

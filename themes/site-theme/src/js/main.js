@@ -109,8 +109,8 @@ document.addEventListener("DOMContentLoaded", function() {
 // init micromodal's js
 
 MicroModal.init({
-	onShow: modal => open(),
-  	onClose: modal => close(),
+	onShow: modal => openModal(),
+  	onClose: modal => closeModal(),
 	disableScroll: true
   });
 

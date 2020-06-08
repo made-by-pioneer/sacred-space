@@ -46,6 +46,15 @@
   <div id="headerFloatingHeightFix" class="" ></div>
   {{ else }}
   {{ end }}
+
+  <div class="flex flex-wrap bg-dark-purple topbar">
+    <div class="sm:flex items-center w-5/6 mx-auto py-2 mb-2 sm:mb-0">
+      <h6 class='{{ partial "gCSS/type/paragraph.txt"}} w-auto text-base text-white ml-auto pb-2 sm:pb-0 pr-3 leading-tight'>{{ .Site.Data.global_data.topbar_section.paragraph | safeHTML }}</h6>
+      <a href="{{ .Site.Data.global_data.topbar_section.button_link | safeHTML }}" class='bg-purple hover:bg-purple-hover rounded-full font-p22 text-lite-gray leading-tight py-2 px-4 w-auto text-xs sm:text-base mr-auto'>
+        {{ .Site.Data.global_data.topbar_section.button_text | safeHTML }}
+      </a>
+    </div>
+  </div>
   
   <section id="header" class="bg-color-013725 z-50 header-container">
     <div class="flex flex-wrap items-center max-w-122 h-24 select-none mx-auto py-4 px-5 xs:px-10 md:px-20 lg:px-12 xl:px-20 z-50 header-box">

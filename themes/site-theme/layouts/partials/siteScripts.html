@@ -35,14 +35,14 @@ window.addEventListener("scroll", function(){
 
 <!-- fix modal errors -->
 <script>
-function open() {
-  const headerFixed = document.querySelector("#mobile-menu-button")
-  headerFixed.classList.add("-mt-40")
+function openModal() {
+  event.preventDefault();
+  event.stopPropagation();
 }
 
-function close() {
-  const headerFixed = document.querySelector("#mobile-menu-button")
-  headerFixed.classList.remove("-mt-40")
+function closeModal() {
+  event.preventDefault();
+  event.stopPropagation();
 }
 </script>
 <!-- END fix modal errors -->

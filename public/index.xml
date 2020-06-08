@@ -22,10 +22,10 @@
     
     <item>
       <title></title>
-      <link>https://sacredspaceyogi.com/rates/drop-in/</link>
+      <link>https://sacredspaceyogi.com/rates/tier-one/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sacredspaceyogi.com/rates/drop-in/</guid>
+      <guid>https://sacredspaceyogi.com/rates/tier-one/</guid>
       <description></description>
     </item>
     
@@ -49,10 +49,10 @@
     
     <item>
       <title></title>
-      <link>https://sacredspaceyogi.com/rates/unlimited-monthly/</link>
+      <link>https://sacredspaceyogi.com/rates/tier-two/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sacredspaceyogi.com/rates/unlimited-monthly/</guid>
+      <guid>https://sacredspaceyogi.com/rates/tier-two/</guid>
       <description></description>
     </item>
     
@@ -76,10 +76,10 @@
     
     <item>
       <title></title>
-      <link>https://sacredspaceyogi.com/rates/class-cards/</link>
+      <link>https://sacredspaceyogi.com/rates/tier-three/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sacredspaceyogi.com/rates/class-cards/</guid>
+      <guid>https://sacredspaceyogi.com/rates/tier-three/</guid>
       <description></description>
     </item>
     
@@ -103,15 +103,6 @@
     
     <item>
       <title></title>
-      <link>https://sacredspaceyogi.com/rates/3-month/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sacredspaceyogi.com/rates/3-month/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://sacredspaceyogi.com/team/kevin-kerns/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -125,15 +116,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sacredspaceyogi.com/classes/children/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://sacredspaceyogi.com/rates/kids-classes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sacredspaceyogi.com/rates/kids-classes/</guid>
       <description></description>
     </item>
     
@@ -157,28 +139,10 @@
     
     <item>
       <title></title>
-      <link>https://sacredspaceyogi.com/rates/private-classes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sacredspaceyogi.com/rates/private-classes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://sacredspaceyogi.com/team/stephanie-mccord/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sacredspaceyogi.com/team/stephanie-mccord/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://sacredspaceyogi.com/rates/summer-camp/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sacredspaceyogi.com/rates/summer-camp/</guid>
       <description></description>
     </item>
     
@@ -237,6 +201,15 @@
     </item>
     
     <item>
+      <title>COVID and Summer Updates on Pricing</title>
+      <link>https://sacredspaceyogi.com/blog/covid-and-summer-updates-on-pricing/</link>
+      <pubDate>Mon, 08 Jun 2020 09:24:40 +0000</pubDate>
+      
+      <guid>https://sacredspaceyogi.com/blog/covid-and-summer-updates-on-pricing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>About Us</title>
       <link>https://sacredspaceyogi.com/about/</link>
       <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
@@ -282,15 +255,6 @@
     </item>
     
     <item>
-      <title>Reopening and Summer Updates</title>
-      <link>https://sacredspaceyogi.com/reopening-summer-updates/</link>
-      <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
-      
-      <guid>https://sacredspaceyogi.com/reopening-summer-updates/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Sacred Space Camp Application</title>
       <link>https://sacredspaceyogi.com/sacred-space-camp-application/</link>
       <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
@@ -332,6 +296,15 @@
       <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
       
       <guid>https://sacredspaceyogi.com/etiquette/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Studio Updates</title>
+      <link>https://sacredspaceyogi.com/reopening-summer-updates/</link>
+      <pubDate>Wed, 24 Apr 2019 05:00:00 +0000</pubDate>
+      
+      <guid>https://sacredspaceyogi.com/reopening-summer-updates/</guid>
       <description></description>
     </item>
     

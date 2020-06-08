@@ -2,10 +2,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://sacredspaceyogi.com/sacred-service/</loc>
-  </url>
-  
-  <url>
     <loc>https://sacredspaceyogi.com/about/</loc>
     <lastmod>2019-04-24T05:00:00+00:00</lastmod>
   </url>
@@ -46,11 +42,6 @@
   </url>
   
   <url>
-    <loc>https://sacredspaceyogi.com/reopening-summer-updates/</loc>
-    <lastmod>2019-04-24T05:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://sacredspaceyogi.com/sacred-space-camp-application/</loc>
     <lastmod>2019-04-24T05:00:00+00:00</lastmod>
   </url>
@@ -72,6 +63,11 @@
   
   <url>
     <loc>https://sacredspaceyogi.com/etiquette/</loc>
+    <lastmod>2019-04-24T05:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sacredspaceyogi.com/reopening-summer-updates/</loc>
     <lastmod>2019-04-24T05:00:00+00:00</lastmod>
   </url>
   
