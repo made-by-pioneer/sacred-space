@@ -1,6 +1,6 @@
 +++
 "blog/tag" = []
-date = 2020-06-17T10:40:33Z
+date = 2020-06-19T10:40:33Z
 excerpt = "SS Prisa y Resultados"
 featured_img = ""
 title = "SS Prisa y Resultados"
