@@ -8,6 +8,15 @@ unsafe = true
 [mediaTypes."text/noExt"]
 suffixes = ""
 [[menu.desktop]]
+identifier = "Contact"
+name = "Contact"
+url = "/contact/"
+weight = 9
+[[menu.desktop]]
+name = "COVID Updates"
+url = "/reopening-summer-updates/"
+weight = 1
+[[menu.desktop]]
 identifier = "FAQs"
 name = "FAQs"
 parent = "About"
@@ -44,48 +53,43 @@ parent = "About"
 url = "/about/"
 weight = 1
 [[menu.desktop]]
-identifier = "Contact"
-name = "Contact"
-url = "/contact/"
-weight = 8
-[[menu.desktop]]
 identifier = "Blog"
 name = "Blog"
 url = "/blog/"
-weight = 7
+weight = 8
 [[menu.desktop]]
 identifier = "Sacred Service"
 name = "Sacred Service"
 url = "/sacred-service/"
-weight = 4
+weight = 5
 [[menu.desktop]]
 identifier = "Training"
 name = "Training"
 url = "/teacher-training/"
-weight = 3
+weight = 4
 [[menu.desktop]]
 identifier = "Classes"
 name = "Classes"
 post = "hover"
 url = "/classes/"
-weight = 2
+weight = 3
 [[menu.desktop]]
 identifier = "Shop"
 name = "Shop"
 url = "/shop/"
-weight = 1
+weight = 2
 [[menu.desktop]]
 identifier = "About"
 name = "About"
 post = "hover"
 url = "/about/"
-weight = 6
+weight = 7
 [[menu.desktop]]
 identifier = "doTerra"
 name = "doTerra"
 pre = "blank"
 url = "https://www.doterra.com/US/en/site/sacredspaceyogillc"
-weight = 5
+weight = 6
 [[menu.footer]]
 name = "COVID"
 parent = "Classes"
