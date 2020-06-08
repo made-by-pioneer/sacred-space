@@ -1,6 +1,6 @@
 +++
 "blog/tag" = []
-date = 2020-06-13T10:37:51Z
+date = 2020-06-15T10:37:51Z
 excerpt = "SS Respiracion y Enfoque"
 featured_img = ""
 title = "SS Respiracion y Enfoque"
