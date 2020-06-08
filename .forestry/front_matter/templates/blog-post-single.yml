@@ -39,3 +39,5 @@ fields:
     paste it into this box. NOTE: be sure to get the EMBED link for the video, NOT
     the share link.'
   label: YouTube video link
+pages:
+- content/blog/covid-and-summer-updates-on-pricing.md
