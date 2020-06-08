@@ -9,4 +9,4 @@ video_link = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com
 +++
 En este video, presentamos nuestro programa de Servicio Sagrado para aquellos que hablan español.
 
-In this video, we're introducing our  SS program for those who speak Spanish.
+In this video, we're introducing our SS program for those who speak Spanish.
