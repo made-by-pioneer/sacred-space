@@ -1,0 +1,81 @@
+---
+label: Sacred Service Page
+hide_body: true
+fields:
+- type: text
+  name: name
+  label: name
+- type: file
+  name: image
+  label: image
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: url
+  label: url
+- type: text
+  name: meta_description
+  label: meta_description
+- type: number
+  name: weight
+  label: weight
+- type: field_group
+  name: hero_section
+  label: hero_section
+  fields:
+  - type: file
+    name: img
+    label: img
+  - type: textarea
+    name: paragraph
+    label: paragraph
+  - type: text
+    name: title
+    label: title
+- type: field_group
+  name: picture_gallery
+  label: picture_gallery
+  fields:
+  - type: textarea
+    name: paragraph
+    label: paragraph
+  - type: text
+    name: title
+    label: title
+- type: field_group
+  name: sacred_service_socials_section
+  label: sacred_service_socials_section
+  fields:
+  - type: file
+    name: img
+    label: img
+  - type: textarea
+    name: paragraph
+    label: paragraph
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: button_link
+    label: button_link
+  - type: text
+    name: button_text
+    label: button_text
+- type: field_group
+  name: classes
+  label: classes
+  fields:
+  - type: field_group_list
+    name: class
+    label: class
+    fields:
+    - type: text
+      name: booking_link
+      label: booking_link
+    - type: textarea
+      name: description
+      label: description
+    - type: text
+      name: name
+      label: name
