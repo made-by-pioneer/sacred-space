@@ -1,6 +1,6 @@
 +++
 "blog/tag" = []
-date = 2020-06-09T09:40:57Z
+date = 2020-06-10T09:40:57Z
 excerpt = "SS Introducción Yoga En Español"
 featured_img = ""
 title = "SS Introducción Yoga En Español"
