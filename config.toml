@@ -185,46 +185,49 @@ identifier = "Classes"
 name = "Classes"
 weight = 2
 [[menu.mobile]]
+name = "COVID Updates"
+weight = 1
+[[menu.mobile]]
 identifier = "Contact"
 name = "Contact"
 url = "/contact/"
-weight = 8
+weight = 9
 [[menu.mobile]]
 identifier = "Blog"
 name = "Blog"
 url = "/blog/"
-weight = 7
+weight = 8
 [[menu.mobile]]
 identifier = "About"
 name = "About"
 url = "/about/"
-weight = 6
+weight = 7
 [[menu.mobile]]
 identifier = "Shop"
 name = "Shop"
 url = "/shop/"
-weight = 5
+weight = 6
 [[menu.mobile]]
 identifier = "doTerra"
 name = "doTerra"
 pre = "blank"
 url = "https://www.doterra.com/US/en/site/sacredspaceyogillc"
-weight = 4
+weight = 5
 [[menu.mobile]]
 identifier = "Sacred Service"
 name = "Sacred Service"
 url = "/sacred-service/"
-weight = 3
+weight = 4
 [[menu.mobile]]
 identifier = "Training"
 name = "Training"
 url = "/teacher-training/"
-weight = 2
+weight = 3
 [[menu.mobile]]
 identifier = "Classes"
 name = "Classes"
 url = "/classes/"
-weight = 1
+weight = 2
 [outputFormats.classesoffered]
 baseName = "classesoffered"
 isPlainText = false
