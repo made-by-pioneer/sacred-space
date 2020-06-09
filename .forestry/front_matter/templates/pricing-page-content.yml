@@ -1,0 +1,80 @@
+---
+label: Pricing Page (Content)
+hide_body: true
+fields:
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: meta_description
+  label: meta_description
+- type: text
+  name: page_status
+  label: page_status
+- type: text
+  name: publish_image
+  label: publish_image
+- type: text
+  name: title
+  label: title
+- type: text
+  name: type
+  label: type
+- type: text
+  name: url
+  label: url
+- type: field_group
+  name: hero_section
+  label: hero_section
+  fields:
+  - type: text
+    name: img
+    label: img
+  - type: text
+    name: paragraph
+    label: paragraph
+  - type: text
+    name: title
+    label: title
+- type: field_group
+  name: note
+  label: note
+  fields:
+  - type: textarea
+    name: paragraph
+    label: paragraph
+- type: field_group
+  name: pay_what_you_want_section
+  label: pay_what_you_want_section
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: paragraph
+    label: paragraph
+  - type: text
+    name: button_link
+    label: button_link
+  - type: text
+    name: button_text
+    label: button_text
+- type: field_group
+  name: donation_passes_section
+  label: donation_passes_section
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: paragraph
+    label: paragraph
+  - type: text
+    name: button_link
+    label: button_link
+  - type: text
+    name: button_text
+    label: button_text
