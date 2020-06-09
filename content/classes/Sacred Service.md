@@ -20,7 +20,7 @@ name = "Little Yogis"
 [[classes.class]]
 booking_link = "https://app.punchpass.com/org/5479/?course=48408"
 description = "Bienvenidos a todos los que su lengua nativa es el Español a los que quieren sumergirse y aprender. Esta clase de yoga es leve y completamente en Español. El propósito de esta clase es ayudar a la persona a sentirse cómoda con su proprio ser atravesado de la integración de cabeza, cuerpo, y Espíritu.<br><br>Welcoming the Spanish speaking community to a yoga class taught strictly in Spanish. For the native speaker and open to those who wish to learn this is a gentle yoga class with the goal to help you feel at home in your body by integrating mind, body, and Spirit."
-name = "Yoga In Spanish"
+name = "Yoga en Espanol"
 [[classes.class]]
 booking_link = "https://app.punchpass.com/org/5479/?course=48408"
 description = "Honoring those who are serving or have served and their families this class addresses trauma lived and experienced by this population. Class is taught by a veteran with first hand knowledge and experience as well as training in trauma conscious methods. Class is open to the all as we wish to continue to create inclusivity. Even if you are not a veteran feel free to join this class, offer your support, make a friend or two."
