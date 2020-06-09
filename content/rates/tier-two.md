@@ -4,5 +4,6 @@ list = ["Sacred Space branded Tote bag", "Sacred Space handmade with love and es
 name = "Tier 2: In-Person"
 rate = "$89 per mnth"
 weight = 2
-
+button_link = "https://app.punchpass.com/org/5479/passes/87493?embed=true"
+button_text = "Purchase Pass"
 +++
