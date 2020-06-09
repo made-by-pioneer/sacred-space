@@ -8,25 +8,16 @@ unsafe = true
 [mediaTypes."text/noExt"]
 suffixes = ""
 [[menu.desktop]]
-name = "COVID Updates"
-url = "https://sacredspaceyogi.com/reopening-summer-updates/"
-weight = 1
-[[menu.desktop]]
-identifier = "Contact"
-name = "Contact"
-url = "/contact/"
-weight = 9
+identifier = "Dig Deep"
+name = "Dig Deep"
+parent = "Classes"
+url = "/dig-deep/"
+weight = 3
 [[menu.desktop]]
 identifier = "FAQs"
 name = "FAQs"
 parent = "About"
 url = "/faqs/"
-weight = 3
-[[menu.desktop]]
-identifier = "Dig Deep"
-name = "Dig Deep"
-parent = "Classes"
-url = "/dig-deep/"
 weight = 3
 [[menu.desktop]]
 identifier = "Pricing"
@@ -41,60 +32,71 @@ parent = "About"
 url = "/etiquette/"
 weight = 2
 [[menu.desktop]]
-identifier = "Schedule"
-name = "Schedule"
-parent = "Classes"
-url = "/schedule/"
-weight = 1
-[[menu.desktop]]
 identifier = "Meet the Family"
 name = "Meet the Family"
 parent = "About"
 url = "/about/"
 weight = 1
 [[menu.desktop]]
-identifier = "Blog"
-name = "Blog"
-url = "/blog/"
-weight = 8
-[[menu.desktop]]
-identifier = "Sacred Service"
-name = "Sacred Service"
-url = "/sacred-service/"
-weight = 5
-[[menu.desktop]]
-identifier = "Training"
-name = "Training"
-url = "/teacher-training/"
-weight = 4
-[[menu.desktop]]
-identifier = "Classes"
-name = "Classes"
-post = "hover"
-url = "/classes/"
-weight = 3
-[[menu.desktop]]
-identifier = "Shop"
-name = "Shop"
-url = "/shop/"
-weight = 2
-[[menu.desktop]]
-identifier = "About"
-name = "About"
-post = "hover"
-url = "/about/"
-weight = 7
+identifier = "Schedule"
+name = "Schedule"
+parent = "Classes"
+url = "/schedule/"
+weight = 1
 [[menu.desktop]]
 identifier = "doTerra"
 name = "doTerra"
 pre = "blank"
 url = "https://www.doterra.com/US/en/site/sacredspaceyogillc"
+weight = 5
+[[menu.desktop]]
+identifier = "About"
+name = "About"
+post = "hover"
+url = "/about/"
 weight = 6
+[[menu.desktop]]
+identifier = "Classes"
+name = "Classes"
+post = "hover"
+url = "/classes/"
+weight = 2
+[[menu.desktop]]
+identifier = "Contact"
+name = "Contact"
+url = "/contact/"
+weight = 8
+[[menu.desktop]]
+identifier = "Blog"
+name = "Blog"
+url = "/blog/"
+weight = 7
+[[menu.desktop]]
+identifier = "Sacred Service"
+name = "Sacred Service"
+url = "/sacred-service/"
+weight = 4
+[[menu.desktop]]
+identifier = "Training"
+name = "Training"
+url = "/teacher-training/"
+weight = 3
+[[menu.desktop]]
+identifier = "Shop"
+name = "Shop"
+url = "/shop/"
+weight = 1
 [[menu.footer]]
 name = "COVID"
 parent = "Classes"
 url = "https://sacredspaceyogi.com/reopening-summer-updates/"
 weight = 5
+[[menu.footer]]
+identifier = "Blog"
+name = "Blog"
+parent = "About"
+url = "/blog/"
+weight = 4
 [[menu.footer]]
 identifier = "Dig Deep"
 name = "Dig Deep"
@@ -102,22 +104,16 @@ parent = "Classes"
 url = "/dig-deep/"
 weight = 4
 [[menu.footer]]
-identifier = "Blog"
-name = "Blog"
-parent = "About"
-url = "/blog/"
-weight = 4
+identifier = "Private Classes"
+name = "Private Classes"
+parent = "Classes"
+url = "/pricing/"
+weight = 3
 [[menu.footer]]
 identifier = "FAQs"
 name = "FAQs"
 parent = "About"
 url = "/faqs/"
-weight = 3
-[[menu.footer]]
-identifier = "Private Classes"
-name = "Private Classes"
-parent = "Classes"
-url = "/pricing/"
 weight = 3
 [[menu.footer]]
 identifier = "Etiquette"
@@ -138,6 +134,12 @@ parent = "Classes"
 url = "/pricing/"
 weight = 2
 [[menu.footer]]
+identifier = "SS Classes"
+name = "SS Classes"
+parent = "Sacred Service"
+url = "/sacred-service/"
+weight = 1
+[[menu.footer]]
 identifier = "Meet the Family"
 name = "Meet the Family"
 parent = "About"
@@ -156,11 +158,11 @@ parent = "Training"
 url = "/teacher-training/"
 weight = 1
 [[menu.footer]]
-identifier = "SS Classes"
-name = "SS Classes"
-parent = "Sacred Service"
-url = "/sacred-service/"
-weight = 1
+identifier = "doTerra"
+name = "doTerra"
+pre = "blank"
+url = "https://www.doterra.com/US/en/site/sacredspaceyogillc"
+weight = 4
 [[menu.footer]]
 identifier = "About"
 name = "About"
@@ -170,12 +172,6 @@ identifier = "Shop"
 name = "Shop"
 url = "/shop/"
 weight = 5
-[[menu.footer]]
-identifier = "doTerra"
-name = "doTerra"
-pre = "blank"
-url = "https://www.doterra.com/US/en/site/sacredspaceyogillc"
-weight = 4
 [[menu.footer]]
 identifier = "Sacred Service"
 name = "Sacred Service"
@@ -189,50 +185,46 @@ identifier = "Classes"
 name = "Classes"
 weight = 2
 [[menu.mobile]]
-name = "COVID Updates"
-url = "https://sacredspaceyogi.com/reopening-summer-updates/"
-weight = 1
+identifier = "doTerra"
+name = "doTerra"
+pre = "blank"
+url = "https://www.doterra.com/US/en/site/sacredspaceyogillc"
+weight = 4
 [[menu.mobile]]
 identifier = "Contact"
 name = "Contact"
 url = "/contact/"
-weight = 9
+weight = 8
 [[menu.mobile]]
 identifier = "Blog"
 name = "Blog"
 url = "/blog/"
-weight = 8
+weight = 7
 [[menu.mobile]]
 identifier = "About"
 name = "About"
 url = "/about/"
-weight = 7
+weight = 6
 [[menu.mobile]]
 identifier = "Shop"
 name = "Shop"
 url = "/shop/"
-weight = 6
-[[menu.mobile]]
-identifier = "doTerra"
-name = "doTerra"
-pre = "blank"
-url = "https://www.doterra.com/US/en/site/sacredspaceyogillc"
 weight = 5
 [[menu.mobile]]
 identifier = "Sacred Service"
 name = "Sacred Service"
 url = "/sacred-service/"
-weight = 4
+weight = 3
 [[menu.mobile]]
 identifier = "Training"
 name = "Training"
 url = "/teacher-training/"
-weight = 3
+weight = 2
 [[menu.mobile]]
 identifier = "Classes"
 name = "Classes"
 url = "/classes/"
-weight = 2
+weight = 1
 [outputFormats.classesoffered]
 baseName = "classesoffered"
 isPlainText = false
