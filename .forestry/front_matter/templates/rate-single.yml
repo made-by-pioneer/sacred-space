@@ -15,3 +15,13 @@ fields:
   name: weight
   label: weight
   description: The lower the number put here, the further up the list the item appears.
+- name: button_text
+  type: text
+  config:
+    required: false
+  label: Button Text
+- name: button_link
+  type: text
+  config:
+    required: false
+  label: Button Link
