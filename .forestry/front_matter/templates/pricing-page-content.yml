@@ -5,30 +5,38 @@ fields:
 - type: datetime
   name: date
   label: date
+  hidden: true
 - type: text
   name: layout
   label: layout
+  hidden: true
 - type: text
   name: meta_description
-  label: meta_description
+  label: Meta Description
+  hidden: false
 - type: text
   name: page_status
   label: page_status
+  hidden: true
 - type: text
   name: publish_image
   label: publish_image
+  hidden: true
 - type: text
   name: title
   label: title
+  hidden: true
 - type: text
   name: type
   label: type
+  hidden: true
 - type: text
   name: url
   label: url
+  hidden: true
 - type: field_group
   name: hero_section
-  label: hero_section
+  label: Hero Section
   fields:
   - type: text
     name: img
@@ -41,14 +49,14 @@ fields:
     label: title
 - type: field_group
   name: note
-  label: note
+  label: Note
   fields:
   - type: textarea
     name: paragraph
     label: paragraph
 - type: field_group
   name: pay_what_you_want_section
-  label: pay_what_you_want_section
+  label: Pay What You Can Section
   fields:
   - type: text
     name: title
@@ -64,7 +72,7 @@ fields:
     label: button_text
 - type: field_group
   name: donation_passes_section
-  label: donation_passes_section
+  label: Donation Passes Section
   fields:
   - type: text
     name: title
