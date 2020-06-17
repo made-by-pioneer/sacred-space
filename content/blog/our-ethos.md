@@ -1,6 +1,6 @@
 +++
 "blog/tag" = []
-date = 2020-06-18T14:00:00Z
+date = 2020-06-18T12:00:00Z
 draft = true
 excerpt = "The ethos of Sacred Space, the thing that drives us and keeps us moving forward has been on my heart long enough and I am so ready to share it with you. It is only a sentence long, but it’s a powerful one."
 featured_img = ""
