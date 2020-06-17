@@ -1,6 +1,6 @@
 +++
 "blog/tag" = []
-date = 2020-07-01T10:52:17Z
+date = 2020-07-01T12:00:17Z
 draft = true
 excerpt = "SS Guided Meditation"
 featured_img = ""
