@@ -8,6 +8,8 @@ fields:
   config:
     required: true
   default: now
+  description: Site rebuild is scheduled for 8:02 AM. Please schedule blog postings
+    before this rebuild time.
 - type: text
   name: title
   label: Post Title
