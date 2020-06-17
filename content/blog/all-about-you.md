@@ -1,6 +1,6 @@
 +++
 "blog/tag" = []
-date = 2020-07-02T14:00:34Z
+date = 2020-07-02T12:00:34Z
 draft = true
 excerpt = "In my years of practicing and teaching yoga I have found that three characteristics stand out."
 featured_img = ""
