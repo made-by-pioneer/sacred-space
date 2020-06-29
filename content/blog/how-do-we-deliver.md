@@ -1,7 +1,6 @@
 +++
 "blog/tag" = []
 date = 2020-06-25T12:00:55Z
-draft = true
 excerpt = "Here are three ways Sacred Space is answering those questions on HOW."
 featured_img = ""
 title = "HOW do we deliver"
