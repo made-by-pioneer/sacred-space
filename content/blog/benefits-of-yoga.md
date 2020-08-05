@@ -1,6 +1,6 @@
 +++
 "blog/tag" = []
-date = 2020-08-05T15:16:28Z
+date = 2020-07-07T15:16:28Z
 excerpt = "What are the benefits of yoga?"
 featured_img = ""
 title = "Benefits of Yoga"
