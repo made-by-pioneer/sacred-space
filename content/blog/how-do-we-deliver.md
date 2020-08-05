@@ -4,7 +4,7 @@ date = 2020-06-25T12:00:55Z
 excerpt = "Here are three ways Sacred Space is answering those questions on HOW."
 featured_img = ""
 title = "HOW do we deliver"
-video_link = ""
+video_link = "https://www.youtube.com/embed/3_xF3SFb5HY"
 
 +++
 **Hey lovely,**

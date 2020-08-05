@@ -4,7 +4,7 @@ date = 2020-06-30T12:00:10Z
 excerpt = "What YOU and the local community say about us helps us gage how well we are accomplishing the goal."
 featured_img = ""
 title = "What the community has to say"
-video_link = ""
+video_link = "https://www.youtube.com/embed/fvfFEj2d7hs"
 
 +++
 **Hey Lovely,**
