@@ -42,6 +42,7 @@ fields:
     the share link.'
   label: YouTube video link
 pages:
+- content/blog/a-radically-different-studio.md
 - content/blog/a-tangible-impact.md
 - content/blog/all-about-you.md
 - content/blog/benefits-of-yoga.md
