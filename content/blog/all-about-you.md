@@ -4,7 +4,7 @@ date = 2020-07-02T12:00:34Z
 excerpt = "In my years of practicing and teaching yoga I have found that three characteristics stand out."
 featured_img = ""
 title = "All About YOU"
-video_link = ""
+video_link = "https://www.youtube.com/embed/EAyqG1Fp5AU"
 
 +++
 **Hey Lovely,**
