@@ -4,7 +4,7 @@ date = 2020-06-18T12:00:00Z
 excerpt = "The ethos of Sacred Space, the thing that drives us and keeps us moving forward has been on my heart long enough and I am so ready to share it with you. It is only a sentence long, but it’s a powerful one."
 featured_img = ""
 title = "Our Ethos"
-video_link = ""
+video_link = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/YsyKQSP1nFk\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 
 +++
 **Hey Lovely,**
