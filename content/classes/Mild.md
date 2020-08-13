@@ -11,5 +11,21 @@ description = "All about balance. Balance is key in life, the practice will be p
 duration = "60 mins"
 name = "Mindful Flow"
 value = "Helps your body heat up and strengthen, nut also come back down and restore your body and mind"
+[[classes.class]]
+benefits = ["Promotes body awareness", "increases flexibility", "promotes relaxation"]
+booking_link = "https://app.punchpass.com/org/5479/?course=35001"
+classifications = ["mild"]
+description = "This class is designed with longer holds and targeted movements to encourage healing in those working with common limitations due to injury, illness, age, etc."
+duration = "60 mins"
+name = "Yoga for Healing"
+value = "Helps facilitate healing both physically and mentally"
+[[classes.class]]
+benefits = ["Encourages mindfulness", "increases flexibility", "encourages body awareness"]
+booking_link = "https://app.punchpass.com/org/5479/?course=40674"
+classifications = ["mild"]
+description = "This class focuses on proper alignment and breathwork, but strength, flexibility, and meditation will also be included."
+duration = "60 mins"
+name = "Yoga Basics"
+value = "Helps you to learn (or revisit) proper alignment in basic yoga poses."
 
 +++
