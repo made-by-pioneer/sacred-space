@@ -3,7 +3,6 @@ attendance = "Participants cannot miss more than one training weekend. Any hours
 certification = "Attendance and payment does not guarantee certification. All requirements must be met in order for certification to be issued including: attendance, financial obligations, competencies, practicum, and more."
 competencies = ["Alignment & Anatomy", "Personal & Professional Development", "Class Design & Effective Teaching", "Hands on Assists", "History & Philosophy"]
 date = 2019-04-24T05:00:00Z
-draft = true
 layout = "teacher-training"
 meta_description = "META DESCRIPTION GOES HERE"
 page_status = "teacher-training"
