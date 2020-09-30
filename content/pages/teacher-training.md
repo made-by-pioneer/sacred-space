@@ -37,7 +37,7 @@ paragraph = "Once accepted a $450 deposit (due within 10 days of acceptance) wil
 title = "Payment Plan"
 [pricing_section.standard_pricing_section]
 paragraph = "Please submit an application first.<br><br>Once accepted, a $450 deposit must be made within 10 days to reserve your spot."
-pricing = "$3,200"
+pricing = "$2025"
 title = "Standard Pricing"
 [sponsorship_section]
 button_link = "/sponsorship-application/"
