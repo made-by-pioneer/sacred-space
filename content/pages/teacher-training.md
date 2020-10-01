@@ -36,7 +36,7 @@ title = "Early Bird Pricing"
 paragraph = "In Person Training:<br><br>Once accepted a $450 deposit (due within 10 days of acceptance) will secure your spot<br><br>5 payments of $450 to be completed by July 31st, 2020<br><br>Virtual Training: <br><br>5 payments of $405 to be completed by mid way of training<br><br>All payment plans must be discussed and approved by Angel Coughlin prior to start of training."
 title = "Payment Plan"
 [pricing_section.standard_pricing_section]
-paragraph = "Please submit an application first.<br><br>Once accepted, a $450 deposit must be made within 10 days to reserve your spot."
+paragraph = "Please submit an application first.<br><br>Once accepted, a $450 deposit must be made within 10 days to reserve your spot for In Person YTT."
 pricing = "$3200 - In Person Training <br>$2025 - Virtual Training "
 title = "Standard Pricing"
 [sponsorship_section]
