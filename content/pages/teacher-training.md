@@ -30,14 +30,14 @@ paragraph = "For a full refund (minus $100 processing fee), you must cancel at l
 title = "Cancellation Policy"
 [pricing_section.early_bird_section]
 paragraph = "Please submit an application first.<br><br>Once accepted, you can receive an early bird discount of $525 when you pay in full by December 31st, 2020."
-pricing = "Save $525 for a total of $1500 if paid in full by December 31st, 2020"
+pricing = "In Person Training - Save $300 for a total of $2900 if paid in full by December 31st, 2020<br><br>Virtual Training - Save $525 for a total of $1500 if paid in full by December 31st, 2020"
 title = "Early Bird Pricing"
 [pricing_section.payment_plan_section]
 paragraph = "Once accepted a $450 deposit (due within 10 days of acceptance) will secure your spot.<br><br>5 payments of $405 to be completed by mid way of training.<br><br>All payment plans must be discussed and approved by Angel Coughlin prior to start of training."
 title = "Payment Plan"
 [pricing_section.standard_pricing_section]
 paragraph = "Please submit an application first.<br><br>Once accepted, a $450 deposit must be made within 10 days to reserve your spot."
-pricing = "$2025"
+pricing = "$3200 - In Person Training <br>$2025 - Virtual Training "
 title = "Standard Pricing"
 [sponsorship_section]
 button_link = "/sponsorship-application/"
