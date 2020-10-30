@@ -8,11 +8,13 @@ meta_description = "META DESCRIPTION GOES HERE"
 page_status = "teacher-training"
 publish_image = "INPUT URL TO PHOTO THAT DESCRIBES THE PAGE"
 title = "Teacher Training"
-training_times = "2021 Two Options for YTT<br><br><strong>In Person Training Times:</strong><br>Fridays from 6:00 - 9:00 pm​, Saturdays &amp; Sundays from 8:00 am - 6:30 pm​.<br><strong><br>Virtual Training Times:</strong><br>Fridays 6:00 - 9:00 pm, Saturdays &amp; Sundays 8:00 am - 8:00pm<br><br>Virtual training weekend dates coming soon."
-training_weekends = ["April 16 -18", "May 14 - 16", "June 11 -13", "July 9 - 11", "August 6 - 8", "September 3 -5 ", "October 1 - 3 "]
+virtual_training_times = "Training times are on Fridays from 6:00 - 9:00 pm​, Saturdays & Sundays from 8:00 am - 8:00 pm"
+virtual_training_weekends = ["Jan 15-17", "Jan 29-31", "Feb 12-14", "Feb 26-28", "Mar 12-14"]
+inperson_training_times = "Training times are on Fridays from 6:00 - 9:00 pm​, Saturdays & Sundays from 8:00 am - 6:30 pm"
+inperson_training_weekends = ["April 16-18", "May 14-16", "June 11-13", "July 9-11", "August 6-8", "September 3-5", "October 1-3"]
 type = "page"
 url = "/teacher-training/"
-what_to_expect = "Through physical practice, classroom learning, and assigned work you will soak up experiences that will help draw out and develop the teacher in you!​"
+what_to_expect = "Through physical practice, classroom learning, and assigned work you will soak up experiences that will help draw out and develop the teacher in you!​​"
 what_you_get = ["A training program that meets and exceeds Yoga Alliance requirements led by qualified teachers", "Unlimited Yoga at Sacred Space for the duration of training", "Quality instruction led by qualified instructors"]
 [after_hero_cta]
 button_link = "/schedule/"
@@ -29,15 +31,15 @@ title = "Interested in participating?"
 paragraph = "For a full refund (minus $100 processing fee), you must cancel at least 30 days prior to start of training.<br><br>No refunds will be given for cancellations less than 30 days prior to start of training or for withdrawing from the program.<br><br>Note: If not paid in full by July 31st, 2020 student will be dismissed from the program, no refunds will be given, and prior payments will be forfeited. No certification will be awarded."
 title = "Cancellation Policy"
 [pricing_section.early_bird_section]
-paragraph = "Please submit an application first.<br><br>Once accepted, you can receive an early bird discount of $525 when you pay in full by December 31st, 2020."
-pricing = "<strong>In Person Training:</strong><br>Save $300 for a total of $2900 if paid in full by March 15th, 2021.<br><br><strong>Virtual Training:</strong><br>Save $525 for a total of $1500 if paid in full by December 21st, 2020."
+paragraph = "Please submit an application first.<br><br>Once accepted, you can receive an early bird discount of $525 when you pay in full by December 31, 2020."
+pricing = "$1500"
 title = "Early Bird Pricing"
 [pricing_section.payment_plan_section]
-paragraph = "<strong>In Person Training:</strong><br><br>Once accepted a $450 deposit (due within 10 days of acceptance) will secure your spot<br><br>5 payments of $450 to be completed by July 31st, 2020<br><br><strong>Virtual Training: </strong><br><br>5 payments of $405 to be completed by mid way of training<br><br>All payment plans must be discussed and approved by Angel Coughlin prior to start of training."
+paragraph = "Once accepted a $450 deposit (due within 10 days of acceptance) will secure your spot<br><br>5 payments of $315 to be completed by mid way of training.<br><br>All payment plans must be discussed and approved by Angel Coughlin prior to start of training"
 title = "Payment Plan"
 [pricing_section.standard_pricing_section]
-paragraph = "Please submit an application first.<br><br>Once accepted, a $450 deposit must be made within 10 days to reserve your spot for In Person YTT."
-pricing = "$3200 - In Person Training <br>$2025 - Virtual Training "
+paragraph = "Please submit an application first.<br><br>Once accepted, a $450 deposit must be made within 10 days to reserve your spot."
+pricing = "$2,025"
 title = "Standard Pricing"
 [sponsorship_section]
 button_link = "/sponsorship-application/"
