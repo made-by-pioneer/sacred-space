@@ -118,7 +118,7 @@ fields:
     min: 
     max: 
   label: What You Get
-- name: training_times
+- name: virtual_training_times
   type: textarea
   default: ''
   config:
@@ -126,10 +126,26 @@ fields:
     wysiwyg: true
     schema:
       format: html
-  label: Training Times
+  label: Virtual Training Times
 - type: list
-  name: training_weekends
-  label: Training Weekends
+  name: virtual_training_weekends
+  label: Virtual Training Weekends
+- name: inperson_training_times
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: html
+  label: In-Person Training Times
+- name: inperson_training_weekend
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: In-Person Training Weekends
 - name: attendance
   type: textarea
   default: ''
