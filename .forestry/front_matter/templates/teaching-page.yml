@@ -139,7 +139,7 @@ fields:
     schema:
       format: html
   label: In-Person Training Times
-- name: inperson_training_weekend
+- name: inperson_training_weekends
   type: list
   config:
     use_select: false
